@@ -1,0 +1,33 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Footer configuration.
+ * ************************************************************************** */
+
+footer {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+footer p {
+  width: 100%;
+}
+
+footer img {
+  width: 3em;
+  padding-top: .5em;
+}
+
+/* Divider */
+footer::before {
+  content: "";
+  display: block;
+  width: 20%;
+  margin: 30px auto;
+  height: 6px;
+  background-color: var(--divider-color);
+}

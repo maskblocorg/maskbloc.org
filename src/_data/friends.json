@@ -1,0 +1,60 @@
+[
+  {
+    "id": "covid-advocacy-initiative",
+    "name": "Covid Advocacy Initiative",
+    "description": "Advocacy group working to connect COVID advocates at the local, state, and national level and taking action to prevent COVID spread & save lives.",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@COVIDAdvocacy",
+        "url": "https://linktr.ee/COVIDAdvocacy"
+      }
+    ]
+  },
+  {
+    "id": "covid-meetups",
+    "name": "COVID Meetups",
+    "description": "A free service to find individuals, families and local businesses/services who take COVID precautions in your area.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "COVID Meetups",
+        "url": "https://www.covidmeetups.com/"
+      }
+    ]
+  },
+  {
+    "id": "covid-wiki",
+    "name": "COVID Wiki",
+    "description": "Information about COVID-19 and advocacy groups.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "Covid Wiki",
+        "url": "https://covidwiki.org/c/Covid-19"
+      }
+    ]
+  },
+  {
+    "id": "covid-map",
+    "name": "COVID Action Map",
+    "description": "Mapping COVID action groups worldwide.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "COVID Action Map",
+        "url": "https://www.google.com/maps/d/u/1/viewer?mid=1oUcoZ2njj3b5hh-RRDCLe-i8dSgxhno"
+      },
+      {
+        "type": "instagram",
+        "username": "@covidactionmap",
+        "url": "https://www.instagram.com/covidactionmap/"
+      },
+      {
+        "type": "x",
+        "username": "@covidactionmap",
+        "url": "https://www.x.com/covidactionmap/"
+      }
+    ]
+  }
+]

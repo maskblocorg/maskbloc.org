@@ -1,0 +1,15 @@
+{
+  "name": "maskbloc.org",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.16",
+    "esbuild": "^0.19.11",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "postcss-csso": "^6.0.1",
+    "postcss-custom-media": "^10.0.2",
+    "postcss-import": "^16.0.0",
+    "postcss-media-minmax": "^5.0.0"
+  }
+}

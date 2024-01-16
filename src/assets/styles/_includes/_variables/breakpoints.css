@@ -1,0 +1,19 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * A list of breakpoints.
+ *
+ * NOTE: They are expected to be processed through PostCSS, since CSS
+ *       media queries don't support variables.
+ */
+
+@custom-media --xsmall-viewport (width > 480px);
+@custom-media --small-viewport (width > 720px);
+@custom-media --medium-viewport (width >  900px);
+@custom-media --large-viewport (width > 1024px);
+@custom-media --xlarge-viewport (width > 1280px);
+
+@custom-media --small-viewport-menu (width <= 900px);

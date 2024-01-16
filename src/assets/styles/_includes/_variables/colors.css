@@ -1,0 +1,44 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * A list of colors.
+ *
+ * TODO: Support Light Mode. Light mode is ready, but the manual toggle
+ *       hasn't been implemented.
+ */
+
+/* @media (prefers-color-scheme: dark) { */
+  :root {
+    --background-color: black;
+    --menu-background-color: var(--background-color);
+    --text-color: white;
+
+    --border-color: white;
+    --divider-color: hsl(0, 0%, 50%);
+
+    --anchor-hover-color: hsl(0, 92%, 69%);
+
+    --tag-color: hsl(0, 0%, 15%);
+  }
+/* } */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --background-color: white;
+    --menu-background-color: var(--background-color);
+    --text-color: black;
+
+    --border-color: black;
+    --divider-color: hsl(0, 0%, 50%);
+
+    --anchor-hover-color: hsl(0, 92%, 36%);
+
+    --tag-color ?????
+
+  img {
+    filter: invert(100%);
+  }
+} */

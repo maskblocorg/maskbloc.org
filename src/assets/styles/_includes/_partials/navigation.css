@@ -1,0 +1,182 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Navigation configuration.
+ * ************************************************************************** */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 5em;
+
+  padding: 1em;
+
+  background-color: var(--background-color);
+}
+
+.navigation .logo {
+  height: 2.5em;
+}
+
+.navigation nav li.external a::after {
+  background-size: 1em 1em;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  margin-left: .5em;
+  content: "";
+  background-image: url(/assets/images/mb/external.svg);
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/***** MEDIA QUERIES ******************************************************** */
+
+/*
+ * Burger-style navigation
+ */
+@media only screen and (--small-viewport-menu) {
+  .navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .navigation:has(input:checked) {
+    background-color: var(--menu-background-color)
+  }
+
+  .navigation nav {
+    width: 100%;
+    background-color: black;
+
+    position: fixed;
+    z-index: 10;
+    top: 5em;
+    left: 0;
+
+    height: 0;
+
+    overflow: hidden;
+
+    background-color: var(--menu-background-color);
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .navigation ul {
+    padding: 2em;
+  }
+
+  .navigation li {
+    margin-bottom: 1.5em;
+  }
+
+  .navigation li:last-child {
+    margin-bottom: 0;
+  }
+
+  .navigation .home {
+    display: block;
+    padding: 0;
+    height: 2.5em;
+  }
+
+  .hamburger-input {
+    display: none;
+  }
+
+  .hamburger-label {
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: auto 0;
+    cursor: pointer;
+  }
+
+  .hamburger-input:checked~nav {
+    height: auto;
+    background-color: var(--menu-background-color)
+  }
+
+  .hamburger-input:checked~.hamburger-label {
+    background-color: var(--text-color);
+    mask: url(/assets/images/mb/xmark.svg);
+  }
+
+  .hamburger-input~.hamburger-label {
+    background-color: var(--text-color);
+    mask: url(/assets/images/mb/hamburger.svg);
+  }
+
+  .hamburger-input~.hamburger-label:hover {
+    background-color: var(--anchor-hover-color);
+  }
+
+  .navigation nav li.external {
+    margin-top: 1.5em;
+    border-top: 1px solid var(--text-color);
+    padding-top: 1.5em;
+  }
+}
+
+@media only screen and (--medium-viewport) {
+  .navigation {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 1em;
+    width: 100%;
+
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .navigation nav {
+    flex: 1;
+  }
+
+  .navigation nav ul {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 1em;
+    flex: 1;
+  }
+
+  .navigation nav li {
+    font-size: 1em;
+    margin-left: 1.5em;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .navigation nav li.external {
+    margin-left: 1.5em;
+    border-left: 1px solid var(--text-color);
+    padding-left: 1.5em;
+  }
+
+  .hamburger-input,
+  .hamburger-label {
+    display: none;
+  }
+}
+
+/* @media (prefers-color-scheme: light) {
+  .navigation nav li.external a::after {
+    filter: invert(100%);
+  }
+} */

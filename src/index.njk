@@ -1,0 +1,118 @@
+---
+layout: layout.njk
+title: MaskBloc.org
+description: MaskBloc.org provides list of all active Mask Blocs around the world.
+---
+
+{# Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+{% from "src/_partials/socials.njk" import socials %}
+
+<section class="landing">
+  <div>
+    <img src="/assets/images/mb/mask.svg" class="landing-mask" alt="An illustration of a KN95/FFP2 mask.">
+    <h1>Masks for all.</h1>
+    <h3>
+      MaskBloc.org provides a list of all active
+      <a href="/about/#mask-blocs" title="What are Mask Blocs?"/>Mask Blocs</a>
+      around the world.
+    </h3>
+  </div>
+</section>
+
+<main id="local-blocs" class="main-section">
+  <header>
+    <h2>Local Mask Blocs and other community providers</h2>
+    <label for="bloc-filter" aria-hidden="true">Use the search field to filter entries.</label>
+  </header>
+
+  <div class="bloc-search">
+    <div class="bloc-search-input">
+      <input type="search"
+             id="bloc-filter"
+             aria-atomic="true"
+             aria-label="Use this search field to filter entries, then press enter."
+             aria-placeholder="For instance, Ontario, France or London"
+             placeholder="e.g. Ontario, France or London"
+             onInput="filterBlocs(this.value);"
+             tabindex="0" />
+    </div>
+  </div>
+
+  <p id="list-state" class="matching-blocs no-data hidden"></p>
+
+  <div class="bloc-list">
+    {% for column in mask_blocs %}
+      <div class="bloc-column">
+        {% for country in column %}
+          <section id="{{ country.id }}" class="country">
+            <h3>{{ country.name }}</h3>
+            <ul class="country-bloc-list">
+              {% for bloc in country.blocs %}
+                {% set bloc_id = [country.id, "-", bloc.id] | join %}
+                {% if bloc.division %}
+                  {% set division_name = bloc.division | divisionname(country.id) %}
+                  {% set aria_bloc_title = [division_name, ": ", bloc.name] | join %}
+                {% else %}
+                  {% set aria_bloc_title = bloc.name %}
+                  {% set division_name = undefined %}
+                {% endif %}
+                <li class="mask-bloc" id="{{ bloc_id }}">
+                  <h4 aria-label="{{ aria_bloc_title }}">
+                    <span aria-hidden="true">
+                    {% if division_name %}
+                      <abbr class="tag division" title="{{division_name}}" aria-label="{{division_name}}">
+                        {{ bloc.division }}
+                      </abbr>
+                    {% endif %}
+                    {{ bloc.name }}
+                    </span>
+                  </h4>
+
+                  {% if bloc.description %}
+                    <div class="description">
+                      {% for line in bloc.description.split('\n') %}
+                        <p {{ bloc | bloclang | safe }}>{{ line }}</p>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+
+                  {{ socials(bloc.name, bloc.socials) }}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+</main>
+
+<section id="friends" class="main-section">
+  <header>
+    <h2>Friends</h2>
+    <h3>Groups providing support and information regarding COVID-19 and other respiratory diseases.
+  </header>
+
+    <ul class="friend-list">
+      {% for friend in friends %}
+      <li>
+        <div class="friend">
+          <h4>{{ friend.name }}</h4>
+
+          {% if friend.description %}
+          <div class="description">
+              {% for line in friend.description.split('\n') %}
+                <p {{ friend | bloclang | safe }}>{{ line }}</p>
+              {% endfor %}
+          </div>
+          {% endif %}
+
+          {{ socials(friend.name, friend.socials) }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+</section>

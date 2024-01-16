@@ -1,0 +1,372 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Home Page
+ * ************************************************************************** */
+
+/* **** GENERAL LAYOUT ****************************************************** */
+
+body > main,
+body > section {
+  padding: calc(8px + 1.5625vw);
+  padding-top: calc(6em + 8px + 1.5625vw);
+}
+
+/* **** LANDING SECTION LAYOUT ********************************************** */
+
+.landing {
+  display: flex;
+
+  width: 90%;
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.landing > div {
+  margin: auto;
+}
+
+.landing-mask {
+  width: 60%;
+  margin: auto;
+}
+
+.landing > div::after {
+  content: "";
+  display: inline-block;
+
+  width: 2em;
+  height: 1em;
+  background-size: 2em 1em;
+
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(/assets/images/mb/arrow-down.svg);
+
+  animation: landing-arrow-down 3s infinite;
+}
+
+/* **** SEARCH LAYOUT ******************************************************* */
+
+.bloc-search {
+  width: 100%;
+}
+
+.bloc-search .bloc-search-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 1em 1.75em;
+
+  border: 1px solid var(--border-color);
+}
+
+.bloc-search-input input {
+  font-size: 1.25em;
+
+  width: 100%;
+  height: 2em;
+
+  flex: 1;
+}
+
+.bloc-search .bloc-search-input::after {
+  content: "";
+  display: block;
+
+  height: 2em;
+  width: 2em;
+  background-size: 2em 2em;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
+
+  background-image: url(/assets/images/mb/search.svg);
+}
+
+/* **** LIST SECTION LAYOUT ************************************************* */
+
+.matching-blocs {
+  font-size: 1.5em;
+
+  width: 100%;
+
+  text-align: center;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.no-data {
+  font-size: 2.5em;
+
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.bloc-list,
+.friend-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.bloc-list > .bloc-column,
+.friend-list > * {
+  width: 100%;
+  padding-top: 0;
+}
+
+ul.country-bloc-list .mask-bloc,
+ul.friend-list .friend {
+  border: 1px solid var(--border-color);
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+/* **** MASK BLOC LAYOUT **************************************************** */
+
+.mask-bloc .description,
+.friend .description {
+  margin-bottom: 3em;
+}
+
+.mask-bloc p,
+.friend p {
+  margin-bottom: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.tag {
+  display: inline-block;
+
+  padding: 0.1em 0.2em;
+  margin-right: 0.25em;
+
+  border-radius: 0.25em;
+}
+
+.division {
+  background-color: var(--tag-color);
+}
+
+/* **** SOCIALS LAYOUT ****************************************************** */
+
+.socials {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.socials ul {
+  margin-left: auto;
+}
+
+li.social-link {
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 1em;
+}
+
+li.social-link a {
+  display: flex;
+}
+
+li.social-link:last-child {
+  margin-bottom: 0;
+}
+
+li.social-link::before {
+  content: "";
+  display: flex;
+
+  height: 1.5em;
+  width: 1.5em;
+
+  background-size: 1em 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: relative;
+  top: -0.1em;
+
+  margin-right: 1em;
+  vertical-align: bottom;
+}
+
+li.instagram::before {
+  background-image: url(/assets/images/vendor/instagram.svg);
+}
+
+li.x::before {
+  background-image: url(/assets/images/vendor/x.svg);
+}
+
+li.linktree::before {
+  background-image: url(/assets/images/vendor/linktree.svg);
+}
+
+li.facebook::before {
+  background-image: url(/assets/images/vendor/facebook.svg);
+}
+
+li.email::before {
+  background-image: url(/assets/images/mb/email.svg);
+}
+
+li.web::before {
+  background-image: url(/assets/images/mb/web.svg);
+}
+
+li.mastodon::before {
+  background-image: url(/assets/images/vendor/mastodon.svg);
+}
+
+li.gofundme::before {
+  background-image: url(/assets/images/vendor/gofundme.svg);
+}
+
+li.allmylinks::before {
+  background-image: url(/assets/images/vendor/allmylinks.svg);
+}
+
+li.cashapp::before {
+  background-image: url(/assets/images/vendor/cashapp.svg);
+}
+
+li.venmo::before {
+  background-image: url(/assets/images/vendor/venmo.svg);
+}
+
+/* **** MEDIA QUERIES ******************************************************* */
+
+@media only screen and (--medium-viewport) {
+  .bloc-list > .bloc-column,
+  .friend-list > * {
+      width: calc(100% / 2);
+      padding: 0;
+  }
+
+  .bloc-list > .bloc-column:nth-child(1n),
+  .friend-list > *:nth-child(1n) {
+    padding-right: calc(8px + 1.5625vw);
+  }
+
+  .bloc-list > .bloc-column:nth-child(2n),
+  .friend-list > *:nth-child(2n) {
+    padding-right: 0;
+  }
+
+  .bloc-search-input input {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (--xlarge-viewport) {
+  .bloc-list > .bloc-column,
+  .friend-list > * {
+      width: calc(100% / 3);
+      padding: 0;
+  }
+
+  .bloc-list > .bloc-column:nth-child(1n),
+  .bloc-list > .bloc-column:nth-child(2n),
+  .friend-list > *:nth-child(1n),
+  .friend-list > *:nth-child(2n) {
+    padding-right: calc(8px + 1.5625vw);
+  }
+
+  .bloc-list > .bloc-column:nth-child(3n),
+  .friend-list > *:nth-child(3n) {
+    padding-right: 0;
+  }
+
+  .bloc-search-input input {
+    font-size: 1.75em;
+  }
+}
+
+/* **** MEDIA QUERIES ******************************************************* */
+
+/* **** LANDING SECTION ***************************************************** */
+
+@media only screen and (--xsmall-viewport) {
+  .landing-mask {
+    width: 60%;
+  }
+
+  .landing > div::after {
+    background-size: 2.5em 1.5em;
+    width: 2.5em;
+    height: 1.5em;
+  }
+}
+
+@media only screen and (--medium-viewport) {
+  .landing-mask {
+    width: 55%;
+  }
+
+  .landing > div::after {
+    background-size: 3em 2em;
+    width: 3em;
+    height: 2em;
+  }
+}
+
+@media only screen and (--large-viewport) {
+  .landing-mask {
+    width: 50%;
+  }
+
+  .landing > div::after {
+    background-size: 4em 2.5em;
+    width: 4em;
+    height: 2.5em;
+  }
+}
+
+@media only screen and (--xlarge-viewport) {
+  .landing > div::after {
+    background-size: 5em 3em;
+    width: 5em;
+    height: 3em;
+  }
+
+  .landing-mask {
+    width: 45%;
+  }
+}
+
+/* **** LANDING SECTION + SEARCH ******************************************** */
+
+/* @media (prefers-color-scheme: light) {
+  .landing > div::after,
+  .bloc-search .bloc-search-input::after {
+    filter: invert(100%);
+  }
+} */
+
+/* **** SOCIALS ************************************************************* */
+
+/* @media (prefers-color-scheme: light) {
+  li.social-link::before {
+    filter: invert(100%);
+  }
+} */

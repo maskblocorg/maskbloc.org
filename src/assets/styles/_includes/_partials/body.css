@@ -1,0 +1,23 @@
+/*
+ * Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Html/Body configuration.
+ * ************************************************************************** */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  height: 100vh;
+}
