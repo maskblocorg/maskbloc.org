@@ -203,15 +203,20 @@
           "id": "az",
           "name": "Covid Safe Arizona",
           "division": "AZ",
-          "description": "If you need resources or would like to get involved, please feel free to send us a DM! We're still getting set up so not many posts, but we're here!",
+          "description": "If you need resources, please send us a DM or fill out our mask/test request form!",
           "socials": [
             {
               "type": "instagram",
               "username": "@freemasks4phx",
               "url": "https://www.instagram.com/freemasks4phx/"
+            },
+            {
+              "type": "web",
+              "name": "Request Form",
+              "url": "https://tinyurl.com/freemasks4phxrequest"
             }
           ],
-          "keywords": ["az", "arizona"]
+          "keywords": ["az", "arizona", "phoenix", "phx"]
         },
 
         {
