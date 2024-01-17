@@ -2,6 +2,7 @@
   [
     {
       "id": "can",
+      "country": "can",
       "name": "Canada",
       "keywords": ["canada"],
       "blocs": [
@@ -193,7 +194,8 @@
 
   [
     {
-      "id": "usa",
+      "id": "usa-west",
+      "country": "usa",
       "name": "USA – West",
       "keywords": ["us", "usa", "united", "states", "america", "west"],
       "blocs": [
@@ -502,7 +504,8 @@
 
   [
     {
-      "id": "usa",
+      "id": "usa-northeast",
+      "country": "usa",
       "name": "USA – Northeast",
       "keywords": ["us", "usa", "united", "states", "america", "north", "east", "northeast"],
       "blocs": [
@@ -605,7 +608,8 @@
 
   [
     {
-      "id": "usa",
+      "id": "usa-south",
+      "country": "usa",
       "name": "USA – South",
       "keywords": ["us", "usa", "united", "states", "america", "south"],
       "blocs": [
@@ -639,8 +643,8 @@
         },
 
         {
-          "id": "hartford",
-          "name": "Free Masks Hartford",
+          "id": "bloc-dc",
+          "name": "Mask Bloc DC",
           "division": "DC",
           "description": "Mask and rapid test distro for the DC area. DM or email to request pickup or drop off.",
           "socials": [
@@ -654,8 +658,8 @@
         },
 
         {
-          "id": "swamp-florida",
-          "name": "Free Masks Hartford",
+          "id": "swamp-central-florida",
+          "name": "S.W.A.M.P. Central Florida",
           "division": "DC",
           "description": "Still Wearing a Mask Proudly 😷\nProviding free masks in Central Florida. 🐊\nAvailable at @blackradishgrocer or DM to ship!",
           "socials": [
@@ -698,7 +702,8 @@
 
   [
     {
-      "id": "usa",
+      "id": "usa-midwest",
+      "country": "usa",
       "name": "USA – Midwest",
       "keywords": ["us", "usa", "united", "states", "america", "midwest"],
       "blocs": [
@@ -718,7 +723,7 @@
         },
 
         {
-          "id": "chicago-mask-bloc",
+          "id": "mask-bloc-st-louis",
           "name": "Mask Bloc St Louis",
           "division": "MO",
           "description": "Mask Bloc St Louis is a mutual aid respiratory protection group in the greater St Louis, Missouri area.\nWe are not active on Instagram, and do not regularly check messages on instagram. Please contact us by email or visit our Linktree.",
