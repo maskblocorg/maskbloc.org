@@ -13,11 +13,25 @@ var filterBlocs = (searchTerm) => {
   let matchingIds = new Set();
   const searchTerms = searchTerm.trim().split(/\s+/)
 
+  let countryNodes = document.querySelectorAll(".country");
+  let maskBlocNodes = document.querySelectorAll(".mask-bloc")
+
   if (searchTerms.length === 1 && searchTerms[0] === "") {
     let listStateElement = document.getElementById("list-state");
     listStateElement.classList.add("hidden");
     listStateElement.setAttribute("aria-hidden", true);
     listStateElement.classList.remove("no-data");
+
+    maskBlocNodes.forEach((element) => {
+      element.classList.remove("hidden");
+      element.removeAttribute("aria-hidden");
+    })
+
+    countryNodes.forEach((element) => {
+      element.classList.remove("hidden");
+      element.removeAttribute("aria-hidden");
+    })
+
     return
   }
 
@@ -31,7 +45,12 @@ var filterBlocs = (searchTerm) => {
   }
 
   // Select all blocs and hide them.
-  document.querySelectorAll(".mask-bloc").forEach((element) => {
+  maskBlocNodes.forEach((element) => {
+    element.classList.add("hidden");
+    element.setAttribute("aria-hidden", true);
+  })
+
+  countryNodes.forEach((element) => {
     element.classList.add("hidden");
     element.setAttribute("aria-hidden", true);
   })
@@ -43,19 +62,19 @@ var filterBlocs = (searchTerm) => {
     element.removeAttribute("aria-hidden");
   }
 
-  // Hide country containers if they are empty.
-  document.querySelectorAll(".country").forEach((element) => {
+  // Show country containers if they have blocs matching.
+  countryNodes.forEach((element) => {
     const blocs = element.getElementsByClassName("mask-bloc");
-    const shouldHide = Array.from(blocs).every((bloc) => {
-      return bloc.classList.contains("hidden");
+    const shouldShow = Array.from(blocs).some((bloc) => {
+      return !bloc.classList.contains("hidden");
     })
 
-    if (shouldHide) {
-      element.classList.add("hidden");
-      element.setAttribute("aria-hidden", true);
-    } else {
+    if (shouldShow) {
       element.classList.remove("hidden");
       element.removeAttribute("aria-hidden");
+    } else {
+      element.classList.add("hidden");
+      element.setAttribute("aria-hidden", true);
     }
   });
 
@@ -80,9 +99,7 @@ const blocFilter = document.getElementById('bloc-filter');
 const listState = document.getElementById('list-state');
 
 blocFilter.addEventListener('keyup', function ( e ) {
-  console.log("YOLO")
   if (e.key == 'Enter' && blocFilter.value.length >= 0) {
-    console.log("YAAA")
     listState.focus();
   }
 });
