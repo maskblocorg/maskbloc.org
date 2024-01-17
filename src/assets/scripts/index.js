@@ -75,3 +75,20 @@ var filterBlocs = (searchTerm) => {
     listStateElement.innerHTML = `No blocs matching the search terms.`
   }
 }
+
+const blocFilter = document.getElementById('bloc-filter');
+const listState = document.getElementById('list-state');
+
+blocFilter.addEventListener('keyup', function ( e ) {
+  console.log("YOLO")
+  if (e.key == 'Enter' && blocFilter.value.length >= 0) {
+    console.log("YAAA")
+    listState.focus();
+  }
+});
+
+listState.addEventListener('keyup', function ( e ) {
+  if ( e.key == "Escape" ) {
+    blocFilter.focus();
+  }
+});

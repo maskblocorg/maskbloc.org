@@ -33,14 +33,13 @@ description: MaskBloc.org provides list of all active Mask Blocs around the worl
              id="bloc-filter"
              aria-atomic="true"
              aria-label="Use this search field to filter entries, then press enter."
-             aria-placeholder="For instance, Ontario, France or London"
              placeholder="e.g. Ontario, France or London"
              onInput="filterBlocs(this.value);"
              tabindex="0" />
     </div>
   </div>
 
-  <p id="list-state" class="matching-blocs no-data hidden"></p>
+  <p id="list-state" class="matching-blocs no-data hidden" tabindex="-1"></p>
 
   <div class="bloc-list">
     {% for column in mask_blocs %}
