@@ -79,6 +79,12 @@ body > section {
   flex: 1;
 }
 
+.bloc-search-input:has(> input:focus) {
+  border: 1px solid var(--anchor-hover-color);
+  box-shadow: 0 0 0 3px var(--anchor-hover-color);
+}
+
+
 .bloc-search .bloc-search-input::after {
   content: "";
   display: block;

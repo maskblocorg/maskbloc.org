@@ -22,6 +22,7 @@
     --anchor-hover-color: hsl(0, 92%, 69%);
 
     --tag-color: hsl(0, 0%, 15%);
+    --placeholder-color: hsl(0, 0%, 77%);
   }
 /* } */
 
@@ -37,6 +38,7 @@
     --anchor-hover-color: hsl(0, 92%, 36%);
 
     --tag-color ?????
+    --placeholder-color: ?????
 
   img {
     filter: invert(100%);

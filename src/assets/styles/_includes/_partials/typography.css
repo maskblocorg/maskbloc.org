@@ -51,6 +51,11 @@ a:focus {
   box-shadow: 0 0 0 1px var(--anchor-hover-color);
 }
 
+::placeholder {
+  color: var(--placeholder-color);
+  opacity: 1;
+}
+
 /******* Main Section ******************************************************* */
 
 .main-section h2 {
