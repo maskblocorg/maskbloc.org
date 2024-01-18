@@ -9,21 +9,21 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
 
 {% from "src/_partials/socials.njk" import socials %}
 
-<section class="landing with-arrow">
-  <div>
+<section class="landing with-arrow" aria-describedby="site-description">
+  <header>
     <img src="/assets/images/mb/mask.svg" class="landing-mask" alt="An illustration of a KN95/FFP2 mask.">
     <h1>Masks for all.</h1>
-    <p>
+    <p id="site-description">
       MaskBloc.org provides a list of active
       <a href="/about/#mask-blocs" title="What are Mask Blocs?">Mask Blocs</a>
       around the world.
     </p>
-  </div>
+  </header>
 </section>
 
-<main id="local-blocs" class="main-section">
+<main id="local-blocs" class="main-section" aria-describedby="bloc-header">
   <header>
-    <h2>Local Mask Blocs and other community providers</h2>
+    <h2 id="bloc-header">Local Mask Blocs and other community providers</h2>
     <label for="bloc-filter" aria-hidden="true">Use the search field to filter entries.</label>
   </header>
 
@@ -47,8 +47,8 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
         {% for key in column %}
           {% set country = mask_blocs[key] %}
           {% set country_id = key %}
-          <section id="{{ country_id }}" class="country">
-            <h3>{{ country.name }}</h3>
+          <section id="{{ country_id }}" class="country" aria-describedby="country-header">
+            <h3 id="country-header">{{ country.name }}</h3>
             <ul class="country-bloc-list">
               {% for bloc in country.blocs %}
                 {% set bloc_id = [country_id, "-", bloc.id] | join %}
@@ -59,8 +59,8 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
                   {% set aria_bloc_title = bloc.name %}
                   {% set division_name = undefined %}
                 {% endif %}
-                <li class="mask-bloc" id="{{ bloc_id }}">
-                  <h4 aria-label="{{ aria_bloc_title }}">
+                <li class="mask-bloc" id="{{ bloc_id }}" aria-describedby="bloc-name-{{ bloc_id }}">
+                  <h4 aria-label="{{ aria_bloc_title }}" id="bloc-name-{{ bloc_id }}">
                     <span aria-hidden="true">
                     {% if division_name %}
                       <abbr class="tag division" title="{{division_name}}" aria-label="{{division_name}}">
@@ -91,17 +91,17 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
 
 </main>
 
-<section id="useful-links" class="main-section">
+<section id="useful-links" class="main-section" aria-describedby="useful-links-header">
   <header>
     <h2>Useful Links</h2>
-    <h3>Groups providing support and information regarding COVID-19 and other respiratory diseases.</h3>
+    <h3 id="useful-links-header">Groups providing support and information regarding COVID-19 and other respiratory diseases.</h3>
   </header>
 
     <ul class="friend-list">
       {% for friend in friends %}
-      <li>
+      <li describedby="friend-header">
         <div class="friend">
-          <h4>{{ friend.name }}</h4>
+          <h4 id="friend-header">{{ friend.name }}</h4>
 
           {% if friend.description %}
           <div class="description">
