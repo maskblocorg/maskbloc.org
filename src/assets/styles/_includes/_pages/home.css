@@ -121,14 +121,14 @@ body > section {
 }
 
 .bloc-list,
-.friend-list {
+.useful-link-list {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
 }
 
 .bloc-list > .bloc-column,
-.friend-list > * {
+.useful-link-list > * {
   width: 100%;
   padding-top: 0;
 }
@@ -138,7 +138,7 @@ body > section {
 }
 
 ul.country-bloc-list .mask-bloc,
-ul.friend-list .friend {
+ul.useful-link-list .useful-link {
   border: 1px solid var(--border-color);
   padding: 1em;
   margin-bottom: 2em;
@@ -147,17 +147,17 @@ ul.friend-list .friend {
 /* **** MASK BLOC LAYOUT **************************************************** */
 
 .mask-bloc .description,
-.friend .description {
+.useful-link .description {
   padding-bottom: 1em;
 }
 
 .mask-bloc p,
-.friend p {
+.useful-link p {
   margin-bottom: 1em;
 }
 
 .mask-bloc p:last-child,
-.friend p:last-child {
+.useful-link p:last-child {
   margin-bottom: 0;
 }
 
@@ -283,18 +283,18 @@ li.venmo::before {
 
 @media only screen and (--medium-viewport) {
   .bloc-list > .bloc-column,
-  .friend-list > * {
+  .useful-link-list > * {
       width: calc(100% / 2);
       padding: 0;
   }
 
   .bloc-list > .bloc-column:nth-child(1n),
-  .friend-list > *:nth-child(1n) {
+  .useful-link-list > *:nth-child(1n) {
     padding-right: calc(8px + 1.5625vw);
   }
 
   .bloc-list > .bloc-column:nth-child(2n),
-  .friend-list > *:nth-child(2n) {
+  .useful-link-list > *:nth-child(2n) {
     padding-right: 0;
   }
 
@@ -305,20 +305,20 @@ li.venmo::before {
 
 @media only screen and (--xlarge-viewport) {
   .bloc-list > .bloc-column,
-  .friend-list > * {
+  .useful-link-list > * {
       width: calc(100% / 3);
       padding: 0;
   }
 
   .bloc-list > .bloc-column:nth-child(1n),
   .bloc-list > .bloc-column:nth-child(2n),
-  .friend-list > *:nth-child(1n),
-  .friend-list > *:nth-child(2n) {
+  .useful-link-list > *:nth-child(1n),
+  .useful-link-list > *:nth-child(2n) {
     padding-right: calc(8px + 1.5625vw);
   }
 
   .bloc-list > .bloc-column:nth-child(3n),
-  .friend-list > *:nth-child(3n) {
+  .useful-link-list > *:nth-child(3n) {
     padding-right: 0;
   }
 

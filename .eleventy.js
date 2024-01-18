@@ -9,80 +9,22 @@ const postcssCustomMedia = require('postcss-custom-media');
 const postcssCsso = require('postcss-csso');
 
 const esbuild = require('esbuild');
-const inspect = require("util").inspect;
 
-const subdivisions = require('./src/_data/subdivisions.json');
+const filters = require('./scripts/filters.js');
+const maskbloc = require('./scripts/maskbloc.js');
 
 module.exports = (config) => {
+  // === Filters ===============================================================
+  config.addFilter("divisionname", filters.getDivisionName);
+  config.addFilter("bloclang", filters.getBlocLanguage);
+  config.addFilter("icon", filters.getIcon);
+  config.addFilter("inspect", filters.inspect);
 
   // https://github.com/11ty/eleventy/issues/2512
   // eleventyComputed doesn't work, using filters as a workaround.
+  config.addFilter("keywords", maskbloc.getKeywords);
 
-  config.addFilter("divisionname", function(division, country_id) {
-    return subdivisions[country_id][division];
-  });
-
-  config.addFilter("divisionname", function(division, country_id) {
-    return subdivisions[country_id][division];
-  });
-
-  config.addFilter("inspect", function(content) {
-    return inspect(content);
-  });
-
-  config.addFilter("icon", function(tag) {
-    switch (tag) {
-      case "upcoming":
-        return "🚀 ";
-      case "new":
-        return "✨ ";
-      case "charity":
-        return "💝 ";
-      case "not a mask bloc":
-        return "😷 ";
-      default: return "";
-    }
-  });
-
-  config.addFilter("bloclang", function(bloc) {
-    if (bloc.lang && bloc.lang != "en") {
-      return `lang=\"${bloc.lang}\"`;
-    } else {
-      return "";
-    }
-  });
-
-  config.addFilter("keywords", function(keywords) {
-    let keywordMap = {};
-
-    for (const [key, division] of Object.entries(keywords)) {
-      const divisionID = key;
-      const divisionKeywords = division.keywords ?? [];
-
-      for (const bloc of division.blocs) {
-        const blocKeywords = bloc.keywords ?? [];
-        const blocID = bloc.id;
-
-        const compoundID = `${divisionID}-${blocID}`;
-
-        const allKeywords = divisionKeywords.concat(blocKeywords);
-        for (const keyword of allKeywords) {
-          if (!keywordMap.hasOwnProperty(keyword)) {
-            keywordMap[keyword] = new Set();
-          }
-
-          keywordMap[keyword].add(compoundID);
-        }
-      }
-    }
-
-    for (const [key, value] of Object.entries(keywordMap)) {
-      keywordMap[key] = Array.from(value);
-    }
-
-    return JSON.stringify(keywordMap);
-  });
-
+    // === Templates ===========================================================
   config.addTemplateFormats('css');
   config.addTemplateFormats('js');
 
@@ -121,7 +63,7 @@ module.exports = (config) => {
           target: 'es2020',
           entryPoints: [path],
           minify: true,
-          bundle: false,
+          bundle: true,
           write: false,
         });
 
@@ -130,7 +72,7 @@ module.exports = (config) => {
     }
   });
 
-  // passthrough
+  // === Copy ==================================================================
   ["src/assets", "src/robots.txt"].forEach(path => {
     config.addPassthroughCopy(path, {
         filter: path => !path.endsWith('.css') && !path.startsWith('_')

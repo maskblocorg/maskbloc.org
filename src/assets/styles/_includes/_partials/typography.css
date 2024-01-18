@@ -86,7 +86,7 @@ a:focus {
 /******* Blocs ************************************************************** */
 
 .bloc-list h3,
-.friend-list h3 {
+.useful-link-list h3 {
   font-size: 3em;
   padding-bottom: .5em;
   padding-top: 0;
@@ -96,7 +96,7 @@ a:focus {
 }
 
 .bloc-list h4,
-.friend-list h4 {
+.useful-link-list h4 {
   font-size: 1.5em;
   padding-bottom: 0.25em;
   font-weight: 500;

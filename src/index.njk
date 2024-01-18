@@ -35,7 +35,6 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
              aria-atomic="true"
              aria-label="Use this search field to filter entries, then press enter."
              placeholder="e.g. Ontario, France or London"
-             onInput="filterBlocs(this.value);"
              tabindex="0">
     </div>
   </div>
@@ -108,23 +107,23 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
     <h3 id="useful-links-header">Groups providing support and information regarding COVID-19 and other respiratory diseases.</h3>
   </header>
 
-    <ul class="friend-list">
-      {% for friend in friends %}
-      <li describedby="friend-header">
-        <div class="friend">
+    <ul class="useful-link-list">
+      {% for useful_link in useful_links %}
+      <li describedby="useful-link-header">
+        <div class="useful-link">
           <header>
-            <h4 id="friend-header">{{ friend.name }}</h4>
+            <h4 id="useful-link-header">{{ useful_link.name }}</h4>
           </header>
 
-          {% if friend.description %}
+          {% if useful_link.description %}
           <div class="description">
-              {% for line in friend.description.split('\n') %}
-                <p {{ friend | bloclang | safe }}>{{ line }}</p>
+              {% for line in useful_link.description.split('\n') %}
+                <p {{ useful_link | bloclang | safe }}>{{ line }}</p>
               {% endfor %}
           </div>
           {% endif %}
 
-          {{ socials(friend.name, friend.socials) }}
+          {{ socials(useful_link.name, useful_link.socials) }}
         </div>
       </li>
       {% endfor %}
