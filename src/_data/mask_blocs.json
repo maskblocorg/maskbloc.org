@@ -8,7 +8,7 @@
         "id": "az",
         "name": "Covid Safe Arizona",
         "division": "AZ",
-        "description": "If you need resources, please send us a DM or fill out our mask/test request form!",
+        "description": "If you need resources, please send us an Instagram DM or fill out our mask/test request form!",
         "socials": [
           {
             "type": "instagram",
@@ -16,7 +16,7 @@
             "url": "https://www.instagram.com/freemasks4phx/"
           },
           {
-            "type": "web",
+            "type": "form",
             "name": "Request Form",
             "url": "https://tinyurl.com/freemasks4phxrequest"
           }
@@ -28,7 +28,7 @@
         "id": "care-la",
         "name": "COVID Cautious Community Care LA",
         "division": "CA",
-        "description": "POC LGBTQ+ led effort aiming to create COVID safe/safer community spaces in Los Angeles and uplift advocacy efforts during this ongoing pandemic.\nSend a direct message to the Instagram account to request masks. Resources ➡️ AllMyLinks.",
+        "description": "POC LGBTQ+ led effort aiming to create COVID safe/safer community spaces in Los Angeles and uplift advocacy efforts during this ongoing pandemic.\nSend an Instagram DM to request masks. Resources available in AllMyLinks.",
         "socials": [
           {
             "type": "instagram",
@@ -73,7 +73,7 @@
         "id": "mask-bloc-long-beach",
         "name": "Mask Bloc Long Beach",
         "division": "CA",
-        "description": "Mutual aid project connecting Long Beach, California area with FREE masks to keep each other safe!🌊😷🌴\nMask request form in Linktree!",
+        "description": "Mutual aid project connecting Long Beach, California area with FREE masks to keep each other safe! 🌊😷🌴\nMask request form in Linktree!",
         "socials": [
           {
             "type": "instagram",
@@ -93,7 +93,7 @@
         "id": "mask-blog-916",
         "name": "Mask Bloc 916",
         "division": "CA",
-        "description": "At MaskBlog916, you can find information about upcoming COVID safe events, both in person locally in the greater Sacramento area, and online.\n📍 Patwin Land",
+        "description": "At MaskBlog916, you can find information about upcoming COVID safe events, both in person locally in the greater Sacramento area, and online.\n📍 Location: Patwin Land",
         "socials": [
           {
             "type": "instagram",
@@ -113,7 +113,7 @@
         "id": "mask-bloc-uc-davis",
         "name": "Mask Bloc UC Davis",
         "division": "CA",
-        "description": "Mutual aid project • UC Davis students, faculty, & staff deserve high-filtration masks free of charge.\n📍 Patwin Land",
+        "description": "Mutual aid project • UC Davis students, faculty and staff deserve high-filtration masks free of charge.\n📍 Location: Patwin Land",
         "socials": [
           {
             "type": "instagram",
@@ -133,7 +133,7 @@
         "id": "common-humanity-collective",
         "name": "Common Humanity Collective",
         "division": "CA",
-        "description": "Autonomous Bay Area mutual aid group. Nurturing solidarity & taking care of each other through Do It Yourself air purifier + mask builds & distros.",
+        "description": "Autonomous Bay Area mutual aid group. Nurturing solidarity & taking care of each other through DIY air purifier + mask builds & distributions.",
         "socials": [
           {
             "type": "instagram",
@@ -178,7 +178,7 @@
         "id": "mask-bloc-east-bay",
         "name": "Mask Bloc East Bay",
         "division": "CA",
-        "description": "Getting comfortable, high-quality masks easily available to our communities in the East Bay (San Francisco Bay Area, CA).",
+        "description": "Getting comfortable, high-quality masks easily available to our communities in the East Bay (San Francisco Bay Area, California).",
         "socials": [
           {
             "type": "instagram",
@@ -206,7 +206,7 @@
             "url": "https://www.instagram.com/maskblocsunsetsf/"
           },
           {
-            "type": "web",
+            "type": "form",
             "name": "Request for Aid Form",
             "url": "https://airtable.com/app8yut8LTfRFvMow/shr1qsM6DA1FFJilo"
           },
@@ -283,7 +283,7 @@
         "id": "seattle",
         "name": "Mask Bloc Seattle",
         "division": "WA",
-        "description": "FREE masks & COVID care in so called seattle area 😷\n❤️‍🔥 we keep us safe ❤️‍🔥\nmore mutual aid details/resources coming soon\nall volunteer run",
+        "description": "FREE masks & COVID care in so called seattle area. 😷\n❤️‍🔥 We keep us safe ❤️‍🔥\nMore mutual aid details/resources coming soon.\nAll volunteer run.",
         "socials": [
           {
             "type": "instagram",
@@ -402,7 +402,7 @@
             "url": "https://www.instagram.com/maskbloc_berkshires/"
           },
           {
-            "type": "web",
+            "type": "form",
             "name": "Request Form",
             "url": "https://forms.gle/MqNWLrUwePNtkXaE6"
           }
@@ -421,7 +421,7 @@
         "id": "ar",
         "name": "Mask Bloc AR",
         "division": "AR",
-        "description": "mutual aid org focused on providing high quality masks/respirators to Arkansas 🌸 email requests ⬇️",
+        "description": "Mutual aid org focused on providing high quality masks/respirators to Arkansas 🌸\nemail requests below",
         "socials": [
           {
             "type": "email",
@@ -435,7 +435,7 @@
         "id": "ozarks",
         "name": "Ozarks Covid Action",
         "division": "AR",
-        "description": "disabled-led mask bloc and mutual aid effort to help facilitate access to respirators, tests, Indoor Air Quality, and information across the Ozarks",
+        "description": "Disabled-led mask bloc and mutual aid effort to help facilitate access to respirators, tests, indoor air quality, and information across the Ozarks",
         "socials": [
           {
             "type": "x",
@@ -450,7 +450,7 @@
         "id": "bloc-dc",
         "name": "Mask Bloc DC",
         "division": "DC",
-        "description": "Mask and rapid test distro for the DC area. DM or email to request pickup or drop off.",
+        "description": "Mask and rapid test distribution for the DC area. DM or email to request pickup or drop off.",
         "socials": [
           {
             "type": "instagram",
@@ -469,7 +469,7 @@
         "socials": [
           {
             "type": "instagram",
-            "username": "@maskblocdc",
+            "username": "@swampcentralfl",
             "url": "https://www.instagram.com/swampcentralfl/"
           },
           {
@@ -515,9 +515,9 @@
         "description": "Free KN95 distribution.",
         "socials": [
           {
-            "type": "web",
+            "type": "form",
             "name": "Request Form",
-            "url": "www.tinyurl.com/chi-mask"
+            "url": "https://www.tinyurl.com/chi-mask"
           }
         ],
         "keywords": ["il", "illinois", "chicago"]
@@ -558,7 +558,7 @@
         "id": "vancouver",
         "name": "Masks 4 East Van!",
         "division": "BC",
-        "description": "An N95 Mask Neighbourhood Fund | Free Mask Deliveries\nE-transfer: Masks4EastVan@gmail.com\nSet password: masks4masks2022\n\nDelivery range: Vancouver with requests to lower mainland",
+        "description": "An N95 Mask Neighbourhood Fund / Free Mask Deliveries\nE-transfer: Masks4EastVan@gmail.com\nSet password: masks4masks2022\n\nDelivery range: Vancouver with requests to lower mainland",
         "socials": [
           {
             "type": "instagram",
@@ -578,7 +578,7 @@
         "id": "bc",
         "name": "Mask Bloc BC",
         "division": "BC",
-        "description": "COVID-aware mutual aid network. Masking is harm reduction; anti-fascist; community care. We believe in science & human rights. REQUEST FREE MASKS⬇️",
+        "description": "COVID-aware mutual aid network. Masking is harm reduction; anti-fascist; community care. We believe in science & human rights. FREE MASKS REQUEST FORM in Linktree.",
         "socials": [
           {
             "type": "linktree",
@@ -593,7 +593,7 @@
         "id": "winnipeg",
         "name": "Masks 4 Winnipeg",
         "division": "MB",
-        "description": "Free N95/KN95 community mask box for Winnipeg 💖😷\nLocation: 689 Maryland Street next to the community fridge",
+        "description": "Free N95/KN95 community mask box for Winnipeg. 💖😷\nLocation: 689 Maryland Street next to the community fridge.",
         "socials": [
           {
             "type": "x",
@@ -648,7 +648,7 @@
         "id": "ottawa",
         "name": "Mask Bloc Ottawa",
         "division": "ON",
-        "description": "Local disabled queers distributing high quality masks and covid rapid tests in so-called ottawa\n🇵🇸 Free Palestine 🇵🇸",
+        "description": "Local disabled queers distributing high quality masks and covid rapid tests in so-called Ottawa.\n🇵🇸 Free Palestine 🇵🇸",
         "socials": [
           {
             "type": "instagram",
@@ -663,7 +663,7 @@
         "id": "toronto",
         "name": "Mask Bloc Toronto",
         "division": "ON",
-        "description": "Outreach, mask distro, information and community care in Toronto/Tkaronto, ON.",
+        "description": "Outreach, mask distribution, information and community care in Toronto/Tkaronto, Ontario.",
         "socials": [
           {
             "type": "linktree",
@@ -682,7 +682,7 @@
         "id": "niagara",
         "name": "COVID Safe Niagara",
         "division": "ON",
-        "description": "Wearing a mask is community care\nWe're also on Facebook as \"Still COVIDing Niagara Ontario\"\nNeed a mask? Msg us, or check out ⤵️",
+        "description": "Wearing a mask is community care\nWe're also on Facebook as \"Still COVIDing Niagara Ontario\"\nNeed a mask? Message us, or check out our Linktree.",
         "socials": [
           {
             "type": "linktree",
@@ -702,7 +702,7 @@
         "id": "waterloo",
         "name": "Mask Bloc Waterloo",
         "division": "ON",
-        "description": "Masking information and organizing in Waterloo region, ON.",
+        "description": "Masking information and organizing in Waterloo region, Ontario.",
         "socials": [
           {
             "type": "linktree",
@@ -721,7 +721,7 @@
       {
         "id": "donate-mask",
         "name": "Donate A Mask",
-        "description": "Request free N95-equivalent masks & RATs | Buy from our charity store (100% proceeds for charity) | Donate!",
+        "description": "Request free N95-equivalent masks & RATs\nBuy from our charity store (100% proceeds for charity)\nDonate!",
         "socials": [
           {
             "type": "linktree",
@@ -785,7 +785,7 @@
       {
         "id": "glasgow",
         "name": "Glasgow Mask Bloc",
-        "description": "queer, trans disabled-run mask distribution group in Glasgow, Scotland",
+        "description": "Queer, trans disabled-run mask distribution group in Glasgow, Scotland.",
         "socials": [
           {
             "type": "linktree",

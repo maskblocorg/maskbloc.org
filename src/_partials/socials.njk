@@ -93,6 +93,13 @@
               {{social.name}}
             </a>
           </li>
+        {% elif social.type == "form" %}
+          <li class="social-link form">
+            <a href="{{social.url}}"
+               tabindex="0">
+              {{social.name}}
+            </a>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>

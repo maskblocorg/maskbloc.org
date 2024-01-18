@@ -148,12 +148,17 @@ ul.friend-list .friend {
 
 .mask-bloc .description,
 .friend .description {
-  margin-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 .mask-bloc p,
 .friend p {
   margin-bottom: 1em;
+}
+
+.mask-bloc p:last-child,
+.friend p:last-child {
+  margin-bottom: 0;
 }
 
 .hidden {
@@ -176,16 +181,18 @@ ul.friend-list .friend {
 /* **** SOCIALS LAYOUT ****************************************************** */
 
 .socials {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   justify-content: center;
   list-style-type: none;
   width: 100%;
-  margin-top: 1em;
+
+  padding-top: 1em;
+  border-top: 1px solid white;
 }
 
 .socials ul {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 li.social-link {
@@ -242,6 +249,10 @@ li.email::before {
 
 li.web::before {
   background-image: url(/assets/images/mb/web.svg);
+}
+
+li.form::before {
+  background-image: url(/assets/images/mb/form.svg);
 }
 
 li.mastodon::before {
