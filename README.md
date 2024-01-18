@@ -7,10 +7,15 @@ Source code of [maskbloc.org].
 ## Table of Content
 
 - [Table of Content](#table-of-content)
-- [Contributing](#contributing)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+  - [Background](#background)
+  - [Previewing Locally](#previewing-locally)
+  - [Adding new Mask Blocs](#adding-new-mask-blocs)
 - [License](#license)
+  - [Source Code](#source-code)
+  - [Iconography](#iconography)
+  - [Third-party content](#third-party-content)
 
 # Contributing
 
@@ -18,9 +23,28 @@ Source code of [maskbloc.org].
 
 - Node.js 14+
 
-## Setup
+## Getting Started
 
-Clone the project and Run `npm install`.
+### Background
+
+MaskBloc.org is a static website, built with [Eleventy] and hosted on Github
+pages. It's designed to be as barebone and light as possible and strives to
+be fully accessible.
+
+[`src/_data/`] stores information about Mask Blocs as JSON files.
+
+[Eleventy]: https://www.11ty.dev/
+[`src/_data/`]: src/_data/
+
+### Previewing Locally
+
+1. Clone the project
+2. Run `npm install`
+3. Run `npx @11ty/eleventy --serve` to start previewing the website locally.
+
+### Adding new Mask Blocs
+
+TBA
 
 ## License
 
