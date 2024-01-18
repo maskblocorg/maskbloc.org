@@ -9,6 +9,7 @@
 @import "_includes/_variables/breakpoints.css";
 @import "_includes/_variables/animations.css";
 @import "_includes/_partials/typography.css";
+@import "_includes/_partials/tags.css";
 
 @import "_includes/_partials/body.css";
 @import "_includes/_partials/navigation.css";

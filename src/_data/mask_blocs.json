@@ -632,7 +632,7 @@
       {
         "id": "halifax",
         "name": "Mask Bloc Kjipuktuk/Halifax",
-        "upcoming": true,
+        "tags": ["upcoming"],
         "division": "NS",
         "socials": [
           {
@@ -722,6 +722,7 @@
         "id": "donate-mask",
         "name": "Donate A Mask",
         "description": "Request free N95-equivalent masks & RATs\nBuy from our charity store (100% proceeds for charity)\nDonate!",
+        "tags": ["charity", "not a mask bloc"],
         "socials": [
           {
             "type": "linktree",

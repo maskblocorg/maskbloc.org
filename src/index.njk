@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
 title: Home – Mask Bloc Directory
+tags: sitemap
 description: MaskBloc.org provides list of active Mask Blocs around the world.
 ---
 
@@ -60,16 +61,26 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
                   {% set division_name = undefined %}
                 {% endif %}
                 <li class="mask-bloc" id="{{ bloc_id }}" aria-describedby="bloc-name-{{ bloc_id }}">
-                  <h4 aria-label="{{ aria_bloc_title }}" id="bloc-name-{{ bloc_id }}">
-                    <span aria-hidden="true">
-                    {% if division_name %}
-                      <abbr class="tag division" title="{{division_name}}" aria-label="{{division_name}}">
-                        {{ bloc.division }}
-                      </abbr>
+                  <header>
+                    <h4 aria-label="{{ aria_bloc_title }}" id="bloc-name-{{ bloc_id }}">
+                      <span aria-hidden="true">
+                      {% if division_name %}
+                        <abbr class="tag division" title="{{ division_name }}" aria-label="{{ division_name }}">
+                          {{ bloc.division }}
+                        </abbr>
+                      {% endif %}
+                      {{ bloc.name }}
+                      </span>
+                    </h4>
+
+                    {% if bloc.tags %}
+                      <ul class="tags" aria-label="Tags">
+                        {% for tag in bloc.tags %}
+                          <li><span aria-hidden="true">{{ tag | icon }}</span> {{ tag | capitalize }}</li>
+                        {% endfor %}
+                      </ul>
                     {% endif %}
-                    {{ bloc.name }}
-                    </span>
-                  </h4>
+                  </header>
 
                   {% if bloc.description %}
                     <div class="description">
@@ -101,7 +112,9 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
       {% for friend in friends %}
       <li describedby="friend-header">
         <div class="friend">
-          <h4 id="friend-header">{{ friend.name }}</h4>
+          <header>
+            <h4 id="friend-header">{{ friend.name }}</h4>
+          </header>
 
           {% if friend.description %}
           <div class="description">

@@ -161,6 +161,10 @@ ul.friend-list .friend {
   margin-bottom: 0;
 }
 
+.mask-bloc > header {
+  padding-bottom: 0.75em;
+}
+
 .hidden {
   display: none;
 }

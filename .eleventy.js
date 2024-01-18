@@ -30,6 +30,20 @@ module.exports = (config) => {
     return inspect(content);
   });
 
+  config.addFilter("icon", function(tag) {
+    switch (tag) {
+      case "upcoming":
+        return "🚀 ";
+      case "new":
+        return "✨ ";
+      case "charity":
+        return "💝 ";
+      case "not a mask bloc":
+        return "😷 ";
+      default: return "";
+    }
+  });
+
   config.addFilter("bloclang", function(bloc) {
     if (bloc.lang && bloc.lang != "en") {
       return `lang=\"${bloc.lang}\"`;
@@ -117,7 +131,7 @@ module.exports = (config) => {
   });
 
   // passthrough
-  ['src/assets'].forEach(path => {
+  ["src/assets", "src/robots.txt"].forEach(path => {
     config.addPassthroughCopy(path, {
         filter: path => !path.endsWith('.css') && !path.startsWith('_')
     })
