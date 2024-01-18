@@ -11,12 +11,19 @@ const postcssCsso = require('postcss-csso');
 const esbuild = require('esbuild');
 const inspect = require("util").inspect;
 
-const divisions = require('./src/_data/divisions.json');
+const subdivisions = require('./src/_data/subdivisions.json');
 
 module.exports = (config) => {
 
+  // https://github.com/11ty/eleventy/issues/2512
+  // eleventyComputed doesn't work, using filters as a workaround.
+
   config.addFilter("divisionname", function(division, country_id) {
-    return divisions[country_id][division];
+    return subdivisions[country_id][division];
+  });
+
+  config.addFilter("divisionname", function(division, country_id) {
+    return subdivisions[country_id][division];
   });
 
   config.addFilter("inspect", function(content) {
@@ -34,25 +41,23 @@ module.exports = (config) => {
   config.addFilter("keywords", function(keywords) {
     let keywordMap = {};
 
-    for (const column of keywords) {
-      for (const country of column) {
-        const countryID = country.id;
-        const countryKeywords = country.keywords ?? [];
+    for (const [key, division] of Object.entries(keywords)) {
+      const divisionID = key;
+      const divisionKeywords = division.keywords ?? [];
 
-        for (const bloc of country.blocs) {
-          const blocKeywords = bloc.keywords ?? [];
-          const blocID = bloc.id;
+      for (const bloc of division.blocs) {
+        const blocKeywords = bloc.keywords ?? [];
+        const blocID = bloc.id;
 
-          const compoundID = `${countryID}-${blocID}`;
+        const compoundID = `${divisionID}-${blocID}`;
 
-          const allKeywords = countryKeywords.concat(blocKeywords);
-          for (const keyword of allKeywords) {
-            if (!keywordMap.hasOwnProperty(keyword)) {
-              keywordMap[keyword] = new Set();
-            }
-
-            keywordMap[keyword].add(compoundID);
+        const allKeywords = divisionKeywords.concat(blocKeywords);
+        for (const keyword of allKeywords) {
+          if (!keywordMap.hasOwnProperty(keyword)) {
+            keywordMap[keyword] = new Set();
           }
+
+          keywordMap[keyword].add(compoundID);
         }
       }
     }

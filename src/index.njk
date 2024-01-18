@@ -42,14 +42,16 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
   <p id="list-state" class="matching-blocs no-data hidden" tabindex="-1"></p>
 
   <div class="bloc-list">
-    {% for column in mask_blocs %}
+    {% for column in list %}
       <div class="bloc-column">
-        {% for country in column %}
-          <section id="{{ country.id }}" class="country">
+        {% for key in column %}
+          {% set country = mask_blocs[key] %}
+          {% set country_id = key %}
+          <section id="{{ country_id }}" class="country">
             <h3>{{ country.name }}</h3>
             <ul class="country-bloc-list">
               {% for bloc in country.blocs %}
-                {% set bloc_id = [country.id, "-", bloc.id] | join %}
+                {% set bloc_id = [country_id, "-", bloc.id] | join %}
                 {% if bloc.division %}
                   {% set division_name = bloc.division | divisionname(country.country) %}
                   {% set aria_bloc_title = [division_name, ": ", bloc.name] | join %}
