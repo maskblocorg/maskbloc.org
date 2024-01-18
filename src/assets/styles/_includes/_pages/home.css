@@ -37,7 +37,7 @@ body > section {
   margin: auto;
 }
 
-.landing > div::after {
+.with-arrow > div::after {
   content: "";
   display: inline-block;
 
@@ -315,7 +315,7 @@ li.venmo::before {
     width: 60%;
   }
 
-  .landing > div::after {
+  .with-arrow > div::after {
     background-size: 2.5em 1.5em;
     width: 2.5em;
     height: 1.5em;
@@ -327,7 +327,7 @@ li.venmo::before {
     width: 55%;
   }
 
-  .landing > div::after {
+  .with-arrow > div::after {
     background-size: 3em 2em;
     width: 3em;
     height: 2em;
@@ -339,7 +339,7 @@ li.venmo::before {
     width: 50%;
   }
 
-  .landing > div::after {
+  .with-arrow > div::after {
     background-size: 4em 2.5em;
     width: 4em;
     height: 2.5em;
@@ -347,7 +347,7 @@ li.venmo::before {
 }
 
 @media only screen and (--xlarge-viewport) {
-  .landing > div::after {
+  .with-arrow > div::after {
     background-size: 5em 3em;
     width: 5em;
     height: 3em;
@@ -361,7 +361,7 @@ li.venmo::before {
 /* **** LANDING SECTION + SEARCH ******************************************** */
 
 /* @media (prefers-color-scheme: light) {
-  .landing > div::after,
+  .with-arrow > div::after,
   .bloc-search .bloc-search-input::after {
     filter: invert(100%);
   }
