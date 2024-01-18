@@ -47,8 +47,8 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
         {% for key in column %}
           {% set country = mask_blocs[key] %}
           {% set country_id = key %}
-          <section id="{{ country_id }}" class="country" aria-describedby="country-header">
-            <h3 id="country-header">{{ country.name }}</h3>
+          <section id="{{ country_id }}" class="country" aria-describedby="country-header-{{ country_id }}">
+            <h3 id="country-header-{{ country_id }}">{{ country.name }}</h3>
             <ul class="country-bloc-list">
               {% for bloc in country.blocs %}
                 {% set bloc_id = [country_id, "-", bloc.id] | join %}
