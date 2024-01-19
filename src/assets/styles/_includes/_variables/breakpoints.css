@@ -12,8 +12,9 @@
 
 @custom-media --xsmall-viewport (width > 480px);
 @custom-media --small-viewport (width > 720px);
-@custom-media --medium-viewport (width >  900px);
+@custom-media --medium-viewport (width > 900px);
 @custom-media --large-viewport (width > 1024px);
 @custom-media --xlarge-viewport (width > 1280px);
 
-@custom-media --small-viewport-menu (width <= 900px);
+@custom-media --small-navigation (width <= 920px);
+@custom-media --regular-navigation (width > 920px);

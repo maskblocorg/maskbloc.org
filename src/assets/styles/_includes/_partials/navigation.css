@@ -43,7 +43,7 @@
 /*
  * Burger-style navigation
  */
-@media only screen and (--small-viewport-menu) {
+@media only screen and (--small-navigation) {
   .navigation {
     align-items: center;
     display: flex;
@@ -130,7 +130,7 @@
   }
 }
 
-@media only screen and (--medium-viewport) {
+@media only screen and (--regular-navigation) {
   .navigation {
     align-items: center;
     display: flex;
