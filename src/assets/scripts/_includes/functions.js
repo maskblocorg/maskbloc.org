@@ -121,7 +121,7 @@ const configureSearchInputAccessibility = (searchInput) => {
   const listState = document.getElementById('list-state');
 
   searchInput.addEventListener('keyup', function ( e ) {
-    if (e.key == 'Enter' && blocFilter.value.length >= 0) {
+    if (e.key == 'Enter' && searchInput.value.length >= 0) {
       listState.focus();
     }
   });
