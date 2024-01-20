@@ -17,7 +17,6 @@
   },
 
   "cx4_la": {
-    "id": "care-la",
     "name": "COVID Cautious Community Care LA",
     "subdivision": "CA",
     "keywords": ["ca", "california", "la", "los", "angeles"],
@@ -154,7 +153,6 @@
   },
 
   "maskbloceastbay": {
-    "id": "mask-bloc-east-bay",
     "name": "Mask Bloc East Bay",
     "subdivision": "CA",
     "keywords": ["ca", "california", "east", "bay", "area", "san", "francisco"],
@@ -195,7 +193,6 @@
   },
 
   "maskblocsanjose": {
-    "id": "mask-bloc-san-jose",
     "name": "Mask Bloc San José",
     "keywords": ["ca", "california", "bay", "area", "san", "josé", "jose"],
     "subdivision": "CA",
@@ -214,7 +211,6 @@
   },
 
   "covidsafesocal": {
-    "id": "covid-safe-socal",
     "name": "COVID Safe SoCal",
     "keywords": ["ca", "california", "san", "diego", "southern"],
     "subdivision": "CA",
@@ -273,7 +269,6 @@
   },
 
   "maskblocseattle": {
-    "id": "seattle",
     "name": "Mask Bloc Seattle",
     "keywords": ["wa", "washington", "seattle"],
     "subdivision": "WA",
@@ -286,7 +281,6 @@
   },
 
   "covid.tests.seattle": {
-    "id": "seattle-tests",
     "name": "COVID Tests Seattle",
     "subdivision": "WA",
     "keywords": ["wa", "washington", "seattle", "tests"],
@@ -463,7 +457,6 @@
   },
 
   "maskblocstl": {
-    "id": "mask-bloc-st-louis",
     "name": "Mask Bloc St Louis",
     "subdivision": "MO",
     "keywords": ["mo", "missouri", "st", "louis"],
@@ -593,7 +586,6 @@
   },
 
   "covidsafeniagara": {
-    "id": "niagara",
     "name": "COVID Safe Niagara",
     "subdivision": "ON",
     "tags": ["not a mask bloc"],
@@ -613,7 +605,6 @@
   },
 
   "maskblocwr": {
-    "id": "waterloo",
     "name": "Mask Bloc Waterloo",
     "subdivision": "ON",
     "keywords": ["on", "ontario", "waterloo", "kitchener", "cambridge"],
@@ -632,7 +623,6 @@
   },
 
   "donatemask.ca": {
-    "id": "donate-mask",
     "name": "Donate A Mask",
     "description": "Request free N95-equivalent masks & RATs\nBuy from our charity store (100% proceeds for charity)\nDonate!",
     "tags": ["charity", "not a mask bloc"],
@@ -651,7 +641,6 @@
   },
 
   "masksforlondon": {
-    "id": "london",
     "name": "Masks for London",
     "description": "😷 London-based community group distributing masks & respirators within the city.",
     "keywords": ["london", "england"],
@@ -669,7 +658,6 @@
   },
 
   "norwichmaskbloc": {
-    "id": "norwich",
     "name": "Norwich Mask Bloc",
     "description": "Email for free masks or co-organizing.\nDonate on JustGiving to help buy masks.",
     "socials": [{
@@ -691,7 +679,6 @@
   },
 
   "glasgowmaskbloc": {
-    "id": "glasgow",
     "name": "Glasgow Mask Bloc",
     "description": "Queer, trans disabled-run mask distribution group in Glasgow, Scotland.",
     "socials": [{
@@ -703,7 +690,6 @@
   },
 
   "maskbloceire": {
-    "id": "eire",
     "name": "Mask Bloc Éire",
     "keywords": ["eire", "éire", "ireland"],
     "description": "Mask bloc based in Ireland rooted in disability justice. We aim to make personal protection equipment more accessible for all. We keep each other safe.",
@@ -733,7 +719,6 @@
   },
 
   "maskblocbordeaux": {
-    "id": "bordeaux",
     "name": "Mask Bloc Bordeaux",
     "keywords": ["bordeaux", "bdx"],
     "lang": "fr",
@@ -751,7 +736,6 @@
   },
 
   "maskblocnantes": {
-    "id": "nantes",
     "name": "Mask Bloc Nantes",
     "keywords": ["nantes"],
     "lang": "fr",
