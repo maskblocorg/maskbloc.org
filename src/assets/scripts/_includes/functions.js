@@ -30,7 +30,7 @@ const filterBlocs = (searchTerm) => {
   let matchingIds = new Set();
   const searchTerms = searchTerm.trim().split(/\s+/)
 
-  let countryNodes = document.querySelectorAll(".country");
+  let countryNodes = document.querySelectorAll(".region");
   let maskBlocNodes = document.querySelectorAll(".mask-bloc")
 
   if (searchTerms.length === 1 && searchTerms[0] === "") {

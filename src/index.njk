@@ -24,7 +24,7 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
 
 <main id="local-blocs" class="main-section" aria-describedby="bloc-header">
   <header>
-    <h2 id="bloc-header">Local Mask Blocs and other community providers</h2>
+    <h2 id="bloc-header">Mask Blocs and other community providers</h2>
     <label for="bloc-filter" aria-hidden="true">Use the search field to filter entries.</label>
   </header>
 
@@ -42,30 +42,29 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
   <p id="list-state" class="matching-blocs no-data hidden" tabindex="-1"></p>
 
   <div class="bloc-list">
-    {% for column in list %}
+    {% for column in world.layout %}
       <div class="bloc-column">
-        {% for key in column %}
-          {% set country = mask_blocs[key] %}
-          {% set country_id = key %}
-          <section id="{{ country_id }}" class="country" aria-describedby="country-header-{{ country_id }}">
-            <h3 id="country-header-{{ country_id }}">{{ country.name }}</h3>
-            <ul class="country-bloc-list">
-              {% for bloc in country.blocs %}
-                {% set bloc_id = [country_id, "-", bloc.id] | join %}
-                {% if bloc.division %}
-                  {% set division_name = bloc.division | divisionname(country.country) %}
-                  {% set aria_bloc_title = [division_name, ": ", bloc.name] | join %}
+        {% for region_id in column %}
+          {% set region = world.regions[region_id] %}
+          <section id="{{ region_id }}" class="region" aria-describedby="region-header-{{ region_id }}">
+            <h3 id="region-header-{{ region_id }}">{{ region.name }}</h3>
+            <ul class="region-bloc-list">
+              {% for bloc_id in region.blocs %}
+                {% set compound_id = [region_id, "-", bloc_id] | join %}
+                {% set bloc = blocs[bloc_id] %}
+                {% if bloc.subdivision %}
+                  {% set subdivision_name = bloc.subdivision | divisionname(region.country) %}
+                  {% set aria_bloc_title = [subdivision_name, ": ", bloc.name] | join %}
                 {% else %}
                   {% set aria_bloc_title = bloc.name %}
-                  {% set division_name = undefined %}
                 {% endif %}
-                <li class="mask-bloc" id="{{ bloc_id }}" aria-describedby="bloc-name-{{ bloc_id }}">
+                <li class="mask-bloc" id="{{ compound_id }}" aria-describedby="bloc-name-{{ bloc_id }}">
                   <header>
                     <h4 aria-label="{{ aria_bloc_title }}" id="bloc-name-{{ bloc_id }}">
                       <span aria-hidden="true">
-                      {% if division_name %}
-                        <abbr class="tag division" title="{{ division_name }}" aria-label="{{ division_name }}">
-                          {{ bloc.division }}
+                      {% if subdivision_name %}
+                        <abbr class="tag division" title="{{ subdivision_name }}" aria-label="{{ subdivision_name }}">
+                          {{ bloc.subdivision }}
                         </abbr>
                       {% endif %}
                       {{ bloc.name }}
@@ -88,9 +87,10 @@ description: MaskBloc.org provides list of active Mask Blocs around the world.
                       {% endfor %}
                     </div>
                   {% endif %}
-
+                  {% set subdivision_name = undefined %}
                   {{ socials(bloc.name, bloc.socials) }}
                 </li>
+                {% set bloc = undefined %}
               {% endfor %}
             </ul>
           </section>

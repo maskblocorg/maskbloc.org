@@ -14,15 +14,13 @@ const filters = require('./scripts/filters.js');
 const maskbloc = require('./scripts/maskbloc.js');
 
 module.exports = (config) => {
+  config.addNunjucksGlobal("keywords", maskbloc.makeKeywords);
+
   // === Filters ===============================================================
   config.addFilter("divisionname", filters.getDivisionName);
   config.addFilter("bloclang", filters.getBlocLanguage);
   config.addFilter("icon", filters.getIcon);
   config.addFilter("inspect", filters.inspect);
-
-  // https://github.com/11ty/eleventy/issues/2512
-  // eleventyComputed doesn't work, using filters as a workaround.
-  config.addFilter("keywords", maskbloc.getKeywords);
 
     // === Templates ===========================================================
   config.addTemplateFormats('css');
@@ -64,6 +62,7 @@ module.exports = (config) => {
           entryPoints: [path],
           minify: true,
           bundle: true,
+          sourcemap: process.env.ELEVENTY_ENV !== "production",
           write: false,
         });
 

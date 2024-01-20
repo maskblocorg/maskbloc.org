@@ -133,11 +133,11 @@ body > section {
   padding-top: 0;
 }
 
-.country {
+.region {
   margin-top: 5em;
 }
 
-ul.country-bloc-list .mask-bloc,
+ul.region-bloc-list .mask-bloc,
 ul.useful-link-list .useful-link {
   border: 1px solid var(--border-color);
   padding: 1em;

@@ -42,7 +42,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with 11ty
         run: |
-          npx @11ty/eleventy
+          ELEVENTY_ENV="production" npx @11ty/eleventy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

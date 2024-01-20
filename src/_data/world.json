@@ -1,0 +1,127 @@
+{
+  "regions": {
+    "usa-west": {
+      "country": "usa",
+      "name": "USA – West",
+      "keywords": ["us", "usa", "united", "states", "america", "west", "turtle"],
+      "blocs": [
+        "freemasks4phx",
+        "cx4_la",
+        "maskblocla",
+        "maskbloclongbeach",
+        "maskbloc916",
+        "maskblocucdavis",
+        "chumanityc",
+        "masksonoma",
+        "maskbloceastbay",
+        "maskblocsunsetsf",
+        "maskblocsanjose",
+        "covidsafesocal",
+        "covidsafecolorado",
+        "maskblocabq",
+        "maskblocseattle",
+        "covid.tests.seattle"
+      ]
+    },
+
+    "usa-northeast": {
+      "country": "usa",
+      "name": "USA – Northeast",
+      "keywords": ["us", "usa", "united", "states", "america", "north", "east", "northeast" ,"turtle"],
+      "blocs": [
+        "freemaskct",
+        "neucovidresponse",
+        "boscovidaction",
+        "maskbloc_berkshires",
+        "westernmassmaskbloc"
+      ]
+    },
+
+    "usa-midwest": {
+      "country": "usa",
+      "name": "USA – Midwest",
+      "keywords": ["us", "usa", "united", "states", "america", "midwest", "turtle"],
+      "blocs": [
+        "chi-mask",
+        "maskblocstl"
+      ]
+    },
+
+    "usa-south": {
+      "country": "usa",
+      "name": "USA – South",
+      "keywords": ["us", "usa", "united", "states", "america", "south", "turtle"],
+      "blocs": [
+        "maskblocar",
+        "ozarkscovaction",
+        "maskblocdc",
+        "swampcentralfl",
+        "fightcovidnola"
+      ]
+    },
+
+    "can": {
+      "country": "can",
+      "name": "Canada",
+      "keywords": ["canada", "turtle"],
+      "blocs": [
+        "masks4eastvan",
+        "maskblocBC",
+        "masks4wpg",
+        "popnewbrunswick",
+        "maskbloc.hfx",
+        "maskblocott",
+        "maskbloctoronto",
+        "covidsafeniagara",
+        "maskblocwr",
+        "donatemask.ca"
+      ]
+    },
+
+    "gbr": {
+      "country": "gbr",
+      "name": "United Kingdom",
+      "keywords": ["uk", "gbr", "united", "kingdom"],
+      "blocs": [
+        "masksforlondon",
+        "norwichmaskbloc",
+        "glasgowmaskbloc"
+      ]
+    },
+
+    "fra": {
+      "country": "fra",
+      "name": "France",
+      "keywords": ["fr", "fra", "france"],
+      "blocs": [
+        "maskblocparis",
+        "maskblocbordeaux",
+        "maskblocnantes"
+      ]
+    },
+
+    "irl": {
+      "country": "irl",
+      "name": "Ireland",
+      "keywords": ["ie", "irl", "ireland", "eire", "éire"],
+      "blocs": [
+        "maskbloceire"
+      ]
+    },
+
+    "aus": {
+      "country": "aus",
+      "name": "Australia",
+      "keywords": ["au", "aus", "australia"],
+      "blocs": []
+    }
+  },
+
+  "layout": [
+    ["usa-west", "usa-northeast"],
+    ["usa-midwest", "usa-south", "can"],
+    ["gbr", "fra", "irl"]
+  ]
+}
+
+

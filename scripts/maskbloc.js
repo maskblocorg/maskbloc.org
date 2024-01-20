@@ -1,21 +1,23 @@
 // Copyright © 2024 MaskBloc.org <maskbloc.org@proton.me>
 // Licensed under the terms of the GPL-3 license.
 
+const world = require('../src/_data/world.json');
+const blocs = require('../src/_data/blocs.json');
+
 module.exports = {
-  getKeywords: function(keywords) {
+  makeKeywords: function() {
     let keywordMap = {};
 
-    for (const [key, division] of Object.entries(keywords)) {
-      const divisionID = key;
-      const divisionKeywords = division.keywords ?? [];
+    for (const [regionID, region] of Object.entries(world.regions)) {
+      const regionKeyword = region.keywords ?? [];
 
-      for (const bloc of division.blocs) {
+      for (const blocID of region.blocs) {
+        const bloc = blocs[blocID]
         const blocKeywords = bloc.keywords ?? [];
-        const blocID = bloc.id;
 
-        const compoundID = `${divisionID}-${blocID}`;
+        const compoundID = `${regionID}-${blocID}`;
 
-        const allKeywords = divisionKeywords.concat(blocKeywords);
+        const allKeywords = regionKeyword.concat(blocKeywords);
         for (const keyword of allKeywords) {
           if (!keywordMap.hasOwnProperty(keyword)) {
             keywordMap[keyword] = new Set();

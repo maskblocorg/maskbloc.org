@@ -47,7 +47,7 @@
     {% if page.url == "/" %}
       <script>
         var MaskBloc = {
-          "keywords": {{ mask_blocs | keywords | safe }}
+          "keywords": {{ keywords() | safe }}
         }
       </script>
       <script defer src="/assets/scripts/index.js"></script>
