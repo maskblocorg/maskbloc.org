@@ -124,7 +124,8 @@ body > section {
 .useful-link-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  justify-content: center;
+  align-item: center;
 }
 
 .bloc-list > .bloc-column,

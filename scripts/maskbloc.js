@@ -14,10 +14,15 @@ module.exports = {
       for (const blocID of region.blocs) {
         const bloc = blocs[blocID]
         const blocKeywords = bloc.keywords ?? [];
+        const blocTags = bloc.tags ?? [];
 
         const compoundID = `${regionID}-${blocID}`;
 
-        const allKeywords = regionKeyword.concat(blocKeywords);
+        const allKeywords = regionKeyword
+          .concat(blocKeywords)
+          .concat(blocTags)
+          .concat([regionID, blocID]);
+
         for (const keyword of allKeywords) {
           if (!keywordMap.hasOwnProperty(keyword)) {
             keywordMap[keyword] = new Set();

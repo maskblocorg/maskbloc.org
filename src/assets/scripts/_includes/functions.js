@@ -30,7 +30,8 @@ const filterBlocs = (searchTerm) => {
   let matchingIds = new Set();
   const searchTerms = searchTerm.trim().split(/\s+/)
 
-  let countryNodes = document.querySelectorAll(".region");
+  let columnNodes = document.querySelectorAll(".bloc-column");
+  let regionNodes = document.querySelectorAll(".region");
   let maskBlocNodes = document.querySelectorAll(".mask-bloc")
 
   if (searchTerms.length === 1 && searchTerms[0] === "") {
@@ -44,7 +45,12 @@ const filterBlocs = (searchTerm) => {
       element.removeAttribute("aria-hidden");
     })
 
-    countryNodes.forEach((element) => {
+    regionNodes.forEach((element) => {
+      element.classList.remove("hidden");
+      element.removeAttribute("aria-hidden");
+    })
+
+    columnNodes.forEach((element) => {
       element.classList.remove("hidden");
       element.removeAttribute("aria-hidden");
     })
@@ -67,7 +73,12 @@ const filterBlocs = (searchTerm) => {
     element.setAttribute("aria-hidden", true);
   })
 
-  countryNodes.forEach((element) => {
+  regionNodes.forEach((element) => {
+    element.classList.add("hidden");
+    element.setAttribute("aria-hidden", true);
+  })
+
+  columnNodes.forEach((element) => {
     element.classList.add("hidden");
     element.setAttribute("aria-hidden", true);
   })
@@ -79,11 +90,26 @@ const filterBlocs = (searchTerm) => {
     element.removeAttribute("aria-hidden");
   }
 
-  // Show country containers if they have blocs matching.
-  countryNodes.forEach((element) => {
+  // Show columns if they have regions visible.
+  regionNodes.forEach((element) => {
     const blocs = element.getElementsByClassName("mask-bloc");
     const shouldShow = Array.from(blocs).some((bloc) => {
       return !bloc.classList.contains("hidden");
+    })
+
+    if (shouldShow) {
+      element.classList.remove("hidden");
+      element.removeAttribute("aria-hidden");
+    } else {
+      element.classList.add("hidden");
+      element.setAttribute("aria-hidden", true);
+    }
+  });
+
+  columnNodes.forEach((element) => {
+    const regions = element.getElementsByClassName("region");
+    const shouldShow = Array.from(regions).some((region) => {
+      return !region.classList.contains("hidden");
     })
 
     if (shouldShow) {
