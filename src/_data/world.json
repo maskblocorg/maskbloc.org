@@ -33,7 +33,12 @@
         "neucovidresponse",
         "boscovidaction",
         "maskbloc_berkshires",
-        "westernmassmaskbloc"
+        "westernmassmaskbloc",
+        "cscrutgers",
+        "maskblocjc",
+        "maskbloccnj",
+        "covidsolidaritynyc",
+        "maskbloc631"
       ]
     },
 
@@ -74,6 +79,7 @@
         "maskbloctoronto",
         "covidsafeniagara",
         "maskblocwr",
+        "sask.mask.bloc",
         "donatemask.ca"
       ]
     },

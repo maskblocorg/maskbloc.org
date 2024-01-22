@@ -362,7 +362,8 @@
     "subdivision": "MA",
     "keywords": ["ma", "massachusetts", "western"],
     "description": "Mask Bloc for direct actions in the Western Massachusetts",
-    "socials": [{
+    "socials": [
+      {
         "type": "instagram",
         "username": "@westernmassmaskbloc",
         "url": "https://www.instagram.com/westernmassmaskbloc/"
@@ -372,6 +373,77 @@
         "url": "https://forms.gle/MqNWLrUwePNtkXaE6"
       }
     ]
+  },
+
+  "cscrutgers": {
+    "name": "Covid Safe Camps at Rutgers-NB",
+    "subdivision": "NJ",
+    "keywords": ["nj", "new", "jersey", "rutgers", "csc", "safe", "campus", "brunswick", "nb"],
+    "description": "We are ambassadors from Covid Safe Campus fighting for covid safety.\nAll views are our own & do not represent CSC or Rutgers.\nRequest masks in Linktree.",
+    "socials": [{
+      "type": "linktree",
+      "username": "@cscrutgers",
+      "url": "https://www.linktr.ee/cscrutgers"
+    }]
+  },
+
+  "maskblocjc": {
+    "name": "Mask Bloc JC",
+    "subdivision": "NJ",
+    "keywords": ["nj", "new", "jersey", "city"],
+    "description": "Mutual aid org distributing high quality masks and COVID-19 tests in the Jersey City, New Jersey area. Volunteer info in our linktree. Run by @JerseyCityGardens.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocjc",
+        "url": "https://www.instagram.com/maskblocjc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocjc",
+        "url": "https://linktr.ee/maskblocjc"
+      }
+    ]
+  },
+
+  "maskbloccnj": {
+    "name": "Mask Bloc CCNJ",
+    "subdivision": "NJ",
+    "tags": ["upcoming"],
+    "keywords": ["nj", "new", "jersey", "central"],
+    "description": "Newly forming Mask Bloc in unceded Lenapehoking (so called central New Jersey). Free mask distribution & COVID information. More info coming soon.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloccnj",
+        "url": "https://www.instagram.com/maskbloccnj/"
+      }
+    ]
+  },
+
+  "covidsolidaritynyc": {
+    "name": "Mask Bloc NYC",
+    "subdivision": "NJ",
+    "keywords": ["ny", "new", "york", "city", "solidarity"],
+    "description": "Disabled-led collective of New Yorkers organizing to fight COVID through mutual aid, political education, and direct action (formerly COVID Solidarity NYC).",
+    "socials": [{
+      "type": "linktree",
+      "username": "@covidsolidaritynyc",
+      "url": "https://www.linktr.ee/covidsolidaritynyc"
+    }]
+  },
+
+  "maskbloc631": {
+    "name": "Mask Bloc 631",
+    "subdivision": "NY",
+    "tags": ["upcoming"],
+    "keywords": ["ny", "long", "island"],
+    "description": "Long Island, New York.\nFuture Mask Bloc.",
+    "socials": [{
+      "type": "instagram",
+      "username": "@maskbloc631",
+      "url": "https://www.instagram.com/maskbloc631/"
+    }]
   },
 
   "maskblocar": {
@@ -618,6 +690,21 @@
         "type": "instagram",
         "username": "@maskblocwr",
         "url": "https://www.instagram.com/maskblocwr/"
+      }
+    ]
+  },
+
+  "sask.mask.bloc": {
+    "name": "Mask Bloc Sask",
+    "subdivision": "SK",
+    "tags": ["upcoming"],
+    "keywords": ["sk", "saskatchewan", "regina", "saskatoon"],
+    "description": "Mask Bloc Sask is a small volunteer run group committed to providing access to free high quality masks.\nCurrently working on serving Regina & Saskatoon located on Treaty 4 & 6 Territory.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@sask.mask.bloc",
+        "url": "https://www.instagram.com/sask.mask.bloc/"
       }
     ]
   },
