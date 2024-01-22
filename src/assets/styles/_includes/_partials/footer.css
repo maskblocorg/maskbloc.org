@@ -13,21 +13,79 @@ footer {
   text-align: center;
 }
 
-footer p {
-  width: 100%;
-}
-
 footer img {
   width: 3em;
   padding-top: .5em;
 }
 
-/* Divider */
-footer::before {
+footer ul {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  margin: auto;
+  column-gap: 2em;
+
+  margin-bottom: 2em;
+}
+
+footer li, footer li a {
+  display: block;
+  align-item: center;
+  justify-content: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+footer li a {
+  display: flex;
+  width: 2.8em;
+  height: 2.8em;
+  padding: 0;
+  margin: 0;
+}
+
+footer li a::after {
   content: "";
   display: block;
-  width: 20%;
-  margin: 30px auto;
-  height: 6px;
-  background-color: var(--divider-color);
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0;
+  margin: auto;
+  background: var(--text-color);
+  mask-size: 2.5em 2.5em;
+  mask-repeat: no-repeat;
+}
+
+footer li a.mastodon::after {
+  mask-image: url(/assets/images/vendor/mastodon.svg);
+}
+
+footer li a.instagram::after {
+  mask-image: url(/assets/images/vendor/instagram.svg);
+}
+
+footer li a.x::after {
+  mask-image: url(/assets/images/vendor/x.svg);
+}
+
+footer li a.threads::after {
+  mask-image: url(/assets/images/vendor/threads.svg);
+}
+
+footer li a.email::after {
+  mask-image: url(/assets/images/mb/email.svg);
+}
+
+footer li:hover a::after {
+  background: var(--anchor-hover-color);
+}
+
+footer > p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+footer .end {
+  margin-top: 1em;
 }

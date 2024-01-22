@@ -33,7 +33,7 @@ body > section {
 }
 
 .landing-mask {
-  width: 60%;
+  width: 55%;
   margin: auto;
 }
 
@@ -167,6 +167,14 @@ ul.useful-link-list .useful-link {
 
 .hidden {
   display: none;
+}
+
+.screenreader {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
 .tag {
@@ -333,7 +341,7 @@ li.venmo::before {
 
 @media only screen and (--xsmall-viewport) {
   .landing-mask {
-    width: 60%;
+    width: 50%;
   }
 
   .with-arrow > header::after {
@@ -345,7 +353,7 @@ li.venmo::before {
 
 @media only screen and (--medium-viewport) {
   .landing-mask {
-    width: 55%;
+    width: 45%;
   }
 
   .with-arrow > header::after {
@@ -357,7 +365,7 @@ li.venmo::before {
 
 @media only screen and (--large-viewport) {
   .landing-mask {
-    width: 50%;
+    width: 40%;
   }
 
   .with-arrow > header::after {
@@ -375,7 +383,7 @@ li.venmo::before {
   }
 
   .landing-mask {
-    width: 45%;
+    width: 35%;
   }
 }
 
