@@ -11,7 +11,7 @@ module.exports = {
 
   getIcon: function(tag) {
     switch (tag) {
-      case "upcoming":
+      case "getting started":
         return "🚀 ";
       case "new":
         return "✨ ";

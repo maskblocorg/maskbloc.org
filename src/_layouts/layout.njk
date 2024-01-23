@@ -62,56 +62,7 @@
     </header>
     {{ content | safe }}
     <footer>
-              <img src="/assets/images/mb/mask-small.svg"
-            class="footer-mask"
-            alt="Small illustration of a KN95/FFP2 mask.">
-
-      <p id="footer-social-media">
-         Find us on social media: @MaskBlocOrg
-      <p>
-
-      <ul aria-describedby="footer-social-media">
-        <li>
-          <a rel="me"
-             href="https://zeroes.ca/@maskblocorg"
-             class="mastodon"
-             aria-label="Mastodon">
-            <span aria-hidden="true" class="hidden">Mastodon</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://instagram.com/maskblocorg"
-             class="instagram"
-             aria-label="Instagram">
-            <span aria-hidden="true" class="hidden">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/maskblocorg"
-             class="x"
-             aria-label="X/Twitter">
-            <span aria-hidden="true" class="hidden">X</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://threads.net/maskblocorg"
-             class="threads"
-             aria-label="Threads">
-            <span aria-hidden="true" class="hidden">Threads</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:maskbloc.org@proton.me"
-             class="email"
-             aria-label="Email Adress">
-            <span aria-hidden="true" class="hidden">Email</span>
-          </a>
-        </li>
-      </ul>
-
-      <div class="end">
-        <p>We ❤️ you</p>
-      </div>
+      {% include "../_partials/footer.njk" %}
     </footer>
   </body>
 </html>
