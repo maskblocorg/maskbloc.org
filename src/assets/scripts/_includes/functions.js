@@ -159,8 +159,119 @@ const configureSearchInputAccessibility = (searchInput) => {
   });
 }
 
+/**
+ * Attach an
+ *
+ * @param {HTMLElement} searchInput The search input element to configure.
+ */
+const configureThemeToggle = () => {
+  const darkElement = document.getElementById('theme-dark');
+  const autoElement = document.getElementById('theme-auto');
+  const lightElement = document.getElementById('theme-light');
+
+  const allElements = [darkElement, autoElement, lightElement];
+
+  [darkElement, autoElement, lightElement].forEach(function(element) {
+    element.addEventListener('change', function(event) {
+      const element = event.target;
+      const isChecked = element.checked;
+      const elementID = element.id;
+
+      allElements.forEach(function(element) {
+        element.removeAttribute("checked");
+      });
+
+      element.setAttribute("checked", "");
+
+      if (isChecked) {
+        updateTheme(elementID, getPreferredColorTheme());
+      }
+    });
+  });
+
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', function() {
+      if (autoElement.checked || localStorage.getItem("theme") === 'theme-auto') {
+        updateTheme('theme-auto', getPreferredColorTheme());
+      }
+    });
+}
+
+const getPreferredColorTheme = () => {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    return "theme-dark";
+  } else {
+    return "theme-light";
+  }
+}
+
+const setCurrentTheme = () => {
+  const theme = localStorage.getItem("theme");
+
+  if (theme) {
+    updateTheme(theme, getPreferredColorTheme());
+    console.log(theme);
+    updateRadioButtons(theme);
+  }
+}
+
+const updateRadioButtons = (theme) => {
+  const darkElement = document.getElementById('theme-dark');
+  const autoElement = document.getElementById('theme-auto');
+  const lightElement = document.getElementById('theme-light');
+
+  const allElements = [darkElement, autoElement, lightElement];
+
+  allElements.forEach(function(element) {
+    element.removeAttribute("checked");
+  });
+
+  switch (theme) {
+    case 'theme-dark':
+      darkElement.setAttribute("checked", "");
+      break;
+    case 'theme-auto':
+      autoElement.setAttribute("checked", "");
+      break;
+    case 'theme-light':
+      lightElement.setAttribute("checked", "");
+      break;
+    default: break;
+  }
+}
+
+const updateTheme = (theme, preferredTheme) => {
+  let rootNodes = document.querySelectorAll(":root");
+
+  rootNodes.forEach((e) => e.classList.remove("dark"));
+  rootNodes.forEach((e) => e.classList.remove("light"));
+
+  switch (theme) {
+    case 'theme-dark':
+      rootNodes.forEach((e) => e.classList.add("dark"));
+      localStorage.setItem("theme", theme);
+      break;
+    case 'theme-auto':
+      if (preferredTheme === "theme-dark") {
+        rootNodes.forEach((e) => e.classList.add("dark"));
+      } else {
+        rootNodes.forEach((e) => e.classList.add("light"));
+      }
+      localStorage.setItem("theme", theme);
+      break;
+    case 'theme-light':
+      rootNodes.forEach((e) => e.classList.add("light"));
+      localStorage.setItem("theme", theme);
+      break;
+    default: break;
+  }
+}
+
 export {
   filterFromQueryParameters,
   filterBlocs,
-  configureSearchInputAccessibility
+  configureSearchInputAccessibility,
+  configureThemeToggle,
+  setCurrentTheme
 }
