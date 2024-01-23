@@ -75,14 +75,8 @@ module.exports = (config) => {
     }
   });
 
-  // === Copy ==================================================================
-  ["src/assets", "src/robots.txt"].forEach(path => {
-    config.addPassthroughCopy(path, {
-        filter: path => {
-          !path.endsWith('.css') && !path.endsWith('.ts') &&
-          !path.endsWith('.js') && !path.startsWith('_')
-        }
-    })
+  ["src/assets/images", "src/assets/manifest.webmanifest", "src/robots.txt"].forEach(path => {
+    config.addPassthroughCopy(path)
   });
 
   return {
