@@ -18,8 +18,6 @@ html {
 html, body {
   background-color: var(--default-background-color);
   color: var(--text-color);
-
-  height: 100vh;
 }
 
 html.light,
