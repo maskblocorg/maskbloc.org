@@ -19,8 +19,8 @@
   }
 }
 
-.preload-transitions *,
-.preload-transitions *::after,
-.preload-transitions *::before {
+.no-transitions *,
+.no-transitions *::after,
+.no-transitions *::before {
   transition: none !important;
 }

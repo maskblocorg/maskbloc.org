@@ -129,6 +129,7 @@ const updateRadioButtons = (theme: Theme) => {
 const updateTheme = (theme: Theme, preferredTheme: Theme) => {
   const rootNodes = document.querySelectorAll(':root');
 
+  rootNodes.forEach((e) => e.classList.add('no-transitions'));
   rootNodes.forEach((e) => e.classList.remove('dark'));
   rootNodes.forEach((e) => e.classList.remove('light'));
 
@@ -152,6 +153,10 @@ const updateTheme = (theme: Theme, preferredTheme: Theme) => {
     default:
       break;
   }
+
+  setTimeout(function () {
+    rootNodes.forEach((e) => e.classList.remove('no-transitions'));
+  }, 100);
 };
 
 // //// Exports ///////////////////////////////////////////////////////////// //

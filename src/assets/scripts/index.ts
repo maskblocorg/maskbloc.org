@@ -33,7 +33,7 @@ document.onreadystatechange = function () {
 
     setTimeout(function () {
       const rootNodes = document.querySelectorAll(':root');
-      rootNodes.forEach((e) => e.classList.remove('preload-transitions'));
-    }, 500);
+      rootNodes.forEach((e) => e.classList.remove('no-transitions'));
+    }, 100);
   }
 };
