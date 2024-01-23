@@ -13,6 +13,7 @@
       {
         "type": "instagram",
         "username": "@freemasks4phx",
+        "aria": "@ Free Masks 4 P H X",
         "url": "https://www.instagram.com/freemasks4phx/"
       },
       {
@@ -36,11 +37,13 @@
       {
         "type": "instagram",
         "username": "@cx4_la",
+        "aria": "@ C X 4 L A",
         "url": "https://www.instagram.com/cx4_la/"
       },
       {
         "type": "allmylinks",
         "username": "@cx4losangeles",
+        "aria": "@ C X 4 Los Angeles",
         "url": "https://allmylinks.com/cx4losangeles"
       }
     ]
@@ -60,16 +63,19 @@
       {
         "type": "instagram",
         "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
         "url": "https://www.instagram.com/maskblocla/"
       },
       {
         "type": "x",
         "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
         "url": "https://x.com/maskblocla"
       },
       {
         "type": "linktree",
         "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
         "url": "https://linktr.ee/maskblocla/"
       }
     ]
@@ -88,11 +94,13 @@
       {
         "type": "instagram",
         "username": "@maskbloclongbeach",
+        "aria": "@ Mask Bloc Long Beach",
         "url": "https://www.instagram.com/maskbloclongbeach/"
       },
       {
         "type": "linktree",
         "username": "@maskbloclongbeach",
+        "aria": "@ Mask Bloc Long Beach",
         "url": "https://www.linktr.ee/maskbloclongbeach"
       }
     ]
@@ -112,6 +120,7 @@
       {
         "type": "instagram",
         "username": "@maskbloc916",
+        "aria": "@ Mask Bloc 916",
         "url": "https://www.instagram.com/maskbloc916/"
       },
       {
@@ -136,11 +145,13 @@
       {
         "type": "instagram",
         "username": "@maskblocucdavis",
+        "aria": "@ Mask Bloc U C Davis",
         "url": "https://www.instagram.com/maskblocucdavis/"
       },
       {
         "type": "linktree",
         "username": "@MaskBlocUCDavis",
+        "aria": "@ Mask Bloc U C Davis",
         "url": "https://linktr.ee/MaskBlocUCDavis"
       }
     ]
@@ -161,16 +172,19 @@
       {
         "type": "instagram",
         "username": "@chumanityc",
+        "aria": "@ C Humanity C",
         "url": "https://www.instagram.com/chumanityc/"
       },
       {
         "type": "x",
         "username": "@chumanityc",
+        "aria": "@ C Humanity C",
         "url": "https://x.com/chumanityc"
       },
       {
         "type": "linktree",
         "username": "@chumanityc",
+        "aria": "@ C Humanity C",
         "url": "https://www.linktr.ee/chumanityc"
       }
     ]
@@ -192,11 +206,13 @@
       {
         "type": "instagram",
         "username": "@masksonoma",
+        "aria": "@ Mask Sonoma",
         "url": "https://www.instagram.com/masksonoma/"
       },
       {
         "type": "x",
         "username": "@masksonoma",
+        "aria": "@ Mask Sonoma",
         "url": "https://x.com/masksonoma"
       }
     ]
@@ -218,11 +234,13 @@
       {
         "type": "instagram",
         "username": "@maskbloceastbay",
+        "aria": "@ Mask Block East Bay",
         "url": "https://www.instagram.com/maskbloceastbay/"
       },
       {
         "type": "linktree",
         "username": "@MaskBlocEastBay",
+        "aria": "@ Mask Block East Bay",
         "url": "https://linktr.ee/MaskBlocEastBay"
       }
     ]
@@ -244,6 +262,7 @@
       {
         "type": "instagram",
         "username": "@maskblocsunsetsf",
+        "aria": "@ Mask Block Sunset S F",
         "url": "https://www.instagram.com/maskblocsunsetsf/"
       },
       {
@@ -252,6 +271,7 @@
       },
       {
         "type": "email",
+        "aria": "Mask Block Sunset S F @ Proton Mail dot com",
         "name": "maskblocsunsetsf@protonmail.com",
         "email": "maskblocsunsetsf@protonmail.com"
       }
@@ -274,11 +294,13 @@
       {
         "type": "instagram",
         "username": "@maskblocsanjose",
+        "aria": "@ Mask Bloc San Jose",
         "url": "https://www.instagram.com/maskblocsanjose/"
       },
       {
         "type": "web",
         "name": "www.masksanjose.org",
+        "aria": "www dot Mask Bloc San Jose dot org",
         "url": "https://www.masksanjose.org"
       }
     ]
@@ -733,7 +755,7 @@
   },
   "swampcentralfl": {
     "name": "S.W.A.M.P. Central Florida",
-    "subdivision": "DC",
+    "subdivision": "FL",
     "keywords": [
       "fl",
       "florida",
@@ -766,8 +788,8 @@
     "socials": [
       {
         "type": "instagram",
-        "username": "@FightCovidNOLA",
-        "url": "https://www.instagram.com/FightCovidNOLA"
+        "username": "@fightcovidnola",
+        "url": "https://www.instagram.com/fightcovidnola"
       },
       {
         "type": "linktree",

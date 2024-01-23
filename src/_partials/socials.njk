@@ -9,7 +9,7 @@
           <li class="social-link instagram">
             <a href="{{social.url}}"
               tabindex="0"
-              aria-label="Instagram: {{social.username}}.">
+              aria-label="Instagram: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -17,7 +17,7 @@
           <li class="social-link x">
             <a href="{{social.url}}"
               tabindex="0"
-              aria-label="X/Twitter: {{social.username}}.">
+              aria-label="X/Twitter: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -25,7 +25,7 @@
           <li class="social-link mastodon">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="Mastodon: {{social.username}}.">
+               aria-label="Mastodon: {{social.aria if social.aria else social.email}}.">
                {{social.username}}
             </a>
           </li>
@@ -33,7 +33,7 @@
           <li class="social-link facebook">
             <a href="{{social.url}}"
                tabindex="0"
-                aria-label="Facebook account of {{social.name}}.">
+                aria-label="Facebook account of {{social.aria if social.aria else social.email}}.">
             {{social.name}}
             </a>
           </li>
@@ -41,7 +41,7 @@
           <li class="social-link linktree">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="Linktree: {{social.username}}.">
+               aria-label="Linktree: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -49,7 +49,7 @@
           <li class="social-link allmylinks">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="AllMyLinks: {{social.username}}.">
+               aria-label="AllMyLinks: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -57,7 +57,7 @@
           <li class="social-link gofundme">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="GoFundMe: {{name}}.">
+               aria-label="GoFundMe: {{social.aria if social.aria else social.email}}.">
               {{social.name}}
             </a>
           </li>
@@ -65,7 +65,7 @@
           <li class="social-link cashapp">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="CashApp: {{social.username}}.">
+               aria-label="CashApp: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -73,7 +73,7 @@
           <li class="social-link venmo">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="Venmo: {{social.username}}.">
+               aria-label="Venmo: {{social.aria if social.aria else social.email}}.">
               {{social.username}}
             </a>
           </li>
@@ -81,7 +81,7 @@
           <li class="social-link email">
             <a href="mailto:{{social.email}}"
                tabindex="0"
-               aria-label="Mail to: {{social.email}}.">
+               aria-label="Mail to: {{social.aria if social.aria else social.email}}.">
               {{social.email}}
             </a>
           </li>
@@ -89,7 +89,7 @@
           <li class="social-link web">
             <a href="{{social.url}}"
                tabindex="0"
-               aria-label="Website: {{social.name}}.">
+               aria-label="Website: {{social.aria if social.aria else social.email}}.">
               {{social.name}}
             </a>
           </li>
