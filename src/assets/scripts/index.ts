@@ -10,9 +10,6 @@ import {
 import { configureThemeToggle, applyCurrentTheme } from './_includes/themes';
 
 document.onreadystatechange = function () {
-  if (document.readyState === 'loading') {
-  }
-
   if (document.readyState === 'complete') {
     const searchInput = document.getElementById('bloc-filter') as HTMLInputElement | null;
 
@@ -32,8 +29,7 @@ document.onreadystatechange = function () {
     applyCurrentTheme();
 
     setTimeout(function () {
-      const rootNodes = document.querySelectorAll(':root');
-      rootNodes.forEach((e) => e.classList.remove('no-transitions'));
+      document.documentElement.classList.remove('no-transitions');
     }, 100);
   }
 };

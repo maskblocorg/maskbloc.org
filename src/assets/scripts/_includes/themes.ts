@@ -127,27 +127,27 @@ const updateRadioButtons = (theme: Theme) => {
 };
 
 const updateTheme = (theme: Theme, preferredTheme: Theme) => {
-  const rootNodes = document.querySelectorAll(':root');
+  const rootElement = document.documentElement;
 
-  rootNodes.forEach((e) => e.classList.add('no-transitions'));
-  rootNodes.forEach((e) => e.classList.remove('dark'));
-  rootNodes.forEach((e) => e.classList.remove('light'));
+  rootElement.classList.add('no-transitions');
+  rootElement.classList.remove('dark');
+  rootElement.classList.remove('light');
 
   switch (theme) {
     case Theme.Dark:
-      rootNodes.forEach((e) => e.classList.add('dark'));
+      rootElement.classList.add('dark');
       setCurrentTheme(theme);
       break;
     case Theme.Auto:
       if (preferredTheme === Theme.Dark) {
-        rootNodes.forEach((e) => e.classList.add('dark'));
+        rootElement.classList.add('dark');
       } else {
-        rootNodes.forEach((e) => e.classList.add('light'));
+        rootElement.classList.add('light');
       }
       setCurrentTheme(theme);
       break;
     case Theme.Light:
-      rootNodes.forEach((e) => e.classList.add('light'));
+      rootElement.classList.add('light');
       setCurrentTheme(theme);
       break;
     default:
@@ -155,7 +155,7 @@ const updateTheme = (theme: Theme, preferredTheme: Theme) => {
   }
 
   setTimeout(function () {
-    rootNodes.forEach((e) => e.classList.remove('no-transitions'));
+    rootElement.classList.remove('no-transitions');
   }, 100);
 };
 
