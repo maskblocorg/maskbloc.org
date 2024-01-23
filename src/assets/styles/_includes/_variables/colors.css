@@ -7,6 +7,10 @@
  * A list of colors.
  */
 
+:root {
+  --default-background-color: hsl(0, 0%, 50%);
+}
+
 .dark {
   --background-color: black;
   --menu-background-color: var(--background-color);

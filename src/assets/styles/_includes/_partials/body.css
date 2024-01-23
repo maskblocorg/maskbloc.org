@@ -16,8 +16,15 @@ html {
 }
 
 html, body {
-  background-color: var(--background-color);
+  background-color: var(--default-background-color);
   color: var(--text-color);
 
   height: 100vh;
+}
+
+html.light,
+html.dark,
+html.light body,
+html.dark body {
+  background-color: var(--background-color);
 }

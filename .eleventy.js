@@ -6,12 +6,15 @@ const postcssImport = require('postcss-import');
 const postcssMediaMinmax = require('postcss-media-minmax');
 const autoprefixer = require('autoprefixer');
 const postcssCustomMedia = require('postcss-custom-media');
+const postcssNesting = require('postcss-nesting');
 const postcssCsso = require('postcss-csso');
 
 const esbuild = require('esbuild');
 
 const filters = require('./scripts/filters.js');
 const maskbloc = require('./scripts/maskbloc.js');
+
+const debug = require('debug')('maskbloc')
 
 module.exports = (config) => {
   config.addNunjucksGlobal("keywords", maskbloc.makeKeywords);
@@ -24,7 +27,7 @@ module.exports = (config) => {
 
     // === Templates ===========================================================
   config.addTemplateFormats('css');
-  config.addTemplateFormats('js');
+  config.addTemplateFormats('ts');
 
   config.addExtension('css', {
     outputFileExtension: 'css',
@@ -39,6 +42,7 @@ module.exports = (config) => {
           postcssMediaMinmax,
           postcssCustomMedia,
           autoprefixer,
+          postcssNesting,
           postcssCsso,
         ]).process(content, {
           from: path,
@@ -49,11 +53,11 @@ module.exports = (config) => {
     }
   });
 
-  config.addExtension('js', {
+  config.addExtension('ts', {
     outputFileExtension: 'js',
     compile: async (content, path) => {
       return async () => {
-        if (path !== './src/assets/scripts/index.js') {
+        if (path !== './src/assets/scripts/index.ts') {
           return;
         }
 
@@ -74,7 +78,10 @@ module.exports = (config) => {
   // === Copy ==================================================================
   ["src/assets", "src/robots.txt"].forEach(path => {
     config.addPassthroughCopy(path, {
-        filter: path => !path.endsWith('.css') && !path.startsWith('_')
+        filter: path => {
+          !path.endsWith('.css') && !path.endsWith('.ts') &&
+          !path.endsWith('.js') && !path.startsWith('_')
+        }
     })
   });
 

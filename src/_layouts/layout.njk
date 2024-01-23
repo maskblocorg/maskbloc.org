@@ -2,7 +2,7 @@
 {# Licensed under the terms of the GPL-3 license. #}
 
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="preload-transitions">
   <head>
     <meta charset="UTF-8">
 
@@ -53,8 +53,9 @@
           "keywords": {{ keywords() | safe }}
         }
       </script>
-      <script defer src="/assets/scripts/index.js"></script>
     {% endif %}
+
+    <script defer src="/assets/scripts/index.js"></script>
   </head>
   <body>
     <header class="navigation">

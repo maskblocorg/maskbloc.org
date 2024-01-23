@@ -18,3 +18,9 @@
     transform: 0;
   }
 }
+
+.preload-transitions *,
+.preload-transitions *::after,
+.preload-transitions *::before {
+  transition: none !important;
+}
