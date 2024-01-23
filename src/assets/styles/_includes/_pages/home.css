@@ -201,7 +201,7 @@ ul.useful-link-list .useful-link {
   width: 100%;
 
   padding-top: 1em;
-  border-top: 1px solid white;
+  border-top: 1px solid var(--text-color);
 }
 
 .socials ul {
@@ -390,17 +390,13 @@ li.venmo::before {
 
 /* **** LANDING SECTION + SEARCH ******************************************** */
 
-/* @media (prefers-color-scheme: light) {
-  .with-arrow > header::after,
-  .bloc-search .bloc-search-input::after {
-    filter: invert(100%);
-  }
-} */
+.light .with-arrow > header::after,
+.light .bloc-search .bloc-search-input::after {
+  filter: invert(100%);
+}
 
 /* **** SOCIALS ************************************************************* */
 
-/* @media (prefers-color-scheme: light) {
-  li.social-link::before {
-    filter: invert(100%);
-  }
-} */
+.light li.social-link::before {
+  filter: invert(100%);
+}

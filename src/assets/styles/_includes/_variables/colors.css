@@ -5,42 +5,36 @@
 
 /*
  * A list of colors.
- *
- * TODO: Support Light Mode. Light mode is ready, but the manual toggle
- *       hasn't been implemented.
  */
 
-/* @media (prefers-color-scheme: dark) { */
-  :root {
-    --background-color: black;
-    --menu-background-color: var(--background-color);
-    --text-color: white;
+.dark {
+  --background-color: black;
+  --menu-background-color: var(--background-color);
+  --text-color: white;
 
-    --border-color: white;
-    --divider-color: hsl(0, 0%, 50%);
+  --border-color: white;
+  --divider-color: hsl(0, 0%, 40%);
 
-    --anchor-hover-color: hsl(0, 92%, 69%);
+  --anchor-hover-color: hsl(0, 92%, 69%);
 
-    --tag-color: hsl(0, 0%, 15%);
-    --placeholder-color: hsl(0, 0%, 77%);
-  }
-/* } */
+  --tag-color: hsl(0, 0%, 15%);
+  --placeholder-color: hsl(0, 0%, 77%);
+}
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --background-color: white;
-    --menu-background-color: var(--background-color);
-    --text-color: black;
+.light {
+  --background-color: white;
+  --menu-background-color: var(--background-color);
+  --text-color: black;
 
-    --border-color: black;
-    --divider-color: hsl(0, 0%, 50%);
+  --border-color: black;
+  --divider-color: hsl(0, 0%, 60%);
 
-    --anchor-hover-color: hsl(0, 92%, 36%);
+  --anchor-hover-color: hsl(0, 92%, 36%);
 
-    --tag-color ?????
-    --placeholder-color: ?????
+  --tag-color: hsl(0, 0%, 93%);
+  --placeholder-color: hsl(0, 0%, 35%);
+}
 
-  img {
-    filter: invert(100%);
-  }
-} */
+.light img {
+  filter: invert(100%);
+}

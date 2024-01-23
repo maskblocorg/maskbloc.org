@@ -89,3 +89,7 @@ footer > p {
 footer .end {
   margin-top: 1em;
 }
+
+footer .end p {
+  margin-bottom: 0.5em;
+}

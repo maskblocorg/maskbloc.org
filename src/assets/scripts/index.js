@@ -4,7 +4,9 @@
 import {
   filterFromQueryParameters,
   filterBlocs,
-  configureSearchInputAccessibility
+  configureSearchInputAccessibility,
+  configureThemeToggle,
+  setCurrentTheme
 } from './_includes/functions';
 
 document.onreadystatechange = function () {
@@ -17,5 +19,8 @@ document.onreadystatechange = function () {
     searchInput.addEventListener("input", function(element) {
       filterBlocs(element.target.value);
     })
+
+    configureThemeToggle();
+    setCurrentTheme();
   }
 }

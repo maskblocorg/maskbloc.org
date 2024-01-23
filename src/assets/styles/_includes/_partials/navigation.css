@@ -32,10 +32,22 @@
   display: inline-block;
   margin-left: .5em;
   content: "";
-  background-image: url(/assets/images/mb/external.svg);
+  background-color: var(--text-color);
+
+  mask: url(/assets/images/mb/external.svg);
 
   margin-top: auto;
   margin-bottom: auto;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.navigation nav li.external:hover a::after {
+  background-color: var(--anchor-hover-color);
+}
+
+.navigation nav li.external:hover a {
+  color: var(--anchor-hover-color);
 }
 
 /***** MEDIA QUERIES ******************************************************** */
@@ -175,8 +187,84 @@
   }
 }
 
-/* @media (prefers-color-scheme: light) {
-  .navigation nav li.external a::after {
-    filter: invert(100%);
-  }
-} */
+.theme-toggle fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme-toggle fieldset legend {
+  display: none;
+}
+
+.theme-toggle input {
+  display: none;
+}
+
+.theme-toggle div input:checked ~ label {
+  color: var(--background-color);
+  background: var(--text-color);
+}
+
+.theme-toggle div:hover input:checked ~ label {
+  background-color: var(--anchor-hover-color);
+  border-color: var(--anchor-hover-color);
+}
+
+.theme-toggle div label {
+  border: 1px solid var(--text-color);
+  padding: .2em .5em;
+  cursor: pointer;
+  display: flex;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.theme-toggle div:hover label {
+  color: var(--anchor-hover-color);
+  border-color: var(--anchor-hover-color);
+}
+
+.navigation nav li.theme-toggle {
+  margin-left: auto;
+}
+
+.theme-toggle div .theme-auto {
+  border-left: 0;
+  border-right: 0;
+}
+
+.theme-light::before,
+.theme-dark::after {
+  content: "";
+  display: inline-block;
+
+  width: 1em;
+  height: 1em;
+
+  background-color: var(--text-color);
+  margin-top: auto;
+  margin-bottom: auto;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.theme-toggle div:hover .theme-light::before,
+.theme-toggle div:hover .theme-dark::after {
+  background-color: var(--anchor-hover-color);
+}
+
+.theme-toggle div input:checked ~ .theme-light::before,
+.theme-toggle div input:checked ~ .theme-dark::after {
+  background-color: var(--background-color);
+}
+
+.theme-light::before {
+  mask: url(/assets/images/mb/sun.svg);
+  margin-right: 0.5em;
+}
+
+.theme-dark::after {
+  mask: url(/assets/images/mb/moon.svg);
+  margin-left: 0.5em;
+}
