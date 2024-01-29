@@ -75,7 +75,13 @@
       ],
       "blocs": [
         "chi-mask",
-        "maskblocstl"
+        "maskblocstl",
+        "maskblocfortwayne",
+        "covidsafemsu",
+        "maskbloc614",
+        "covidsafeoberlin",
+        "cprcle",
+        "maskbloc608"
       ]
     },
     "usa-south": {

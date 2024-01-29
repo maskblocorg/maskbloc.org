@@ -814,6 +814,128 @@
       }
     ]
   },
+  "maskblocfortwayne": {
+    "name": "Mask Bloc Fort Wayne",
+    "subdivision": "IN",
+    "keywords": [
+      "in",
+      "indiana",
+      "fort",
+      "wayne"
+    ],
+    "description": "Collective of folx in Fort Wayne, Indiana organizing to fight covid eugenics with mutual aid, education, and direct action.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc608",
+        "url": "https://www.instagram.com/maskblocfortwayne/"
+      }
+    ]
+  },
+  "covidsafemsu": {
+    "name": "COVID Safe MSU/Michigan",
+    "subdivision": "MI",
+    "keywords": [
+      "mi",
+      "michigan",
+      "east",
+      "lansing"
+    ],
+    "description": "COVID isn't over. Public health as community care\n📍 Location: @michiganstateu\n@covidsafecampus ambassador\nViews own\nPreviously @covid_campus_coalition affiliate.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafemsu",
+        "url": "https://www.instagram.com/covidsafemsu"
+      },
+      {
+        "type": "linktree",
+        "username": "@COVIDsafeMSU",
+        "url": "https://linktr.ee/COVIDsafeMSU"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/o74NKv3z1k73cu3y8"
+      }
+    ]
+  },
+  "maskbloc614": {
+    "name": "Mask Bloc 614",
+    "subdivision": "OH",
+    "keywords": [
+      "oh",
+      "ohio",
+      "columbus",
+      "614"
+    ],
+    "description": "Antifascist disabled & trans led mask distribution & info project – mutual aid & education towards disability justice, environment justice, and community care in Ohio.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc614",
+        "url": "https://www.instagram.com/maskbloc614/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc614",
+        "url": "https://linktr.ee/maskbloc614"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScfMEzJBGNCOFC90sRfHftAApmo-KLczrtWBHzCNaa4p2Mobg/viewform"
+      }
+    ]
+  },
+  "covidsafeoberlin": {
+    "name": "Covid Safe Oberlin",
+    "subdivision": "OH",
+    "keywords": [
+      "oh",
+      "ohio",
+      "oberlin"
+    ],
+    "description": "Promoting harm reduction, community care, and disability justice at Oberlin College. Not affiliated with ObieSafe, views own. Check out our linktree!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafeoberlin",
+        "url": "https://www.instagram.com/covidsafeoberlin/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeoberlin",
+        "url": "https://linktr.ee/covidsafeoberlin"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/1un5JeESmg229IePkrb7g2YIcw70ihFoLa7dbMQa6Uz8/edit"
+      }
+    ]
+  },
+  "cprcle": {
+    "name": "Cleveland Pandemic Response",
+    "subdivision": "OH",
+    "keywords": [
+      "oh",
+      "ohio",
+      "neo",
+      "northeast",
+      "cleveland"
+    ],
+    "description": "A group of neighborhood organizers and community members aiming to provide mutual aid and support to Northeast Ohio residents during the COVID-19 pandemic.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cprcle",
+        "url": "https://www.instagram.com/cprcle/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeoberlin",
+        "url": "https://linktr.ee/cprcle"
+      }
+    ]
+  },
   "maskblocstl": {
     "name": "Mask Bloc St Louis",
     "subdivision": "MO",
@@ -838,6 +960,34 @@
       {
         "type": "email",
         "email": "maskblocstlouis@gmail.com"
+      }
+    ]
+  },
+  "maskbloc608": {
+    "name": "Mask Bloc 608",
+    "subdivision": "WI",
+    "keywords": [
+      "wi",
+      "wisconsin",
+      "madison",
+      "teejop",
+      "608"
+    ],
+    "description": "A queer, trans, and disabled-run project distributing free masks to the community in Teejop (so-called Madison, Wisconsin). We keep us safe.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc608",
+        "url": "https://www.instagram.com/maskbloc608"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocstl",
+        "url": "https://linktr.ee/maskbloc608"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/1xv_Cds5byxE4h4HVo6eCGQYUFMEwNicCmQ4DQcB5H1I/edit"
       }
     ]
   },
