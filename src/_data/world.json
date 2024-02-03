@@ -52,6 +52,7 @@
         "boscovidaction",
         "maskbloc_berkshires",
         "westernmassmaskbloc",
+        "maskblocnj",
         "cscrutgers",
         "maskblocjc",
         "maskbloccnj",
@@ -101,7 +102,12 @@
         "ozarkscovaction",
         "maskblocdc",
         "swampcentralfl",
-        "fightcovidnola"
+        "fightcovidnola",
+        "themidsouthscdc",
+        "nashmask4mask",
+        "CleanAirKnoxTN",
+        "maskblocdfw",
+        "maskblocatx"
       ]
     },
     "can": {

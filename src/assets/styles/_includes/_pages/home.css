@@ -252,6 +252,14 @@ li.linktree::before {
   background-image: url(/assets/images/vendor/linktree.svg);
 }
 
+li.allmylinks::before {
+  background-image: url(/assets/images/vendor/allmylinks.svg);
+}
+
+li.carrd::before {
+  background-image: url(/assets/images/vendor/carrd.svg);
+}
+
 li.facebook::before {
   background-image: url(/assets/images/vendor/facebook.svg);
 }
@@ -274,10 +282,6 @@ li.mastodon::before {
 
 li.gofundme::before {
   background-image: url(/assets/images/vendor/gofundme.svg);
-}
-
-li.allmylinks::before {
-  background-image: url(/assets/images/vendor/allmylinks.svg);
 }
 
 li.cashapp::before {

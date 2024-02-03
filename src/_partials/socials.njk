@@ -45,6 +45,14 @@
               {{social.username}}
             </a>
           </li>
+        {% elif social.type == "carrd" %}
+          <li class="social-link carrd">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Linktree: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
         {% elif social.type == "allmylinks" %}
           <li class="social-link allmylinks">
             <a href="{{social.url}}"

@@ -542,6 +542,28 @@
       }
     ]
   },
+  "maskblocnj": {
+    "name": "Mask Bloc NJ",
+    "subdivision": "NJ",
+    "keywords": [
+      "nj",
+      "new",
+      "jersey"
+    ],
+    "description": "Jersey folks joining together in mutual aid and solidarity to distribute masks, share resources, and advocate for public health and community care.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocnj",
+        "url": "https://www.instagram.com/maskblocnj/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskblocnj",
+        "url": "https://maskblocnj.carrd.co/"
+      }
+    ]
+  },
   "cscrutgers": {
     "name": "Covid Safe Camps at Rutgers-NB",
     "subdivision": "NJ",
@@ -606,6 +628,11 @@
         "type": "instagram",
         "username": "@maskbloccnj",
         "url": "https://www.instagram.com/maskbloccnj/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskbloccnj",
+        "url": "https://maskbloccnj.carrd.co/"
       }
     ]
   },
@@ -795,6 +822,138 @@
         "type": "linktree",
         "username": "@fightcovidnola",
         "url": "https://www.linktr.ee/fightcovidnola"
+      }
+    ]
+  },
+  "themidsouthscdc": {
+    "name": "The Mid-South's CDC",
+    "subdivision": "TN",
+    "keywords": [
+      "tn",
+      "tennessee",
+      "mid",
+      "south",
+      "west",
+      "cdc"
+    ],
+    "description": "West Tennessee-based COVID PPE project mailing free, high-filtration masks across the Mid-South region, no questions asked. 😷 Hit the form below to get masks 👇🏾",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@themidsouthscdc",
+        "url": "https://www.instagram.com/themidsouthscdc/"
+      },
+      {
+        "type": "form",
+        "url": "https://l.instagram.com/?u=https%3A%2F%2Fcryptpad.fr%2Fform%2F%23%2F2%2Fform%2Fview%2Fzbfqal4QVQIWUkwY6b-I0TY1ww5Lv0AEHVt1TJ3xA44%2F&e=AT3zeKNjmyNyRm8jbq9b0twtlrHoTpNk6-y-ReVTYP5teA1yIt5EYIrVm6HUD8_O9ci48LRSOn2hYMjv3_DXS8CKENPiY6Q-1oo_nTk"
+      }
+    ]
+  },
+  "nashmask4mask": {
+    "name": "Mask4Mask Nashville",
+    "subdivision": "TN",
+    "keywords": [
+      "tn",
+      "tennessee",
+      "nashville"
+    ],
+    "description": "Nashville queers organized against COVID eugenics. 😷🏳️‍🌈🏳️‍⚧️\nCommitted to resource sharing and creating space for each other. 👥",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@nashmask4mask",
+        "url": "https://www.instagram.com/nashmask4mask/"
+      },
+      {
+        "type": "linktree",
+        "username": "@nashmask4mask",
+        "url": "https://linktr.ee/nashmask4mask/"
+      }
+    ]
+  },
+  "CleanAirKnoxTN": {
+    "name": "Clean Air Club Knoxville TN",
+    "subdivision": "TN",
+    "keywords": [
+      "tn",
+      "tennessee",
+      "knoxville"
+    ],
+    "description": "Brand new clean air club/mask bloc. Free palestine!",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@CleanAirKnoxTN",
+        "url": "https://x.com/CleanAirKnoxTN"
+      }
+    ]
+  },
+  "maskblocdfw": {
+    "name": "Mask Bloc DFW",
+    "subdivision": "TX",
+    "keywords": [
+      "tx",
+      "texas",
+      "dallas",
+      "fort",
+      "worth"
+    ],
+    "description": "Mask Bloc DFW. is a mutual aid group providing free masks, political education, and disability justice advocacy. Dallas-Forth Worth, Texas",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocdfw",
+        "url": "https://www.instagram.com/maskblocdfw"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocdfw",
+        "url": "https://www.linktr.ee/maskblocdfw"
+      }
+    ]
+  },
+  "maskblocatx": {
+    "name": "Mask Bloc ATX",
+    "subdivision": "TX",
+    "keywords": [
+      "tx",
+      "texas",
+      "austin"
+    ],
+    "description": "COVID prevention activist & mutual aid group that gives out masks for free in communities. Austin, Texas. In partnership with @covidsaferatx on Instagram.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocatx",
+        "url": "https://www.instagram.com/maskblocatx/"
+      },
+      {
+        "type": "carrd",
+        "username": "@MaskBlocATX",
+        "url": "https://maskblocatx.carrd.co/"
+      }
+    ]
+  },
+  "ccbsa": {
+    "name": "Covid Conscious Bloc of San Antonio",
+    "subdivision": "TX",
+    "keywords": [
+      "tx",
+      "texas",
+      "san",
+      "antonio"
+    ],
+    "description": "Building community, sharing educational resources, advocating for masking, clean air, & accessibility for all.\n😷🤝😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@ccb.sa",
+        "url": "https://www.instagram.com/ccb.sa/"
+      },
+      {
+        "type": "linktree",
+        "username": "@ccbsa",
+        "url": "https://www.linktr.ee/ccbsa"
       }
     ]
   },
