@@ -57,6 +57,7 @@
         "maskblocjc",
         "maskbloccnj",
         "covidsolidaritynyc",
+        "maskuprochester",
         "maskbloc631",
         "phillymaskbloc",
         "maskuppitt"
@@ -76,9 +77,10 @@
       ],
       "blocs": [
         "chi-mask",
-        "maskblocstl",
         "maskblocfortwayne",
         "covidsafemsu",
+        "covidawaretc",
+        "maskblocstl",
         "maskbloc614",
         "covidsafeoberlin",
         "cprcle",

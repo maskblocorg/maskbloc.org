@@ -655,6 +655,29 @@
       }
     ]
   },
+  "maskuprochester": {
+    "name": "Mask Up! Rochester, NY",
+    "subdivision": "NY",
+    "keywords": [
+      "ny",
+      "new",
+      "york",
+      "rochester"
+    ],
+    "description": "COVID safety mutual aid group providing free, high-quality masks to the people of Rochester, New York.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskuprochester",
+        "url": "https://www.instagram.com/maskuprochester/"
+      },
+      {
+        "type": "web",
+        "name": "Website",
+        "url": "https://maskuproc.crd.co/"
+      }
+    ]
+  },
   "maskbloc631": {
     "name": "Mask Bloc 631",
     "subdivision": "NY",
@@ -1015,6 +1038,38 @@
       {
         "type": "form",
         "url": "https://forms.gle/o74NKv3z1k73cu3y8"
+      }
+    ]
+  },
+  "covidawaretc": {
+    "name": "COVIDAwareTC",
+    "subdivision": "MN",
+    "keywords": [
+      "mn",
+      "minnesota",
+      "minneapolis",
+      "saint",
+      "paul",
+      "east",
+      "mni",
+      "sota",
+      "makoce"
+    ],
+    "description": "An informal group of people in Minneapolis–Saint Paul organizing resources, political education, and solidarity around the ongoing pandemic. 😷\n📍 Location: Mni Sota Makoce",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidawaretc",
+        "url": "https://www.instagram.com/covidawaretc"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidawaretc",
+        "url": "https://linktr.ee/covidawaretc"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/QmYipHOpSDVp9TamsF2G+iGpeTrg8b5os1V2e4y4Hq0/"
       }
     ]
   },
