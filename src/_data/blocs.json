@@ -715,14 +715,14 @@
     "description": "Nassau County and Queens based mutual aid to distribute masks, rapid COVID tests, and resources to improve the health and safety of our community.\n 📍 Location: Long Island, New York",
     "socials": [
       {
-        "type": "linktree",
-        "username": "@maskbloc516",
-        "url": "https://linktr.ee/maskbloc516/"
-      },
-      {
         "type": "instagram",
         "username": "@maskbloc516",
-        "url": "https://www.instagram.com/maskbloc516/"
+        "url": "https://www.instagram.com/MaskBloc516/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc516",
+        "url": "https://linktr.ee/MaskBloc516/"
       }
     ]
   },
