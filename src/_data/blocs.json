@@ -1069,6 +1069,32 @@
       }
     ]
   },
+  "maskbloc616": {
+    "name": "Mask Bloc 616",
+    "subdivision": "MI",
+    "tags": [
+      "getting started"
+    ],
+    "keywords": [
+      "greater",
+      "grand",
+      "rapids",
+      "616"
+    ],
+    "description": "Mask Bloc 616 is a mutual aid organization providing free high-quality masks and respirators to the Greater Grand Rapids area.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc616",
+        "url": "https://www.instagram.com/MaskBloc616/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc616",
+        "url": "https://linktr.ee/maskbloc616/"
+      }
+    ]
+  },
   "covidawaretc": {
     "name": "COVIDAwareTC",
     "subdivision": "MN",
