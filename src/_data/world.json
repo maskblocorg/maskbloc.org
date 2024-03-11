@@ -77,16 +77,19 @@
         "turtle"
       ],
       "blocs": [
+        "maskdistrogrinnell",
         "chi-mask",
         "maskblocfortwayne",
         "covidsafemsu",
         "maskbloc616",
         "covidawaretc",
+        "maskbloc_msp",
         "maskblocstl",
         "maskbloc614",
         "covidsafeoberlin",
         "cprcle",
-        "maskbloc608"
+        "maskbloc608",
+        "maskblocmke"
       ]
     },
     "usa-south": {
@@ -190,6 +193,8 @@
       ],
       "blocs": [
         "maskblocwest",
+        "covidsafetyblocnorth",
+        "maskbloc.melb.se",
         "masksforadelaide"
       ]
     }
