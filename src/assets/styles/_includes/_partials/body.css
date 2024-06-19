@@ -1,0 +1,36 @@
+/*
+ * Copyright © 2024 MaskBloc.org <contact@maskbloc.org>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Html/Body configuration.
+ * ************************************************************************** */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  background-color: var(--default-background-color);
+  color: var(--text-color);
+}
+
+html.light,
+html.dark,
+html.light body,
+html.dark body {
+  background-color: var(--background-color);
+}
+
+.screenreader {
+  position: absolute !important; /* Outside the DOM flow */
+  height: 1px; width: 1px; /* Nearly collapsed */
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE 7+ only support clip without commas */
+  clip: rect(1px, 1px, 1px, 1px); /* All other browsers */
+}

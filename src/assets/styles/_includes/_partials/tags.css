@@ -1,0 +1,21 @@
+
+ul.tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: .5em;
+
+  margin-right: auto;
+
+  font-size: .8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul.tags li {
+  padding: 0.25em 0.4em;
+  border-radius: 0.25em;
+  background-color: var(--tag-color);
+  text-transform: uppercase;
+}

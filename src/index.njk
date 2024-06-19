@@ -1,0 +1,131 @@
+---
+layout: layout.njk
+title: Worldwide Mask Bloc Directory – Find your local Mask Bloc
+tags: sitemap
+description: MaskBloc.org lists active Mask Blocs around the world. Free high-quality masks, COVID-19 tests and other equipment for your community. Mutual Aid & We Keep Us Safe.
+---
+
+{# Copyright © 2024 MaskBloc.org <contact@maskbloc.org> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+{% from "src/_partials/socials.njk" import socials %}
+
+<section class="landing with-arrow" aria-describedby="site-description">
+  <header>
+    <img src="/assets/images/mb/mask.svg" class="landing-mask" alt="Illustration of a KN95/FFP2 mask.">
+    <h1>Masks for all.</h1>
+    <p id="site-description">
+      MaskBloc.org lists active
+      <a href="/about/#mask-blocs" title="What are Mask Blocs?">Mask Blocs</a>
+      around the world. Blocs provide masks, COVID-19 tests and other equipment to their communities for free.
+    </p>
+  </header>
+</section>
+
+<main id="local-blocs" class="main-section" aria-describedby="bloc-header">
+  {% set entry_count = 0 %}
+  {% for region_id, region in world.regions %}
+    {% set entry_count = entry_count + (region.blocs | length) %}
+  {% endfor %}
+
+  <header>
+    <h2 id="bloc-header">Mask Blocs and other community providers</h2>
+    <label for="bloc-filter" aria-hidden="true">{{ entry_count }} entries recorded — Use the search field to filter them.</label>
+  </header>
+
+  <div class="bloc-search">
+    <div class="bloc-search-input">
+      <input type="search"
+             id="bloc-filter"
+             aria-atomic="true"
+             aria-label="{{ entry_count }} entries recorded. Use this search field to filter entries, then press enter."
+             placeholder="e.g. Ontario, France or London"
+             tabindex="0">
+    </div>
+  </div>
+
+  <p id="list-state" class="matching-blocs no-data hidden" tabindex="-1"></p>
+
+  <div class="bloc-list">
+    {% for column in world.layout %}
+      <div class="bloc-column">
+        {% for region_id in column %}
+          {% set region = world.regions[region_id] %}
+          <section id="{{ region_id }}" class="region" aria-describedby="region-header-{{ region_id }}">
+            <h3 id="region-header-{{ region_id }}">{{ region.name }}</h3>
+            <ul class="region-bloc-list">
+              {% for bloc_id in region.blocs %}
+                {% set compound_id = [region_id, "-", bloc_id] | join %}
+                {% set bloc = blocs[bloc_id] %}
+                <li class="mask-bloc" id="{{ compound_id }}" aria-describedby="bloc-name-{{ bloc_id }}">
+                  <header>
+                    <h4 aria-label="{{ bloc | bloc_title_aria_label(region.country) }}" id="bloc-name-{{ bloc_id }}">
+                      <span aria-hidden="true">
+                        {% for subdivision in bloc.subdivisions %}
+                          {% set subdivision_name = subdivision | division_name(region.country) %}
+                          <abbr class="tag division" title="{{ subdivision_name }}" aria-label="{{ subdivision_name }}">
+                            {{ subdivision }}
+                          </abbr>
+                          {% set subdivision = undefined %}
+                        {% endfor %}
+                       {{ bloc.name }}
+                      </span>
+                    </h4>
+
+                    {% if bloc.tags %}
+                      <ul class="tags" aria-label="Tags">
+                        {% for tag in bloc.tags %}
+                          <li><span aria-hidden="true">{{ tag | tag_icon }}</span> {{ tag | tag_label }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </header>
+
+                  {% if bloc.description %}
+                    <div class="description">
+                      {% for line in bloc.description.split('\n') %}
+                        <p {{ bloc | bloc_lang | safe }}>{{ line }}</p>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  {{ socials(bloc.name, bloc.socials) }}
+                </li>
+                {% set bloc = undefined %}
+              {% endfor %}
+            </ul>
+          </section>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+</main>
+
+<section id="useful-links" class="main-section" aria-describedby="useful-links-header">
+  <header>
+    <h2>Useful Links</h2>
+    <h3 id="useful-links-header">Groups providing support and information regarding COVID-19 and other respiratory diseases.</h3>
+  </header>
+
+    <ul class="useful-link-list">
+      {% for useful_link in useful_links %}
+      <li describedby="useful-link-header">
+        <div class="useful-link">
+          <header>
+            <h4 id="useful-link-header">{{ useful_link.name }}</h4>
+          </header>
+
+          {% if useful_link.description %}
+          <div class="description">
+              {% for line in useful_link.description.split('\n') %}
+                <p {{ useful_link | bloc_lang | safe }}>{{ line }}</p>
+              {% endfor %}
+          </div>
+          {% endif %}
+
+          {{ socials(useful_link.name, useful_link.socials) }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,147 @@
+{# Copyright © 2024 MaskBloc.org <contact@maskbloc.org> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+{% macro socials(name, socials) %}
+  <div class="socials">
+    <ul>
+      {% for social in socials %}
+        {% if social.type == "instagram" %}
+          <li class="social-link instagram">
+            <a href="{{social.url}}"
+              tabindex="0"
+              aria-label="Instagram: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "x" %}
+          <li class="social-link x">
+            <a href="{{social.url}}"
+              tabindex="0"
+              aria-label="X/Twitter: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "mastodon" %}
+          <li class="social-link mastodon">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Mastodon: {{social.aria if social.aria else social.username}}.">
+               {{social.username}}
+            </a>
+          </li>
+          {% elif social.type == "facebook" %}
+          <li class="social-link facebook">
+            <a href="{{social.url}}"
+               tabindex="0"
+                aria-label="Facebook account of {{social.aria if social.aria else social.name}}.">
+            {{social.name}}
+            </a>
+          </li>
+        {% elif social.type == "linktree" %}
+          <li class="social-link linktree">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Linktree: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "linkstack" %}
+          <li class="social-link linkstack">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Linkstack: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "carrd" %}
+          <li class="social-link carrd">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Linktree: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "lnkbio" %}
+          <li class="social-link lnkbio">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="LNK.BIO: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "nombre" %}
+          <li class="social-link nombre">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="nombre.es: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "linkinbio" %}
+          <li class="social-link linkinbio">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Link in Bio: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "allmylinks" %}
+          <li class="social-link allmylinks">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="AllMyLinks: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "gofundme" %}
+          <li class="social-link gofundme">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="GoFundMe: {{social.aria if social.aria else social.name}}.">
+              {{social.name}}
+            </a>
+          </li>
+        {% elif social.type == "cashapp" %}
+          <li class="social-link cashapp">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="CashApp: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "venmo" %}
+          <li class="social-link venmo">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Venmo: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "email" %}
+          <li class="social-link email">
+            <a href="mailto:{{social.email}}"
+               tabindex="0"
+               aria-label="Mail to: {{social.aria if social.aria else social.email}}.">
+              {{social.email}}
+            </a>
+          </li>
+        {% elif social.type == "web" %}
+          <li class="social-link web">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Website: {{social.aria if social.aria else social.name}}.">
+              {{social.name}}
+            </a>
+          </li>
+        {% elif social.type == "form" %}
+          <li class="social-link form">
+            <a href="{{social.url}}"
+               tabindex="0">
+              Request Form
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endmacro %}

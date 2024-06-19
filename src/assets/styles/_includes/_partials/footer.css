@@ -1,0 +1,95 @@
+/*
+ * Copyright © 2024 MaskBloc.org <contact@maskbloc.org>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Footer configuration.
+ * ************************************************************************** */
+
+footer {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+footer img {
+  width: 3em;
+  padding-top: .5em;
+}
+
+footer ul {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  margin: auto;
+  column-gap: 2em;
+
+  margin-bottom: 2em;
+}
+
+footer li, footer li a {
+  display: block;
+  align-item: center;
+  justify-content: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+footer li a {
+  display: flex;
+  width: 2.8em;
+  height: 2.8em;
+  padding: 0;
+  margin: 0;
+}
+
+footer li a::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  margin: auto;
+  background: var(--text-color);
+  mask-size: 2em 2em;
+  mask-repeat: no-repeat;
+}
+
+footer li a.mastodon::after {
+  mask-image: url(/assets/images/vendor/mastodon.svg);
+}
+
+footer li a.instagram::after {
+  mask-image: url(/assets/images/vendor/instagram.svg);
+}
+
+footer li a.x::after {
+  mask-image: url(/assets/images/vendor/x.svg);
+}
+
+footer li a.threads::after {
+  mask-image: url(/assets/images/vendor/threads.svg);
+}
+
+footer li a.email::after {
+  mask-image: url(/assets/images/mb/email.svg);
+}
+
+footer li:hover a::after {
+  background: var(--anchor-hover-color);
+}
+
+footer > p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+footer .end {
+  margin-top: 1em;
+}
+
+footer .end p {
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,286 @@
+/*
+ * Copyright © 2024 MaskBloc.org <contact@maskbloc.org>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Navigation configuration.
+ * ************************************************************************** */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 5em;
+
+  padding: 1em;
+
+  background-color: var(--background-color);
+}
+
+.navigation .logo {
+  height: 2.5em;
+}
+
+.navigation nav li.external a::after {
+  background-size: 1em 1em;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  margin-left: .5em;
+  content: "";
+  background-color: var(--text-color);
+
+  mask: url(/assets/images/mb/external.svg);
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.navigation nav li.external:hover a::after {
+  background-color: var(--anchor-hover-color);
+}
+
+.navigation nav li.external:hover a {
+  color: var(--anchor-hover-color);
+}
+
+/***** THEME SWITCHER ******************************************************* */
+
+.theme-toggle fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.theme-toggle fieldset > div {
+  position: relative;
+}
+
+.theme-toggle div input:checked ~ label {
+  color: var(--background-color);
+  background: var(--text-color);
+}
+
+.theme-toggle div:hover input:checked ~ label {
+  background-color: var(--anchor-hover-color);
+  border-color: var(--anchor-hover-color);
+}
+
+.theme-toggle div label {
+  border: 1px solid var(--text-color);
+  padding: .2em .5em;
+  cursor: pointer;
+  display: flex;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.theme-toggle div:hover label {
+  color: var(--anchor-hover-color);
+  border-color: var(--anchor-hover-color);
+}
+
+.navigation nav li.theme-toggle {
+  margin-left: auto;
+}
+
+.theme-toggle div .theme-auto {
+  border-left: 0;
+  border-right: 0;
+}
+
+.theme-light::before,
+.theme-dark::after {
+  content: "";
+  display: inline-block;
+
+  width: 1em;
+  height: 1em;
+
+  background-color: var(--text-color);
+  margin-top: auto;
+  margin-bottom: auto;
+
+  transition: color .2s  ease-in-out, border-color .2s  ease-in-out, background-color .2s  ease-in-out;
+}
+
+.theme-toggle div:hover .theme-light::before,
+.theme-toggle div:hover .theme-dark::after {
+  background-color: var(--anchor-hover-color);
+}
+
+.theme-toggle div input:checked ~ .theme-light::before,
+.theme-toggle div input:checked ~ .theme-dark::after {
+  background-color: var(--background-color);
+}
+
+.theme-light::before {
+  mask: url(/assets/images/mb/sun.svg);
+  margin-right: 0.5em;
+}
+
+.theme-dark::after {
+  mask: url(/assets/images/mb/moon.svg);
+  margin-left: 0.5em;
+}
+
+
+/***** MEDIA QUERIES ******************************************************** */
+
+/*
+ * Burger-style navigation
+ */
+@media only screen and (--small-navigation) {
+  .navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .navigation:has(input:checked) {
+    background-color: var(--menu-background-color)
+  }
+
+  .navigation nav {
+    width: 100%;
+    background-color: black;
+
+    position: fixed;
+    z-index: 10;
+    top: 5em;
+    left: 0;
+
+    height: 0;
+
+    overflow: hidden;
+
+    background-color: var(--menu-background-color);
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .navigation ul {
+    padding: 2em;
+    padding-top: 1em;
+  }
+
+  .navigation li {
+    margin-bottom: 1.5em;
+  }
+
+  .navigation li:last-child {
+    margin-bottom: 0;
+  }
+
+  .navigation .home {
+    display: block;
+    padding: 0;
+    height: 2.5em;
+  }
+
+  .hamburger-input {
+    display: none;
+  }
+
+  .hamburger-label {
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: auto 0;
+    cursor: pointer;
+  }
+
+  .hamburger-input:checked~nav {
+    height: auto;
+    background-color: var(--menu-background-color)
+  }
+
+  .hamburger-input:checked~.hamburger-label {
+    background-color: var(--text-color);
+    mask: url(/assets/images/mb/xmark.svg);
+  }
+
+  .hamburger-input~.hamburger-label {
+    background-color: var(--text-color);
+    mask: url(/assets/images/mb/hamburger.svg);
+  }
+
+  .hamburger-input~.hamburger-label:hover {
+    background-color: var(--anchor-hover-color);
+  }
+
+  .navigation nav li.external {
+    margin-top: 1.5em;
+    border-top: 1px solid var(--text-color);
+    padding-top: 1.5em;
+  }
+
+  .navigation nav li.theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (--regular-navigation) {
+  .navigation {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 1em;
+    width: 100%;
+
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .navigation nav {
+    flex: 1;
+  }
+
+  .navigation nav ul {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 1em;
+    flex: 1;
+  }
+
+  .navigation nav li {
+    font-size: 1em;
+    margin-left: 1.5em;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .navigation nav li.external {
+    margin-left: 1.5em;
+    border-left: 1px solid var(--text-color);
+    padding-left: 1.5em;
+  }
+
+  .navigation li:nth-child(1) { order: 5; }
+  .navigation li:nth-child(2) { order: 1; }
+  .navigation li:nth-child(3) { order: 2; }
+  .navigation li:nth-child(4) { order: 3; }
+  .navigation li:nth-child(5) { order: 4; }
+  .navigation li:nth-child(6) { order: 6; }
+
+  .hamburger-input,
+  .hamburger-label {
+    display: none;
+  }
+}

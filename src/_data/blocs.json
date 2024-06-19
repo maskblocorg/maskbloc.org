@@ -1,0 +1,3998 @@
+{
+  // ======= AK - Alaska ==================================================== //
+  "alaskamaskbloc": {
+    "name": "Alaska Mask Bloc",
+    "subdivisions": ["AK"],
+    "keywords": [
+      "ak",
+      "alaska",
+      "anchorage"
+    ],
+    "tags": [
+      "upcoming"
+    ],
+    "description": "Dedicated to providing free high quality PPE to Alaskans",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@alaskamaskbloc",
+        "aria": "@ Alaska Mask Bloc",
+        "url": "https://www.instagram.com/alaskamaskbloc"
+      },
+      {
+        "type": "linktree",
+        "username": "@alaskamaskbloc",
+        "aria": "@ Alaska Mask Bloc",
+        "url": "https://linktr.ee/alaskamaskbloc"
+      }
+    ]
+  },
+
+  // ======= AZ - Arizona =================================================== //
+  "freemasks4phx": {
+    "name": "Covid Safe Arizona",
+    "subdivisions": ["AZ"],
+    "keywords": [
+      "az",
+      "arizona",
+      "phx",
+      "phoenix"
+    ],
+    "description": "If you need resources, please send us an Instagram DM or fill out our mask/test request form!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@freemasks4phx",
+        "aria": "@ Free Masks 4 P H X",
+        "url": "https://www.instagram.com/freemasks4phx/"
+      },
+      {
+        "type": "form",
+        "url": "https://tinyurl.com/freemasks4phxrequest"
+      }
+    ]
+  },
+  "flagstaffmaskbloc": {
+    "name": "Flagstaff, AZ Mask Bloc",
+    "subdivisions": ["AZ"],
+    "keywords": [
+      "az",
+      "arizona",
+      "flagstaff"
+    ],
+    "tags": [
+      "upcoming"
+    ],
+    "description": "🚧 Under Construction\n🧚‍♂️ Run by @nonbinaryfae\n😷 Masks, tests and other COVID safety items for Flagstaff, Arizona",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@flagstaffmaskbloc",
+        "url": "https://www.instagram.com/flagstaffmaskbloc/"
+      }
+    ]
+  },
+
+  // ======= CA - California ================================================ //
+  "cx4_la": {
+    "name": "COVID Cautious Community Care LA",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "la",
+      "los",
+      "angeles"
+    ],
+    "description": "POC LGBTQ+ led effort aiming to create COVID safe/safer community spaces in Los Angeles and uplift advocacy efforts during this ongoing pandemic.\nSend an Instagram DM to request masks. Resources available in AllMyLinks.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cx4_la",
+        "aria": "@ C X 4 L A",
+        "url": "https://www.instagram.com/cx4_la/"
+      },
+      {
+        "type": "allmylinks",
+        "username": "@cx4losangeles",
+        "aria": "@ C X 4 Los Angeles",
+        "url": "https://allmylinks.com/cx4losangeles"
+      }
+    ]
+  },
+  "maskblocla": {
+    "name": "Mask Bloc LA",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "la",
+      "los",
+      "angeles"
+    ],
+    "description": "Mutual aid project to distribute free masks in the so-called Los Angeles area.\nFree mask request form in Linktree. 😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
+        "url": "https://www.instagram.com/maskblocla/"
+      },
+      {
+        "type": "x",
+        "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
+        "url": "https://x.com/maskblocla"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocla",
+        "aria": "@ Mask Bloc L A",
+        "url": "https://linktr.ee/maskblocla/"
+      }
+    ]
+  },
+  "cleanairlosangeles": {
+    "name": "CleanAir LA",
+    "subdivisions": ["CA"],
+    "tags": [
+      "clean-air-club",
+      "upcoming"
+    ],
+    "keywords": [
+      "ca",
+      "california",
+      "la",
+      "los",
+      "angeles"
+    ],
+    "description": "Very early stage recruiting volunteers to hopefully provide LA artists/musicians/events with access to air purifiers so shows are safer.\n\nRecruiting!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanairlosangeles",
+        "aria": "@ Clean Air L A",
+        "url": "https://www.instagram.com/cleanairlosangeles/"
+      },
+      {
+        "type": "x",
+        "username": "@cleanairla",
+        "aria": "@ Clean Air L A",
+        "url": "https://x.com/cleanairla"
+      }
+    ]
+  },
+  "maskbloclongbeach": {
+    "name": "Mask Bloc Long Beach",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "long",
+      "beach"
+    ],
+    "description": "Mutual aid project connecting Long Beach, California area with FREE masks to keep each other safe! 🌊😷🌴\nMask request form in Linktree!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloclongbeach",
+        "aria": "@ Mask Bloc Long Beach",
+        "url": "https://www.instagram.com/maskbloclongbeach/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloclongbeach",
+        "aria": "@ Mask Bloc Long Beach",
+        "url": "https://www.linktr.ee/maskbloclongbeach"
+      }
+    ]
+  },
+  "ocmaskbloc": {
+    "name": "Mask Bloc Orange County 😷",
+    "keywords": [
+      "ca",
+      "california",
+      "orange",
+      "county",
+      "oc"
+    ],
+    "subdivisions": ["CA"],
+    "description": "Normalize mask wearing. Fight eugenics. Seek accountability. We must care for each other in the face of COVID-19. Distributing N95 masks in Orange County. 🇵🇸",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@ocmaskbloc",
+        "url": "https://www.instagram.com/ocmaskbloc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@ocmaskbloc",
+        "url": "https://linktr.ee/ocmaskbloc"
+      }
+    ]
+  },
+  "maskbloc916": {
+    "name": "Mask Bloc 916",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "916",
+      "sacramento",
+      "blog"
+    ],
+    "description": "At MaskBlog916, you can find information about upcoming COVID safe events, both in person locally in the greater Sacramento area, and online.\n📍 Location: Patwin Land",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc916",
+        "aria": "@ Mask Bloc 916",
+        "url": "https://www.instagram.com/maskbloc916/"
+      },
+      {
+        "type": "web",
+        "name": "Blog",
+        "url": "https://www.sites.google.com/view/mask-blog-916/home"
+      }
+    ]
+  },
+  "maskblocucdavis": {
+    "name": "Mask Bloc UC Davis",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "university",
+      "uc",
+      "davis"
+    ],
+    "description": "Mutual aid project • UC Davis students, faculty and staff deserve high-filtration masks free of charge.\n📍 Location: Patwin Land",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocucdavis",
+        "aria": "@ Mask Bloc U C Davis",
+        "url": "https://www.instagram.com/maskblocucdavis/"
+      },
+      {
+        "type": "linktree",
+        "username": "@MaskBlocUCDavis",
+        "aria": "@ Mask Bloc U C Davis",
+        "url": "https://linktr.ee/MaskBlocUCDavis"
+      }
+    ]
+  },
+  "chumanityc": {
+    "name": "Common Humanity Collective",
+    "subdivisions": ["CA"],
+    "tags": [
+      "care-collective"
+    ],
+    "keywords": [
+      "ca",
+      "california",
+      "bay",
+      "area",
+      "san",
+      "francisco"
+    ],
+    "description": "Autonomous Bay Area mutual aid group. Nurturing solidarity & taking care of each other through DIY air purifier + mask builds & distributions.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@chumanityc",
+        "aria": "@ C Humanity C",
+        "url": "https://www.instagram.com/chumanityc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@chumanityc",
+        "aria": "@ C Humanity C",
+        "url": "https://www.linktr.ee/chumanityc"
+      }
+    ]
+  },
+  "masksonoma": {
+    "name": "Mask Sonoma",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "sonoma",
+      "bay",
+      "area",
+      "san",
+      "francisco"
+    ],
+    "description": "Bringing N95 & three-ply masks to the underserved in Sonoma County, California since 2017.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@masksonoma",
+        "aria": "@ Mask Sonoma",
+        "url": "https://www.instagram.com/masksonoma/"
+      },
+      {
+        "type": "x",
+        "username": "@masksonoma",
+        "aria": "@ Mask Sonoma",
+        "url": "https://x.com/masksonoma"
+      }
+    ]
+  },
+  "maskbloceastbay": {
+    "name": "Mask Bloc East Bay",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "east",
+      "bay",
+      "area",
+      "san",
+      "francisco"
+    ],
+    "description": "Getting comfortable, high-quality masks easily available to our communities in the East Bay (San Francisco Bay Area, California).",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloceastbay",
+        "aria": "@ Mask Block East Bay",
+        "url": "https://www.instagram.com/maskbloceastbay/"
+      },
+      {
+        "type": "linktree",
+        "username": "@MaskBlocEastBay",
+        "aria": "@ Mask Block East Bay",
+        "url": "https://linktr.ee/MaskBlocEastBay"
+      }
+    ]
+  },
+  "maskblocsunsetsf": {
+    "name": "Mask Bloc Sunset SF",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "sunset",
+      "bay",
+      "area",
+      "san",
+      "francisco"
+    ],
+    "description": "Providing free masks for the Sunset District community and beyond. Need masks? Fill out our form link!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocsunsetsf",
+        "aria": "@ Mask Block Sunset S F",
+        "url": "https://www.instagram.com/maskblocsunsetsf/"
+      },
+      {
+        "type": "form",
+        "url": "https://airtable.com/app8yut8LTfRFvMow/shr1qsM6DA1FFJilo"
+      },
+      {
+        "type": "email",
+        "aria": "Mask Block Sunset S F @ Proton Mail dot com",
+        "name": "maskblocsunsetsf@protonmail.com",
+        "email": "maskblocsunsetsf@protonmail.com"
+      }
+    ]
+  },
+  "maskblocsanjose": {
+    "name": "Mask Bloc San José",
+    "keywords": [
+      "ca",
+      "california",
+      "bay",
+      "area",
+      "san",
+      "josé",
+      "jose"
+    ],
+    "subdivisions": ["CA"],
+    "description": "We provide free, high quality face masks to anyone who needs one.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocsanjose",
+        "aria": "@ Mask Bloc San Jose",
+        "url": "https://www.instagram.com/maskblocsanjose/"
+      },
+      {
+        "type": "web",
+        "name": "www.masksanjose.org",
+        "aria": "www dot Mask Bloc San Jose dot org",
+        "url": "https://www.masksanjose.org"
+      }
+    ]
+  },
+  "covidsafesocal": {
+    "name": "COVID Safe SoCal",
+    "keywords": [
+      "ca",
+      "california",
+      "san",
+      "diego",
+      "southern"
+    ],
+    "subdivisions": ["CA"],
+    "description": "(San Diego+) Here to make cleaner air, safer recreation, safer organizing and a stronger community happen for us.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafesocal",
+        "url": "https://www.instagram.com/covidsafesocal/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafesocal",
+        "url": "https://www.linktr.ee/covidsafesocal"
+      }
+    ]
+  },
+  "breathefreeie": {
+    "name": "Breathe Free IE (Inland Empire)",
+    "keywords": [
+      "ca",
+      "southern",
+      "california",
+      "breathe",
+      "free",
+      "ie",
+      "inland",
+      "empire"
+    ],
+    "subdivisions": ["CA"],
+    "description": "Grassroots mutual aid project to make the air cleaner and safer for all in the Inland Empire, located in Southern California.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@breathefreeie",
+        "url": "https://www.instagram.com/breathefreeie/"
+      },
+      {
+        "type": "lnkbio",
+        "username": "@breathefreeie",
+        "url": "https://lnk.bio/breathefreeie"
+      }
+    ]
+  },
+  "maskbloc559": {
+    "name": "Mask Bloc 559",
+    "subdivisions": ["CA"],
+    "keywords": [
+      "ca",
+      "california",
+      "yokut",
+      "mono",
+      "tulare",
+      "fresno",
+      "559"
+    ],
+    "description": "Helping get free KN95/N95 masks distributed throughout the 559 area code! Request form coming soon. 📍 Yokut/Mono territories, Tulare and Fresno county",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc559",
+        "url": "https://www.instagram.com/maskbloc559/"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/%23/2/form/view/PYH+C0dl4WpG3gKGBeiV764sj+hruYciWOblZOxa5jw"
+      }
+    ]
+  },
+  "fanfavorite.sd": {
+    "name": "SD, free clean air & masks",
+    "subdivisions": ["CA"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "ca",
+      "california",
+      "san",
+      "diego",
+      "clean",
+      "air"
+    ],
+    "description": "🌴Clean air library - protecting organizers, artists & audiences\n🌴v3nm0 for maskbloc: fanfavoritesd\n🌴 Nosotros estamos trabajando en recursos españoles",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@fanfavorite.sd",
+        "url": "https://www.instagram.com/fanfavorite.sd/"
+      },
+      {
+        "type": "lnkbio",
+        "username": "@fanfavoritesd",
+        "url": "https://linktr.ee/fanfavoritesd"
+      }
+    ]
+  },
+
+  // ======= CO - Colorado ================================================== //
+  "covidsafecolorado": {
+    "name": "COVID Safe Colorado",
+    "subdivisions": ["CO"],
+    "keywords": [
+      "co",
+      "colorado",
+      "arapaho",
+      "cheyenne",
+      "ute"
+    ],
+    "description": "Mutual aid mask distribution and advocacy group on occupied Arapaho, Cheyenne, and Ute territory. Queer and trans led.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafecolorado",
+        "url": "https://www.instagram.com/covidsafecolorado"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafecolorado",
+        "url": "https://linktr.ee/covidsafecolorado"
+      }
+    ]
+  },
+
+  // ======= NV - Nevada ============================================== //
+  "maskblocnevada": {
+    "name": "Mask Bloc Nevada",
+    "subdivisions": ["NV"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "nv",
+      "nevada"
+    ],
+    "description": "Coming soon! If you’d like to get involved, let us know! 😷\nPartnered with @covidsafelv",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocnevada",
+        "url": "https://www.instagram.com/maskblocnevada"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocnevada",
+        "url": "https://linktr.ee/maskblocnevada"
+      }
+    ]
+  },
+
+  // ======= NM - New Mexico ================================================ //
+  "maskblocabq": {
+    "name": "MaskBlocABQ",
+    "subdivisions": ["NM"],
+    "keywords": [
+      "nm",
+      "new",
+      "mexico",
+      "albuquerque",
+      "abq"
+    ],
+    "description": "Distributing *FREE* N95/KN95 face masks in so-called Albuquerque & surrounding areas.\nFill out the form on our linktree to request masks or DM us!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocabq",
+        "url": "https://www.instagram.com/maskblocabq"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocabq",
+        "url": "https://linktr.ee/maskblocabq"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/GwuhbJZCyuntg2BFTpt5PgNchp5b6JTVH3USmHoLDdQ/embed/"
+      }
+    ]
+  },
+  "maskbloc_delnorte": {
+    "name": "Mask Bloc Del Norte",
+    "subdivisions": ["NM"],
+    "keywords": [
+      "nm",
+      "new",
+      "mexico",
+      "northern",
+      "del",
+      "norte"
+    ],
+    "description": "Northern New Mexico’s FREE mask distribution group 🔥😎😷🔥 DM us to get involved or get N95s",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc_delnorte",
+        "url": "https://www.instagram.com/maskbloc_delnorte"
+      }
+    ]
+  },
+  "lcmaskbloc": {
+    "name": "Cruces Mask Bloc",
+    "subdivisions": ["NM"],
+    "keywords": [
+      "nm",
+      "new",
+      "mexico",
+      "las",
+      "cruces"
+    ],
+    "description": "providing free masks, tests and education to the greater Las Cruces, New Mexico area.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@lcmaskbloc",
+        "url": "https://www.instagram.com/lcmaskbloc"
+      }
+    ]
+  },
+  "tucsonmaskbloc": {
+    "name": "Tucson Mask Bloc",
+    "subdivisions": ["NM"],
+    "keywords": [
+      "nm",
+      "new",
+      "mexico",
+      "tucson",
+      "cruces",
+      "o'odham",
+      "pascua",
+      "yaqui"
+    ],
+    "description": "We keep us safe(r). Free masks & COVID resources. Queer, trans, anti-racist, abolitionist mutual aid on unceded Tohono O’odham & Pascua Yaqui lands.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@tucsonmaskbloc",
+        "url": "https://www.instagram.com/tucsonmaskbloc"
+      }
+    ]
+  },
+
+  // ======= OR - Oregon ==================================================== //
+  "maskblocpdx": {
+    "name": "Mask Bloc PDX",
+    "subdivisions": ["OR"],
+    "keywords": [
+      "or",
+      "oregon",
+      "portland",
+      "pdx"
+    ],
+    "description": "Portland metro personal protective equipment distribution & COVID mutual aid.\n📥~48hr response time to email (no DMs on Instagram/Threads please).\n🚚 Delivery within 7 days.\n😷 All volunteer team.\nCheck Instagram posts for more information.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocpdx",
+        "url": "https://www.instagram.com/maskblocpdx/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocpdx",
+        "url": "https://linktr.ee/maskblocpdx"
+      }
+    ]
+  },
+  "maskbloceug": {
+    "name": "Mask Bloc Eugene",
+    "subdivisions": ["OR"],
+    "keywords": [
+      "or",
+      "oregon",
+      "eugene",
+      "springfield"
+    ],
+    "description": "Volunteer-run mutual aid organization providing free high filtration masks and COVID info in Eugene/Springfield. #WeKeepUsSafe 😷✊✨",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloceug",
+        "url": "https://www.instagram.com/maskbloceug/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloceug",
+        "url": "https://linktr.ee/maskbloceug/"
+      }
+    ]
+  },
+  "portlandcleanaircommittee": {
+    "name": "Portland Clean Air Committee",
+    "subdivisions": ["OR"],
+    "tags": [
+      "clean-air-club",
+      "upcoming"
+    ],
+    "keywords": [
+      "or",
+      "oregon",
+      "portland",
+      "air",
+      "commitee"
+    ],
+    "description": "",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@portlandcleanaircommittee",
+        "url": "https://www.instagram.com/portlandcleanaircommittee/"
+      }
+    ]
+  },
+  "maskblocorcoast": {
+    "name": "Central Oregon Coast Mask Bloc",
+    "subdivisions": ["OR"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "or",
+      "oregon",
+      "central",
+      "coast"
+    ],
+    "description": "Central Coast Mutual Aid+Masks😷🌊",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocorcoast",
+        "url": "https://www.instagram.com/maskblocorcoast/"
+      }
+    ]
+  },
+
+  // ======= WA - Washington ================================================ //
+  "maskblocseattle": {
+    "name": "Mask Bloc Seattle",
+    "keywords": [
+      "wa",
+      "washington",
+      "seattle"
+    ],
+    "tags": [
+      "upcoming"
+    ],
+    "subdivisions": ["WA"],
+    "description": "FREE masks & COVID care in so called seattle area. 😷\n❤️‍🔥 We keep us safe ❤️‍🔥\nMore mutual aid details/resources coming soon.\nAll volunteer run.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocseattle",
+        "url": "https://www.instagram.com/maskblocseattle/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocseattle",
+        "url": "https://linktr.ee/maskblocseattle"
+      }
+    ]
+  },
+  "covid.tests.seattle": {
+    "name": "COVID Tests Seattle",
+    "subdivisions": ["WA"],
+    "keywords": [
+      "wa",
+      "washington",
+      "seattle",
+      "tests"
+    ],
+    "description": "Rapid tests as harm reduction. Do you need rapid COVID tests in Seattle? DM the account.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covid.tests.seattle",
+        "url": "https://www.instagram.com/covid.tests.seattle/"
+      }
+    ]
+  },
+  "maskblocolympia": {
+    "name": "Mask Bloc ST'ČÁS (Olympia)",
+    "subdivisions": ["WA"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "wa",
+      "washington",
+      "st'cas",
+      "olympia"
+    ],
+    "description": "free mask distribution in olympia. based in st'čás “steh-chass” from lushootseed, puget sound salish land. request forms below, we keep us safe Ⓐ❤️‍🔥",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocolympia",
+        "url": "https://www.instagram.com/maskblocolympia/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocolympia",
+        "url": "https://linktr.ee/maskblocolympia/"
+      }
+    ]
+  },
+  "maskbloc253": {
+    "name": "Mask Bloc 253",
+    "subdivisions": ["WA"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "wa",
+      "washington",
+      "tacoma",
+      "253"
+    ],
+    "description": "Distributing free high-filtration masks (respirators) to individuals and organizing groups in the Tacoma area. Request masks at the link below.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc253",
+        "url": "https://www.instagram.com/maskbloc253/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/mkdyzTM2V4oZi35K9"
+      }
+    ]
+  },
+  "cleanairoly": {
+    "name": "Clean Air OLY (OlyFans)",
+    "subdivisions": ["WA"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "wa",
+      "washington",
+      "olympia",
+      "oly"
+    ],
+    "description": "Fostering safer + more accessible music & art events in so-called Olympia, Washinton through a community air purifier share!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanairoly",
+        "url": "https://www.instagram.com/cleanairoly/"
+      },
+      {
+        "type": "web",
+        "name": "Clean Air OLY",
+        "url": "https://cleanairoly.org"
+      }
+    ]
+  },
+
+  // ======= NORTHEAST ====================================================== //
+  "cranemaskbloc": {
+    "name": "Covid Resistance Action Northeast (CRANE)",
+    "subdivisions": ["ME", "NH", "MA", "RI", "VT"],
+    "keywords": [
+      "me",
+      "nh",
+      "ma",
+      "ri",
+      "vt",
+      "maine",
+      "new",
+      "hampshire",
+      "massachusetts",
+      "rhode",
+      "island",
+      "vermont",
+      "central",
+      "midcoast",
+      "north",
+      "providence",
+      "upper",
+      "valley",
+      "burlingon",
+      "resistance",
+      "action",
+      "northeast",
+      "crane"
+    ],
+    "description": "Supplying free high-quality masks to under-served areas of Northeast US. Mail/Drop off/Pick Up.\n\nNest locations:\n   – Central Maine\n   – Midcoast Maine\n   – North Central Massachusetts\n   – New Hampshire\n   – Providence, Rhode Island\n   – Upper Valley, Vermont\n   – Burlington, Vermont",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cranemaskbloc",
+        "url": "https://www.instagram.com/cranemaskbloc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@cranemaskbloc",
+        "url": "https://linktr.ee/cranemaskbloc"
+      },
+      {
+        "type": "email",
+        "email": "cranemaskbloc@riseup.net"
+      }
+    ]
+  },
+
+  // ======= CT - Connecticut =============================================== //
+  "freemaskct": {
+    "name": "Free Masks Hartford",
+    "subdivisions": ["CT"],
+    "keywords": [
+      "ct",
+      "connecticut",
+      "hartford"
+    ],
+    "description": "Free N95 respirators for people that need them. Send a message on here to request if you're around the Hartford area.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@freemaskct",
+        "url": "https://www.instagram.com/freemaskct/"
+      }
+    ]
+  },
+  "peoplesppe": {
+    "name": "The People’s PPE",
+    "subdivisions": ["CT", "NY"],
+    "keywords": [
+      "ct",
+      "connecticut",
+      "ny",
+      "new",
+      "york",
+      "haven",
+      "hudson",
+      "valley"
+    ],
+    "description": "Youth-run mutual aid collective providing masks and keeping each other safe! Active in so called New Haven, Connecticut & Hudson Valley, New York.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@peoplesppe",
+        "url": "https://www.instagram.com/peoplesppe/"
+      },
+      {
+        "type": "linktree",
+        "username": "@peoplesppe",
+        "url": "https://linktr.ee/peoplesppe"
+      }
+    ]
+  },
+
+  // ======= DE - Delaware ================================================== //
+  "maskblocde": {
+    "name": "Mask Bloc Delaware",
+    "subdivisions": ["DE"],
+    "keywords": [
+      "de",
+      "delaware"
+    ],
+    "description": "",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocde",
+        "url": "https://www.instagram.com/maskblocde/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocdelaware",
+        "url": "https://linktr.ee/maskblocdelaware"
+      }
+    ]
+  },
+
+  // ======= MA - Massachusetts ============================================= //
+  "neucovidresponse": {
+    "name": "NEU COVID Response",
+    "subdivisions": ["MA"],
+    "keywords": [
+      "ma",
+      "massachusetts",
+      "northeastern",
+      "university",
+      "boston"
+    ],
+    "description": "COVID Response Project @ Northeastern University Mutual Aid\nOrganizing for layers of protection at Northeastern. Providing personal protective equipment and education through @numutualaid. @covidsafecampus Ambassadors.\nViews our own!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@neucovidresponse",
+        "url": "https://www.instagram.com/neucovidresponse/"
+      },
+      {
+        "type": "linktree",
+        "username": "@neucovidresponse",
+        "url": "https://linktr.ee/neucovidresponse"
+      }
+    ]
+  },
+  "boscovidaction": {
+    "name": "Boston COVID Action",
+    "subdivisions": ["MA"],
+    "keywords": [
+      "ma",
+      "massachusetts",
+      "boston"
+    ],
+    "description": "Distributing KN95 & N95 masks and COVID tests to the Boston area. Disrupting eugenics with community care. DM closed on Instagram. Request resources through our Linktree!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@boscovidaction",
+        "url": "https://www.instagram.com/boscovidaction"
+      },
+      {
+        "type": "linktree",
+        "username": "@boscovidaction",
+        "url": "https://www.linktr.ee/boscovidaction"
+      }
+    ]
+  },
+  "maskbloc_berkshires": {
+    "name": "Mask Bloc Berkshires",
+    "subdivisions": ["MA"],
+    "description": "Providing FREE masks/respirators, public health/clean air education, and other tools to Berkshire County, Massachusetts and surrounding regions.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc_berkshires",
+        "url": "https://www.instagram.com/maskbloc_berkshires/"
+      },
+      {
+        "type": "email",
+        "email": "MaskUp_BerkshireCounty@proton.me"
+      }
+    ],
+    "keywords": [
+      "ma",
+      "massachusetts",
+      "berkshire"
+    ]
+  },
+  "westernmassmaskbloc": {
+    "name": "Western Mass Mask Bloc",
+    "subdivisions": ["MA"],
+    "keywords": [
+      "ma",
+      "massachusetts",
+      "western"
+    ],
+    "description": "Mask Bloc for direct actions in the Western Massachusetts",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@westernmassmaskbloc",
+        "url": "https://www.instagram.com/westernmassmaskbloc/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/MqNWLrUwePNtkXaE6"
+      }
+    ]
+  },
+
+  // ======= NJ - New Jersey ================================================ //
+  "maskblocnj": {
+    "name": "Mask Bloc NJ",
+    "subdivisions": ["NJ"],
+    "keywords": [
+      "nj",
+      "new",
+      "jersey"
+    ],
+    "description": "Jersey folks joining together in mutual aid and solidarity to distribute masks, share resources, and advocate for public health and community care.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocnj",
+        "url": "https://www.instagram.com/maskblocnj/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskblocnj",
+        "url": "https://maskblocnj.carrd.co/"
+      }
+    ]
+  },
+  "covidsaferutgers": {
+    "name": "Covid Safe Camps at Rutgers-NB",
+    "subdivisions": ["NJ"],
+    "tags": [
+      "covid-safe-campus"
+    ],
+    "keywords": [
+      "nj",
+      "new",
+      "jersey",
+      "rutgers",
+      "csc",
+      "safe",
+      "campus",
+      "brunswick",
+      "nb"
+    ],
+    "description": "Former ambassadors with Covid Safe Campus.\nAll views are our own & do not represent CSC or Rutgers.\nRequest masks in Linktree.",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@covidsaferutgers",
+        "url": "https://www.linktr.ee/cscrutgers"
+      }
+    ]
+  },
+  "maskblocjc": {
+    "name": "Mask Bloc JC",
+    "subdivisions": ["NJ"],
+    "keywords": [
+      "nj",
+      "new",
+      "jersey",
+      "city"
+    ],
+    "description": "Mutual aid org distributing high quality masks and COVID-19 tests in the Jersey City, New Jersey area. Volunteer info in our linktree. Run by @JerseyCityGardens.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocjc",
+        "url": "https://www.instagram.com/maskblocjc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocjc",
+        "url": "https://linktr.ee/maskblocjc"
+      }
+    ]
+  },
+  "maskbloccnj": {
+    "name": "Mask Bloc CCNJ",
+    "subdivisions": ["NJ"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "nj",
+      "new",
+      "jersey",
+      "central"
+    ],
+    "description": "Newly forming Mask Bloc in unceded Lenapehoking (so called central New Jersey). Free mask distribution & COVID information. More info coming soon.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloccnj",
+        "url": "https://www.instagram.com/maskbloccnj/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskbloccnj",
+        "url": "https://maskbloccnj.carrd.co/"
+      }
+    ]
+  },
+
+  // ======= NY - New York ================================================== //
+  "covidsolidaritynyc": {
+    "name": "Mask Bloc NYC",
+    "subdivisions": ["NJ"],
+    "keywords": [
+      "ny",
+      "new",
+      "york",
+      "city",
+      "solidarity"
+    ],
+    "description": "Disabled-led collective of New Yorkers organizing to fight COVID through mutual aid, political education, and direct action (formerly COVID Solidarity NYC).",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@covidsolidaritynyc",
+        "url": "https://www.linktr.ee/covidsolidaritynyc"
+      }
+    ]
+  },
+  "maskuprochester": {
+    "name": "Mask Up! Rochester, NY",
+    "subdivisions": ["NY"],
+    "keywords": [
+      "ny",
+      "new",
+      "york",
+      "rochester"
+    ],
+    "description": "COVID safety mutual aid group providing free, high-quality masks to the people of Rochester, New York.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskuprochester",
+        "url": "https://www.instagram.com/maskuprochester/"
+      },
+      {
+        "type": "web",
+        "name": "Website",
+        "url": "https://maskuproc.crd.co/"
+      }
+    ]
+  },
+  "maskbloc631": {
+    "name": "Mask Bloc 631",
+    "subdivisions": ["NY"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ny",
+      "long",
+      "island"
+    ],
+    "description": "Long Island, New York.\nFuture Mask Bloc.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc631",
+        "url": "https://www.instagram.com/maskbloc631/"
+      }
+    ]
+  },
+  "maskbloc516": {
+    "name": "Mask Bloc 516",
+    "subdivisions": ["NY"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ny",
+      "long",
+      "island",
+      "queens",
+      "nassau",
+      "516"
+    ],
+    "description": "Nassau County and Queens based mutual aid to distribute masks, rapid COVID tests, and resources to improve the health and safety of our community.\n 📍 Location: Long Island, New York",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc516",
+        "url": "https://www.instagram.com/MaskBloc516/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc516",
+        "url": "https://linktr.ee/MaskBloc516/"
+      }
+    ]
+  },
+  "mask.together.capital.region": {
+    "name": "Mask Together! Capital Region",
+    "subdivisions": ["NY"],
+    "keywords": [
+      "ny",
+      "new",
+      "york",
+      "capital",
+      "region"
+    ],
+    "description": "😷 Free masks/respirators\n📍 Capital Region, NY\nReach out for free masks or support making your events COVID safer!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@mask.together.capital.region",
+        "url": "https://www.instagram.com/mask.together.capital.region/"
+      },
+      {
+        "type": "linktree",
+        "username": "@masktogethercr",
+        "url": "https://linktr.ee/masktogethercr/"
+      },
+      {
+        "type": "email",
+        "email": "MaskTogetherCR@Gmail.com"
+      }
+    ]
+  },
+  "createnewdynamics845": {
+    "name": "Create New (Air) Dynamics",
+    "subdivisions": ["NY"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "ny",
+      "new",
+      "york",
+      "hudson",
+      "valley"
+    ],
+    "description": "😷 Free masks/respirators\n📍 Capital Region, NY\nReach out for free masks or support making your events COVID safer!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@createnewdynamics845",
+        "url": "https://www.instagram.com/createnewdynamics845/"
+      },
+      {
+        "type": "linktree",
+        "username": "@createnewairdynamics845",
+        "url": "https://linktr.ee/createnewairdynamics845/"
+      }
+    ]
+  },
+
+  // ======= MD - Maryland ================================================== //
+  "maskbloc301": {
+    "name": "Mask Bloc 301",
+    "subdivisions": ["MD"],
+    "keywords": [
+      "md",
+      "maryland",
+      "montgomery",
+      "prince",
+      "george",
+      "frederick",
+      "howard"
+    ],
+    "description": "Mask Bloc 301 is a mutual aid collective of disability justice organizers brought together in a shared struggle against COVID eugenics and state abandonment. We aim to provide our community with free resources and education to enable them to better protect themselves and those they love from COVID-19.\n\nWe serve residents in the 301 area code of so-called “Maryland,” including so-called “Montgomery,” “Prince George’s,” “Frederick,” and parts of “Howard” counties.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@MaskBloc301",
+        "url": "https://www.instagram.com/MaskBloc301"
+      },
+      {
+        "type": "linktree",
+        "username": "@MaskBloc301",
+        "url": "https://linktr.ee/MaskBloc301"
+      }
+    ]
+  },
+
+  // ======= PA - Pennsylvania ============================================== //
+  "phillymaskbloc": {
+    "name": "Philly Mask Bloc 😷 🇵🇸",
+    "subdivisions": ["PA"],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "philadelphia",
+      "philly",
+      "lenapehoking"
+    ],
+    "description": "Philly Mask Bloc is a new, ongoing project to provide high quality masks to the citizens of Philadelphia (Lenapehoking) who need it the most.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@phillymaskbloc",
+        "url": "https://www.instagram.com/phillymaskbloc"
+      },
+      {
+        "type": "linktree",
+        "username": "@phillymaskbloc",
+        "url": "https://linktr.ee/phillymaskbloc"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/bTqEmLGFiioY3dqe8"
+      }
+    ]
+  },
+  "maskuppitt": {
+    "name": "Mask Up Pittsburgh",
+    "subdivisions": ["PA"],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "pittsburgh"
+    ],
+    "description": "Disabled-led mask distro and info project in Pittsburgh. Request masks/tests using the form.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskuppitt",
+        "url": "https://www.instagram.com/maskuppitt/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskuppittsburgh",
+        "url": "https://www.linktr.ee/maskuppittsburgh"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/2FYFsbBXw7Avgo3y7"
+      }
+    ]
+  },
+  "centralpamaskbloc": {
+    "name": "Central PA Mask Bloc",
+    "subdivisions": ["PA"],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "central"
+    ],
+    "description": "We are an autonomous group of Central Pennsylvania residents distributing free N95 masks and Covid mitigation info to folks in the so called Central Pennsylvania area.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@centralpamaskbloc",
+        "url": "https://www.instagram.com/centralpamaskbloc/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/o9KFZrvgCw9bLXQp9"
+      }
+    ]
+  },
+  "bicocovidco": {
+    "name": "BiCo COVID Co",
+    "subdivisions": ["PA"],
+    "tags": [
+      "covid-safe-campus"
+    ],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "haverford",
+      "bryn",
+      "mawr",
+      "college"
+    ],
+    "description": "BiCo (Haverford/Bryn Mawr College) students organizing to mitigate the spread of COVID.\nSupported by a @covidsafecampus ambassador! views are our own",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@bicocovidco",
+        "url": "https://www.instagram.com/bicocovidco/"
+      },
+      {
+        "type": "linktree",
+        "username": "@bicocovidco",
+        "url": "https://www.linktr.ee/bicocovidco"
+      }
+    ]
+  },
+  "cat.pgh": {
+    "name": "Clean Air Tools Pittsburgh",
+    "subdivisions": ["PA"],
+    "tags": [
+      "clean-air-club",
+      "upcoming"
+    ],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "pittsburgh"
+    ],
+    "description": "A free covid mitigation tools library in its early stages",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cat.pgh",
+        "url": "https://www.instagram.com/cat.pgh/"
+      }
+    ]
+  },
+  "clean.air.reading": {
+    "name": "Clean Air Reading",
+    "subdivisions": ["PA"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "pa",
+      "pennsylvania",
+      "reading"
+    ],
+    "description": "Making spaces safer by lending air purifiers and free resources\nProveyendo purificadores de aire y recursos para proteger a nuestra comunidad.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@clean.air.reading",
+        "url": "https://www.instagram.com/clean.air.reading/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/Gpej6Kt4qwreYXDQ9"
+      }
+    ]
+  },
+
+  // ======= RI - Rhode Island ======================================== //
+  "rimaskbloc": {
+    "name": "RI Mask Bloc",
+    "subdivisions": ["RI"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ri",
+      "rhode",
+      "island"
+    ],
+    "description": "Mutual aid group of disabled people & comrades living in so-called Rhode Island organizing to provide free high-quality high-filtration masks and rapid tests, as well as education about the ongoing and ever-evolving COVID pandemic, and how we can keep each other as safe as possible.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@rimaskbloc",
+        "url": "https://www.instagram.com/rimaskbloc/"
+      }
+    ]
+  },
+
+  // ======= VT - Vermont =================================================== //
+  "vermont.mask.collective": {
+    "name": "Vermont Mask Collective",
+    "subdivisions": ["VT"],
+    "keywords": [
+      "vt",
+      "vermont"
+    ],
+    "description": "Disabled run, state-wide mutual aid for free masks & tests, public health resources, & education & advocating for our communities.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@vermont.mask.collective",
+        "url": "https://www.instagram.com/vermont.mask.collective/"
+      },
+      {
+        "type": "linktree",
+        "username": "@vermont.mask.collective",
+        "url": "https://linktr.ee/vermont.mask.collective"
+      }
+    ]
+  },
+
+  // ======= AR - Arkansas ================================================== //
+  "maskblocar": {
+    "name": "Mask Bloc AR",
+    "subdivisions": ["AR"],
+    "keywords": [
+      "ar",
+      "arkansas"
+    ],
+    "description": "Mutual aid org focused on providing high quality masks/respirators to Arkansas 🌸\nemail requests below",
+    "socials": [
+      {
+        "type": "email",
+        "email": "maskblocar@proton.me"
+      }
+    ]
+  },
+  "ozarkscovaction": {
+    "name": "Ozarks Covid Action",
+    "subdivisions": ["AR"],
+    "keywords": [
+      "ar",
+      "arkansas",
+      "ozarks",
+      "action"
+    ],
+    "description": "Disabled-led mask bloc and mutual aid effort to help facilitate access to respirators, tests, indoor air quality, and information across the Ozarks",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@ozarkscovaction",
+        "url": "https://x.com/ozarkscovaction"
+      }
+    ]
+  },
+
+  // ======= DC - Washington D.C. =========================================== //
+  "maskblocdc": {
+    "name": "Mask Bloc DC",
+    "subdivisions": ["DC"],
+    "keywords": [
+      "dc",
+      "district",
+      "columbia",
+      "washington"
+    ],
+    "description": "Mask and rapid test distribution for the DC area. DM or email to request pickup or drop off.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocdc",
+        "url": "https://www.instagram.com/maskblocdc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocdc",
+        "url": "https://linktr.ee/maskblocdc"
+      }
+    ]
+  },
+  "cleanairsolidarity": {
+    "name": "Clean Air Solidarity",
+    "subdivisions": ["DC", "MD"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "dc",
+      "district",
+      "columbia",
+      "washington",
+      "md",
+      "maryland"
+    ],
+    "description": "Free lending library of HEPA purifiers for COVID safer events in Washington DC and some areas of Maryland.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanairsolidarity",
+        "url": "https://www.instagram.com/cleanairsolidarity/"
+      }
+    ]
+  },
+
+  // ======= FL - Florida =================================================== //
+  "swampcentralfl": {
+    "name": "S.W.A.M.P. Central Florida",
+    "subdivisions": ["FL"],
+    "keywords": [
+      "fl",
+      "florida",
+      "tampa"
+    ],
+    "description": "Still Wearing a Mask Proudly 😷\nLocated in so-called Central Florida. 🐊\nNeed free masks? Fill out our request form in the Linktree! ⬇️",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@swampcentralfl",
+        "url": "https://www.instagram.com/swampcentralfl/"
+      },
+      {
+        "type": "linktree",
+        "username": "@swampcentralfl",
+        "url": "https://linktr.ee/swampcentralfl"
+      }
+    ]
+  },
+  "heartlandmaskbloc": {
+    "name": "Heartland Mask Bloc",
+    "subdivisions": ["FL"],
+    "keywords": [
+      "fl",
+      "florida",
+      "heartland",
+      "highlands"
+    ],
+    "description": "Providing FREE high quality, high filtration masks and education in Highlands County, Florida and surrounding areas",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@heartlandmaskbloc",
+        "url": "https://www.instagram.com/heartlandmaskbloc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@heartlandmaskbloc",
+        "url": "https://www.linktr.ee/heartlandmaskbloc"
+      },
+      {
+        "type": "email",
+        "email": "heartlandmaskbloc@gmail.com"
+      }
+    ]
+  },
+  "maskblocmiami": {
+    "name": "Mask Bloc Miami",
+    "subdivisions": ["FL"],
+    "keywords": [
+      "fl",
+      "florida",
+      "miami",
+      "dade",
+      "miami-dade",
+      "seminole",
+      "tequesta"
+    ],
+    "description": "mutual aid group providing high filtration masks to so called miami-dade county on seminole and tequesta land",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocmiami",
+        "url": "https://www.instagram.com/maskblocmiami/"
+      }
+    ]
+  },
+  "breathing_room_miami": {
+    "name": "Breathing Room Miami",
+    "subdivisions": ["FL"],
+    "tags": [
+      "clean-air-club",
+      "upcoming"
+    ],
+    "keywords": [
+      "fl",
+      "florida",
+      "miami",
+      "breathing",
+      "room"
+    ],
+    "description": "Free air purifier lending library ensuring cleaner, accessible air for community gatherings & creative spaces in Miami. Air care is community care 🌬️💖",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@breathing_room_miami",
+        "url": "https://www.instagram.com/breathing_room_miami/"
+      }
+    ]
+  },
+  "maskblocpalmbch": {
+    "name": "Mask Bloc Palm Beach",
+    "subdivisions": ["FL"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "fl",
+      "florida",
+      "palm",
+      "beach"
+    ],
+    "description": "Distributing free masks in Palm Beach County, FL\nComing soon!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocpalmbch",
+        "url": "https://www.instagram.com/maskblocpalmbch/"
+      }
+    ]
+  },
+
+  // ======= GA - Georgia =================================================== //
+  "maskbloc229": {
+    "name": "Mask Bloc 229",
+    "subdivisions": ["GA"],
+    "keywords": [
+      "ga",
+      "georgia",
+      "valdosta",
+      "south",
+      "229"
+    ],
+    "description": "Mutual aid group providing free masks in Valdosta and South Georgia",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc229",
+        "url": "https://www.instagram.com/maskbloc229/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc229",
+        "url": "https://www.linktr.ee/maskbloc229"
+      }
+    ]
+  },
+
+  "maskblocatl": {
+    "name": "Mask Bloc Atlanta",
+    "subdivisions": ["GA"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ga",
+      "georgia",
+      "atlantas",
+      "atl"
+    ],
+    "description": "*early stages of organizing*\nproviding free kf94, kn95, & n95 masks, resources, and info to help keep our communities safer.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocatl",
+        "url": "https://www.instagram.com/maskblocatl/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocatl",
+        "url": "https://www.linktr.ee/maskblocatl"
+      }
+    ]
+  },
+
+  // ======= KY - Kentucky ============================================ //
+  "maskbloclex": {
+    "name": "Mask Bloc LEX",
+    "subdivisions": ["KY"],
+    "keywords": [
+      "ky",
+      "kentucky",
+      "lex",
+      "lexington"
+    ],
+    "description": "Mask Bloc LEX is a mutual aid group working to provide free masks, information, and political education in so-called Lexington, Kentucky.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloclex",
+        "url": "https://www.instagram.com/maskbloclex/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloclex",
+        "url": "https://www.linktr.ee/maskbloclex"
+      }
+    ]
+  },
+  "maskbloclou": {
+    "name": "Mask Bloc Louisville",
+    "subdivisions": ["KY"],
+    "keywords": [
+      "ky",
+      "kentucky",
+      "louisville"
+    ],
+    "description": "We are a mutual aid group providing:\n✨️free✨️ masks (N95/KN95)\n✨️free✨️ rapid tests\n& info related to COVID-19.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloclou",
+        "url": "https://www.instagram.com/maskbloclou/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskbloclouisville",
+        "url": "https://maskbloclouisville.carrd.co"
+      }
+    ]
+  },
+
+  // ======= LA - Louisiana ================================================= //
+  "fightcovidnola": {
+    "name": "Fight COVID NOLA",
+    "subdivisions": ["LA"],
+    "keywords": [
+      "la",
+      "louisiana",
+      "new",
+      "orleans"
+    ],
+    "description": "We give out free masks! N95, KN95, KF94, FFP2. Info, community & more!\nDM to request pickup or delivery in New Orleans/Bulbancha. We keep us safe.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@fightcovidnola",
+        "url": "https://www.instagram.com/fightcovidnola"
+      },
+      {
+        "type": "linktree",
+        "username": "@fightcovidnola",
+        "url": "https://www.linktr.ee/fightcovidnola"
+      }
+    ]
+  },
+
+  // ======= NC - North Carolina ============================================ //
+  "trianglemaskbloc": {
+    "name": "Triangle Mask Bloc",
+    "subdivisions": ["NC"],
+    "keywords": [
+      "nc",
+      "north",
+      "carolina",
+      "washington",
+      "raleigh",
+      "durham",
+      "chapel",
+      "hill",
+      "triangle"
+    ],
+    "description": "✨Mask distribution and COVID education in the Raleigh-Durham-Chapel Hill area of North Carolina✨",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@trianglemaskbloc",
+        "url": "https://www.instagram.com/trianglemaskbloc/"
+      },
+      {
+        "type": "carrd",
+        "username": "@trianglemaskbloc",
+        "url": "https://trianglemaskbloc.carrd.co/"
+      }
+    ]
+  },
+  "cltmaskbloc": {
+    "name": "Charlotte Mask Bloc",
+    "subdivisions": ["NC"],
+    "keywords": [
+      "nc",
+      "north",
+      "carolina",
+      "charlotte"
+    ],
+    "description": "Grassroots mutual aid effort dedicated to providing the community with high-quality respirators! DM on Instagram for free KN95s and N95s! 😷😷😷😷 fill out the form below!",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@CLT_Mask_Bloc",
+        "url": "https://x.com/CLT_Mask_Bloc"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfCafn3pynvBpLtejV45ipZITrP8NQNOxRiSrtLHgM4r90F3Q/viewform"
+      },
+      {
+        "type": "web",
+        "name": "cltmaskbloc.org",
+        "url": "https://www.cltmaskbloc.org/"
+      }
+    ]
+  },
+  "covidsafewnc": {
+    "name": "COVID Safe WNC",
+    "subdivisions": ["NC"],
+    "keywords": [
+      "nc",
+      "north",
+      "carolina",
+      "save",
+      "western"
+    ],
+    "description": "We recognize that a society is only as safe as we make it, and in the reality with COVID-19: none of us are safe until all of us are safe.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafewnc",
+        "url": "https://www.instagram.com/covidsafewnc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafewnc",
+        "url": "https://www.linktr.ee/covidsafewnc"
+      }
+    ]
+  },
+
+  // ======= OK - Oklahoma ================================================== //
+  "maskblocokc": {
+    "name": "Mask Bloc OKC",
+    "subdivisions": ["OK"],
+    "keywords": [
+      "ok",
+      "oklahoma",
+      "okc",
+      "city"
+    ],
+    "description": "Based in the so-called Oklahoma City metro area, we are a group dedicated to providing FREE N95/KN95 respirators to the community.\nMasking is community care!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocokc",
+        "url": "https://www.instagram.com/maskblocokc/"
+      }
+    ]
+  },
+  "maskbloctulsa": {
+    "name": "Mask Bloc Tulsa",
+    "subdivisions": ["OK"],
+    "keywords": [
+      "ok",
+      "oklahoma",
+      "tulsa"
+    ],
+    "description": "A group of people organizing for Covid safety and disability justice in Tulsa. Request free masks and rapid tests through the link in our bio!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloctulsa",
+        "url": "https://www.instagram.com/maskbloctulsa/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloctulsa",
+        "url": "https://linktr.ee/maskbloctulsa"
+      }
+    ]
+  },
+
+  // ======= SC - South Carolina ============================================ //
+  "sodacitymaskbloc": {
+    "name": "Soda City Mask Bloc",
+    "subdivisions": ["SC"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "sc",
+      "south",
+      "carolina",
+      "columbia",
+      "congaree",
+      "cherokee",
+      "soda",
+      "city"
+    ],
+    "description": "MaskBloc distribution for Columbia, SC for Covid-Safety/Awareness and Disability Justice\n(Congaree & Cherokee Lands)",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@sodacitymaskbloc",
+        "url": "https://www.instagram.com/sodacitymaskbloc/"
+      },
+      {
+        "type": "email",
+        "email": "sodacitymaskbloc@proton.me"
+      }
+    ]
+  },
+
+  // ======= TN - Tennessee ================================================= //
+  "themidsouthscdc": {
+    "name": "The Mid-South's CDC",
+    "subdivisions": ["TN"],
+    "keywords": [
+      "tn",
+      "tennessee",
+      "mid",
+      "south",
+      "west",
+      "cdc"
+    ],
+    "description": "West Tennessee-based COVID PPE project mailing free, high-filtration masks across the Mid-South region, no questions asked. 😷 Hit the form below to get masks 👇🏾",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@themidsouthscdc",
+        "url": "https://www.instagram.com/themidsouthscdc/"
+      },
+      {
+        "type": "form",
+        "url": "https://l.instagram.com/?u=https%3A%2F%2Fcryptpad.fr%2Fform%2F%23%2F2%2Fform%2Fview%2Fzbfqal4QVQIWUkwY6b-I0TY1ww5Lv0AEHVt1TJ3xA44%2F&e=AT3zeKNjmyNyRm8jbq9b0twtlrHoTpNk6-y-ReVTYP5teA1yIt5EYIrVm6HUD8_O9ci48LRSOn2hYMjv3_DXS8CKENPiY6Q-1oo_nTk"
+      }
+    ]
+  },
+  "nashmask4mask": {
+    "name": "Mask4Mask Nashville",
+    "subdivisions": ["TN"],
+    "keywords": [
+      "tn",
+      "tennessee",
+      "nashville"
+    ],
+    "description": "Nashville queers organized against COVID eugenics. 😷🏳️‍🌈🏳️‍⚧️\nCommitted to resource sharing and creating space for each other. 👥",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@nashmask4mask",
+        "url": "https://www.instagram.com/nashmask4mask/"
+      },
+      {
+        "type": "linktree",
+        "username": "@nashmask4mask",
+        "url": "https://linktr.ee/nashmask4mask/"
+      }
+    ]
+  },
+  "CleanAirKnoxTN": {
+    "name": "Clean Air Club Knoxville TN",
+    "subdivisions": ["TN"],
+    "tags": [
+      "upcoming",
+      "clean-air-club"
+    ],
+    "keywords": [
+      "tn",
+      "tennessee",
+      "knoxville"
+    ],
+    "description": "Brand new clean air club/mask bloc. Free palestine!",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@CleanAirKnoxTN",
+        "url": "https://x.com/CleanAirKnoxTN"
+      }
+    ]
+  },
+
+  // ======= TX - Texas ===================================================== //
+  "maskblocdfw": {
+    "name": "Mask Bloc DFW",
+    "subdivisions": ["TX"],
+    "keywords": [
+      "tx",
+      "texas",
+      "dallas",
+      "fort",
+      "worth"
+    ],
+    "description": "Mask Bloc DFW. is a mutual aid group providing free masks, political education, and disability justice advocacy. Dallas-Forth Worth, Texas",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocdfw",
+        "url": "https://www.instagram.com/maskblocdfw"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocdfw",
+        "url": "https://www.linktr.ee/maskblocdfw"
+      }
+    ]
+  },
+  "maskblocatx": {
+    "name": "Mask Bloc ATX",
+    "subdivisions": ["TX"],
+    "keywords": [
+      "tx",
+      "texas",
+      "austin",
+      "atx"
+    ],
+    "description": "COVID prevention activist & mutual aid group that gives out masks for free in communities. Austin, Texas. In partnership with @covidsaferatx on Instagram.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocatx",
+        "url": "https://www.instagram.com/maskblocatx/"
+      },
+      {
+        "type": "carrd",
+        "username": "@MaskBlocATX",
+        "url": "https://maskblocatx.carrd.co/"
+      }
+    ]
+  },
+  "maskbloc.htx": {
+    "name": "Mask Bloc - HTX",
+    "subdivisions": ["TX"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "tx",
+      "texas",
+      "htx",
+      "houston"
+    ],
+    "description": "Mutual aid cooperative in so-called Houston. 😷😷😷 K*LL THE COLONIZER IN YOUR HEAD!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc.htx",
+        "url": "https://www.instagram.com/maskbloc.htx/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc.htx",
+        "url": "https://linktr.ee/maskbloc.htx"
+      }
+    ]
+  },
+  "ccb.sa": {
+    "name": "Covid Conscious Bloc of San Antonio",
+    "subdivisions": ["TX"],
+    "keywords": [
+      "tx",
+      "texas",
+      "san",
+      "antonio"
+    ],
+    "description": "Building community, sharing educational resources, advocating for masking, clean air, & accessibility for all.\n😷🤝😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@ccb.sa",
+        "url": "https://www.instagram.com/ccb.sa/"
+      },
+      {
+        "type": "linktree",
+        "username": "@ccbsa",
+        "url": "https://www.linktr.ee/ccbsa"
+      }
+    ]
+  },
+  "maskblocelpaso": {
+    "name": "Mask Bloc El Paso",
+    "subdivisions": ["OR"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "tx",
+      "texas",
+      "el",
+      "paso"
+    ],
+    "description": "Free hi-fi masks for all “El Paso.” Outreach, info, and community care | Máscarillas gratis y apoyo mutuo para todo “El Paso.”",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocelpaso",
+        "url": "https://www.instagram.com/maskblocelpaso/"
+      }
+    ]
+  },
+
+  // ======= VA - Virginia ================================================== //
+  "maskbloccville": {
+    "name": "Mask Bloc Cville",
+    "subdivisions": ["VA"],
+    "keywords": [
+      "va",
+      "virginia",
+      "charlottesville",
+      "cville",
+      "monacan",
+      "manahoac"
+    ],
+    "description": "QTBIPOC-led COVID safety + disability justice project on monacan/manahoac land serving the people of Cville + surrounding counties",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloccville",
+        "url": "https://www.instagram.com/maskbloccville/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloccville",
+        "url": "https://www.linktr.ee/maskbloccville"
+      }
+    ]
+  },
+  "ccb.rva": {
+    "name": "COVID Conscious Bloc RVA",
+    "subdivisions": ["VA"],
+    "keywords": [
+      "va",
+      "virginia",
+      "richmond"
+    ],
+    "description": "",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@ccb.rva",
+        "url": "https://www.instagram.com/ccb.rva/"
+      },
+      {
+        "type": "linktree",
+        "username": "@ccb.rva",
+        "url": "https://www.linktr.ee/ccb.rva"
+      }
+    ]
+  },
+  "maskblocnova": {
+    "name": "Mask Bloc NOVA",
+    "subdivisions": ["VA"],
+    "keywords": [
+      "va",
+      "virginia",
+      "nova",
+      "north"
+    ],
+    "description": "DM us on Instagram or email us below to request free masks!\nFeel free to also hit us up with your questions on covid info and safety precautions",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocnova",
+        "url": "https://www.instagram.com/maskblocnova/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocnova",
+        "url": "https://www.linktr.ee/maskblocnova"
+      },
+      {
+        "type": "email",
+        "email": "MaskBlocNOVA@protonmail.com"
+      }
+    ]
+  },
+  "757masks": {
+    "name": "Free Mask Bloc 757",
+    "subdivisions": ["VA"],
+    "keywords": [
+      "va",
+      "virginia",
+      "757",
+      "southeast",
+      "hampton",
+      "roads"
+    ],
+    "description": "📍Hampton Roads, Southeast Virginia\nEmail us for free high-filtration masks to protect yourself and your community against COVID, measles, TB, etc!😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@757masks",
+        "url": "https://www.instagram.com/757masks/"
+      },
+      {
+        "type": "linkinbio",
+        "username": "@757masks",
+        "url": "https://linkin.bio/757masks"
+      }
+    ]
+  },
+  "cleanaircville": {
+    "name": "Clean Air Cville",
+    "subdivisions": ["VA"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "va",
+      "virginia",
+      "charlottesville",
+      "cville",
+      "monacan",
+      "manahoac",
+      "clean",
+      "air"
+    ],
+    "description": "Education and supplies to breathe cleaner air and create a clean air community near Cville\n~\nRequest free masks, air filters, join email list in Linktree.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanaircville",
+        "url": "https://www.instagram.com/cleanaircville/"
+      },
+      {
+        "type": "linktree",
+        "username": "@cleanaircville",
+        "url": "https://www.linktr.ee/cleanaircville"
+      }
+    ]
+  },
+  "breatheeasyrva": {
+    "name": "Breath Easy RVA",
+    "subdivisions": ["VA"],
+    "tags": [
+      "clean-air-club",
+      "upcoming"
+    ],
+    "keywords": [
+      "va",
+      "virginia",
+      "richmond",
+      "breath",
+      "easy"
+    ],
+    "description": "Providing the tools to create Covid safer events in Richmond, VA. Volunteer run, crowdfunded, always free.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@breatheeasyrva",
+        "url": "https://www.instagram.com/breatheeasyrva/"
+      }
+    ]
+  },
+
+  // ======= IL - Illinois ================================================== //
+  "maskdistrogrinnell": {
+    "name": "Mask Distribution Grinnell",
+    "subdivisions": ["IA"],
+    "keywords": [
+      "ia",
+      "iowa",
+      "grinnell"
+    ],
+    "description": "Distributing free masks, Covid tests and PPE in Grinnell, Iowa.\nWe keep us safe. No one left behind. 😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskdistrogrinnell",
+        "url": "https://www.instagram.com/maskdistrogrinnell/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskdistrogrinnell",
+        "url": "https://linktr.ee/maskdistrogrinnell"
+      }
+    ]
+  },
+  "chi-mask": {
+    "name": "Chicago Mask Bloc",
+    "subdivisions": ["IL"],
+    "keywords": [
+      "il",
+      "illinois",
+      "chicago"
+    ],
+    "description": "Free KN95 distribution.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@chicagomaskbloc",
+        "url": "https://www.instagram.com/chicagomaskbloc"
+      }
+    ]
+  },
+  "clean.air.club": {
+    "name": "Clean Air Club",
+    "subdivisions": ["IL"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "il",
+      "illinois",
+      "chicago"
+    ],
+    "description": "Ensuring accessible and cleaner air for Chicago artists and touring musicians. Volunteer run, crowdfunded, always free.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@clean.air.club",
+        "url": "https://www.tinyurl.com/clean.air.club"
+      },
+      {
+        "type": "linktree",
+        "username": "@cleanairclub",
+        "url": "https://linktr.ee/cleanairclub"
+      },
+      {
+        "type": "web",
+        "name": "cleanairclub.org",
+        "url": "https://cleanairclub.org/"
+      }
+    ]
+  },
+  "collectiveair_": {
+    "name": "CollectiveAir",
+    "subdivisions": ["IL"],
+    "keywords": [
+      "il",
+      "illinois",
+      "chicago"
+    ],
+    "description": "We are a Black Lesbian-led org focused on the access and distribution of masks on Chicago transit lines.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@collectiveair_",
+        "url": "https://www.instagram.com/collectiveair_"
+      },
+      {
+        "type": "linktree",
+        "username": "@collectiveair",
+        "url": "https://linktr.ee/collectiveair"
+      }
+    ]
+  },
+
+  // ======= IN - Indiana =================================================== //
+  "maskblocfortwayne": {
+    "name": "Mask Bloc Fort Wayne",
+    "subdivisions": ["IN"],
+    "keywords": [
+      "in",
+      "indiana",
+      "fort",
+      "wayne"
+    ],
+    "description": "Collective of folx in Fort Wayne, Indiana organizing to fight covid eugenics with mutual aid, education, and direct action.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocfortwayne",
+        "url": "https://www.instagram.com/maskblocfortwayne/"
+      }
+    ]
+  },
+  "maskblocindy": {
+    "name": "Indy Mask Bloc",
+    "subdivisions": ["IN"],
+    "keywords": [
+      "in",
+      "indiana",
+      "indianapolis",
+      "indy"
+    ],
+    "description": "Making quality masks accessible to the Greater Indy population! | email/DM on Instagram to request masks! | Donate $indymaskbloc",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocindy",
+        "url": "https://www.instagram.com/maskblocindy/"
+      }
+    ]
+  },
+  "816covidcrew": {
+    "name": "816 Covid Crew",
+    "subdivisions": ["KS"],
+    "keywords": [
+      "ks",
+      "kansas",
+      "crew",
+      "816",
+      "city",
+      "ks"
+    ],
+    "description": "Working to build solidarity during an ongoing pandemic\nGreater KC Metro",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@816covidcrew",
+        "url": "https://www.instagram.com/816covidcrew/"
+      },
+      {
+        "type": "linktree",
+        "username": "@816covidcrew",
+        "url": "https://linktr.ee/816covidcrew"
+      }
+    ]
+  },
+  "covid.safe.ict": {
+    "name": "COVID Safe ICT",
+    "subdivisions": ["KS"],
+    "keywords": [
+      "ks",
+      "kansas",
+      "safe",
+      "ict",
+      "wichita"
+    ],
+    "description": "Community organization providing free N95 masks, COVID tests, and clean air resources in the Wichita area",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covid.safe.ict",
+        "url": "https://www.instagram.com/covid.safe.ict/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeict",
+        "url": "https://linktr.ee/covidsafeict"
+      }
+    ]
+  },
+
+  // ======= MI - Michigan ================================================== //
+  "covidsafemsu": {
+    "name": "COVID Safe MSU/Michigan",
+    "subdivisions": ["MI"],
+    "tags": [
+      "covid-safe-campus"
+    ],
+    "keywords": [
+      "mi",
+      "michigan",
+      "east",
+      "lansing"
+    ],
+    "description": "COVID isn't over. Public health as community care\n📍@michiganstateu\n@covidsafecampus ambassador\nViews own",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafemsu",
+        "url": "https://www.instagram.com/covidsafemsu"
+      },
+      {
+        "type": "linktree",
+        "username": "@COVIDsafeMSU",
+        "url": "https://linktr.ee/COVIDsafeMSU"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/o74NKv3z1k73cu3y8"
+      }
+    ]
+  },
+  "maskbloc616": {
+    "name": "Mask Bloc 616",
+    "subdivisions": ["MI"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "greater",
+      "grand",
+      "rapids",
+      "616"
+    ],
+    "description": "Mask Bloc 616 is a mutual aid organization providing free high-quality masks and respirators to the Greater Grand Rapids area.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc616",
+        "url": "https://www.instagram.com/MaskBloc616/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc616",
+        "url": "https://linktr.ee/maskbloc616/"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/6x5KMmPvroGHA9-JfYB0uXt1KX-qLNaMrgiX7r+f5Ac/"
+      }
+    ]
+  },
+  "maskbloc_mi_metro_detroit_area": {
+    "name": "Mask Bloc MI - Metro Detroit Area",
+    "subdivisions": ["MI"],
+    "keywords": [
+      "mi",
+      "michigan",
+      "ferndale",
+      "detroit"
+    ],
+    "description": "The purpose of this Mask Bloc is to provide high-quality, high-filtration masks to community members.",
+    "socials": [
+      {
+        "type": "facebook",
+        "name": "Mask Bloc MI - Metro Detroit Area",
+        "url": "https://www.facebook.com/people/Mask-Bloc-MI-Metro-Detroit-Area/61555553583845/"
+      },
+      {
+        "type": "email",
+        "email": "oaklandcountymaskdonations@gmail.com"
+      }
+    ]
+  },
+  "covid.outreach.washtenaw": {
+    "name": "Covid Outreach Washtenaw",
+    "subdivisions": ["MI"],
+    "keywords": [
+      "outreach",
+      "washtenaw",
+      "mi",
+      "michigan"
+    ],
+    "description": "🐄🐄🐄\nwe keep us safe. Covid resources & help for the people of Washtenaw county.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covid.outreach.washtenaw",
+        "url": "https://www.instagram.com/covid.outreach.washtenaw/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/4qquAwaotLVYehTp9"
+      }
+    ]
+  },
+  "washtenawc3": {
+    "name": "Washtenaw C3 Mask Bank",
+    "subdivisions": ["MI"],
+    "tags": [
+      "clean-air-club",
+      "mask-bank"
+    ],
+    "keywords": [
+      "community",
+      "conscious",
+      "c3",
+      "bank",
+      "washtenaw",
+      "mi",
+      "michigan"
+    ],
+    "description": "Washtenaw Covid Cautious Community has a limited amount of FREE masks & air filters available for people in Washtenaw County each month. It also offers qualitative and quantitative fit testing available by appointment.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "Mask Bank",
+        "url": "https://www.washtenawc3.org/mask-bank"
+      }
+    ]
+  },
+
+  // ======= MN - Minnesota ================================================= //
+  "covidawaretc": {
+    "name": "COVIDAwareTC",
+    "subdivisions": ["MN"],
+    "keywords": [
+      "mn",
+      "minnesota",
+      "minneapolis",
+      "saint",
+      "paul",
+      "mni",
+      "sota",
+      "makoce"
+    ],
+    "description": "An informal group of people in Minneapolis–Saint Paul organizing resources, political education, and solidarity around the ongoing pandemic. 😷\n📍 Location: Mni Sota Makoce",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidawaretc",
+        "url": "https://www.instagram.com/covidawaretc"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidawaretc",
+        "url": "https://linktr.ee/covidawaretc"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/QmYipHOpSDVp9TamsF2G+iGpeTrg8b5os1V2e4y4Hq0/"
+      }
+    ]
+  },
+  "maskbloc_msp": {
+    "name": "Mask Bloc - Minneapolis/Saint Paul",
+    "subdivisions": ["MN"],
+    "keywords": [
+      "mn",
+      "minnesota",
+      "minneapolis",
+      "saint",
+      "paul",
+      "mni",
+      "sota",
+      "makoce"
+    ],
+    "description": "Just everyday people who care about COVID and making sure our communities stay safe from it\nFree respirators. Free COVID tests. Free community care.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc_msp",
+        "url": "https://www.instagram.com/maskbloc_msp"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocmsp",
+        "url": "https://linktr.ee/maskblocmsp"
+      }
+    ]
+  },
+  "share.clean.air.msp": {
+    "name": "Share Clean Air MSP",
+    "subdivisions": ["MN"],
+    "keywords": [
+      "mn",
+      "minnesota",
+      "minneapolis",
+      "saint",
+      "paul",
+      "mni",
+      "sota",
+      "makoce"
+    ],
+    "description": "Promoting access to HEPA-grade air purifiers to folks in the MSP area.\n📍Mni Sota Makoce",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@share.clean.air.msp",
+        "url": "https://www.instagram.com/share.clean.air.msp"
+      }
+    ]
+  },
+  "maskbloc507": {
+    "name": "Mask Bloc 507",
+    "subdivisions": ["MN"],
+    "keywords": [
+      "mn",
+      "minnesota",
+      "winona",
+      "rochester"
+    ],
+    "description": "Queer Disabled mutual aid collective distributing free, high-quality masks in so-called Winona and Rochester",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc507",
+        "url": "https://www.instagram.com/maskbloc507"
+      },
+      {
+        "type": "email",
+        "username": "@maskbloc507mn",
+        "url": "https://linktr.ee/maskbloc507mn"
+      }
+    ]
+  },
+
+  // ======= MO - Missouri ================================================== //
+  "maskblocstl": {
+    "name": "Mask Bloc St Louis",
+    "subdivisions": ["MO"],
+    "keywords": [
+      "mo",
+      "missouri",
+      "st",
+      "louis"
+    ],
+    "description": "📍St. Louis, Missouri\nMask Bloc serving the STL metro area and beyond in MO.\nCheck out our linktree to donate or request supplies!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocstl",
+        "url": "https://www.instagram.com/maskblocstl"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocstl",
+        "url": "https://linktr.ee/maskblocstl"
+      }
+    ]
+  },
+
+  // ======= NE - Nebraska ================================================== //
+  "call_cleanairlibrarylincoln": {
+    "name": "Clean Air Library Lincoln",
+    "subdivisions": ["NE"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "ne",
+      "nebraska",
+      "lincoln",
+      "library"
+    ],
+    "description": "A little lending library for sharing tools for cleaner air, free. Lincoln NE. DM for masks, or to borrow an air purifier or FAR UV light device.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@call_cleanairlibrarylincoln",
+        "url": "https://www.instagram.com/call_cleanairlibrarylincoln"
+      }
+    ]
+  },
+
+  // ======= OH - Ohio ====================================================== //
+  "maskbloc614": {
+    "name": "Mask Bloc 614",
+    "subdivisions": ["OH"],
+    "keywords": [
+      "oh",
+      "ohio",
+      "columbus",
+      "614"
+    ],
+    "description": "Antifascist disabled & trans led mask distribution & info project – mutual aid & education towards disability justice, environment justice, and community care in Ohio.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc614",
+        "url": "https://www.instagram.com/maskbloc614/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloc614",
+        "url": "https://linktr.ee/maskbloc614"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScfMEzJBGNCOFC90sRfHftAApmo-KLczrtWBHzCNaa4p2Mobg/viewform"
+      }
+    ]
+  },
+  "covidsafeoberlin": {
+    "name": "Covid Safe Oberlin",
+    "subdivisions": ["OH"],
+    "keywords": [
+      "oh",
+      "ohio",
+      "oberlin"
+    ],
+    "description": "Promoting harm reduction, community care, and disability justice at Oberlin College. Not affiliated with ObieSafe, views own. Check out our linktree!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafeoberlin",
+        "url": "https://www.instagram.com/covidsafeoberlin/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeoberlin",
+        "url": "https://linktr.ee/covidsafeoberlin"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/1un5JeESmg229IePkrb7g2YIcw70ihFoLa7dbMQa6Uz8/edit"
+      }
+    ]
+  },
+  "cprcle": {
+    "name": "Cleveland Pandemic Response",
+    "subdivisions": ["OH"],
+    "keywords": [
+      "oh",
+      "ohio",
+      "neo",
+      "northeast",
+      "cleveland"
+    ],
+    "description": "A group of neighborhood organizers and community members aiming to provide mutual aid and support to Northeast Ohio residents during the COVID-19 pandemic.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cprcle",
+        "url": "https://www.instagram.com/cprcle/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeoberlin",
+        "url": "https://linktr.ee/cprcle"
+      }
+    ]
+  },
+  "maskblocneo": {
+    "name": "MaskBloc NEO",
+    "subdivisions": ["OH"],
+    "keywords": [
+      "oh",
+      "ohio",
+      "neo",
+      "northeast"
+    ],
+    "description": "Disabled, queer, antifascist group organizing for disability justice and COVID mitigations through mask distro and radical community care in Northeast Ohio",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocneo",
+        "url": "https://www.instagram.com/maskblocneo/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocneo",
+        "url": "https://linktr.ee/maskblocneo"
+      }
+    ]
+  },
+  "cripfutures513": {
+    "name": "(Mask Up) Cincy for Crip Futures",
+    "subdivisions": ["OH"],
+    "keywords": [
+      "oh",
+      "ohio",
+      "cincinnati",
+      "cincy",
+      "crip",
+      "futures"
+    ],
+    "description": "org for disability justice practices and COVID-safer resources through mask distribution, community care, and accessible information in cincy + beyond",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cripfutures513",
+        "url": "https://www.instagram.com/cripfutures513/"
+      },
+      {
+        "type": "linktree",
+        "username": "@cripfutures513",
+        "url": "https://linktr.ee/cripfutures513"
+      }
+    ]
+  },
+
+  // ======= WI - Wisconsin ================================================= //
+  "maskbloc608": {
+    "name": "Mask Bloc 608",
+    "subdivisions": ["WI"],
+    "keywords": [
+      "wi",
+      "wisconsin",
+      "madison",
+      "teejop",
+      "608"
+    ],
+    "description": "A queer, trans, and disabled-run project distributing free masks to the community in Teejop (so-called Madison, Wisconsin). We keep us safe.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc608",
+        "url": "https://www.instagram.com/maskbloc608"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocstl",
+        "url": "https://linktr.ee/maskbloc608"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/1xv_Cds5byxE4h4HVo6eCGQYUFMEwNicCmQ4DQcB5H1I/edit"
+      }
+    ]
+  },
+  "maskblocmke": {
+    "name": "Mask Bloc MKE",
+    "subdivisions": ["WI"],
+    "keywords": [
+      "wi",
+      "wisconsin",
+      "milwaukee",
+      "mke"
+    ],
+    "description": "🏴🫂 need KN95s in MKE? email below (10 respirators per family member per request; please space out requests to every two weeks) || COVID-19 updates Friday 😷🦠",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocmke",
+        "url": "https://www.instagram.com/maskblocmke/"
+      },
+      {
+        "type": "carrd",
+        "username": "@maskupmke",
+        "url": "https://maskupmke.carrd.co/"
+      },
+      {
+        "type": "email",
+        "email": "maskblocmke@protonmail.com"
+      }
+    ]
+  },
+
+  // ======= Canada ========================================================= //
+  "t7maskbloc": {
+    "name": "Treaty 7 Mask Bloc",
+    "subdivisions": ["AB"],
+    "keywords": [
+      "ab",
+      "alberta",
+      "calgary",
+      "moh'kinstsis",
+      "treaty",
+      "7"
+    ],
+    "description": "Moh'kínstsis (Calgary, AB)\nMask distro & covid-safer community care 🏳️‍⚧️🏴🏳️‍🌈\nDM on Instagram to request free masks & rapid tests\n🌎💖 harm reduction saves lives 💖🌍",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@t7maskbloc",
+        "url": "https://www.instagram.com/t7maskbloc"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/7JeDP51AzbZaUiPn9"
+      }
+    ]
+  },
+  "maskblocedmonton": {
+    "name": "Mask Bloc Edmonton",
+    "subdivisions": ["AB"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ab",
+      "alberta",
+      "edmonton"
+    ],
+    "description": "Volunteer-run mask distribution based in Edmonton, Alberta.\nComing soon ♥️",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocedmonton",
+        "url": "https://www.instagram.com/maskblocedmonton"
+      }
+    ]
+  },
+  "masks4eastvan": {
+    "name": "Masks 4 East Van!",
+    "subdivisions": ["BC"],
+    "keywords": [
+      "bc",
+      "british",
+      "columbia",
+      "vancouver"
+    ],
+    "description": "Free KN95/N95 Mask Deliveries | E-transfer: Masks4EastVan@gmail.com\nSet password: masks4masks2022 | We can't answer most DM's, please email us.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@masks4eastvan",
+        "url": "https://www.instagram.com/masks4eastvan"
+      },
+      {
+        "type": "linktree",
+        "username": "@masks4eastvan",
+        "url": "https://www.linktr.ee/masks4eastvan"
+      }
+    ]
+  },
+  "maskblocbc": {
+    "name": "Mask Bloc BC",
+    "subdivisions": ["BC"],
+    "keywords": [
+      "bc",
+      "british",
+      "columbia"
+    ],
+    "description": "COVID-aware mutual aid network. Masking is harm reduction; anti-fascist; community care. We believe in science & human rights. FREE MASKS REQUEST FORM in Linktree.",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@maskblocBC",
+        "url": "https://www.linktree.com/maskblocBC"
+      }
+    ]
+  },
+  "masks4victoria": {
+    "name": "Masks4Victoria",
+    "subdivisions": ["BC"],
+    "keywords": [
+      "bc",
+      "british",
+      "columbia",
+      "victoria",
+      "lekwungen"
+    ],
+    "description": "📍Unceded Lekwungen Territories\nDM for free masks, request air purifiers for local events, actions and performances or to donate💕\nWe keep us safe 😷",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@masks4victoria",
+        "url": "https://www.instagram.com/masks4victoria"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/bLMTbmPmxwV24hgL6"
+      }
+    ]
+  },
+  "maskblocfortnelson": {
+    "name": "Mask Bloc Fort Nelson",
+    "subdivisions": ["BC"],
+    "keywords": [
+      "bc",
+      "british",
+      "columbia",
+      "fort",
+      "nelson"
+    ],
+    "description": "Free masks (n95, kn95 or equivalent respirators) tests & safety supplies for people of Fort Nelson & the Northern Rockies Regional Municipality #FreePalestine",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@fortnelsonmasks",
+        "url": "https://twitter.com/fortnelsonmasks"
+      }
+    ]
+  },
+  "masks4wpg": {
+    "name": "Masks 4 Winnipeg",
+    "subdivisions": ["MB"],
+    "keywords": [
+      "mb",
+      "manitoba",
+      "winnipeg",
+      "wpg"
+    ],
+    "description": "Free N95/KN95 community mask box for Winnipeg. 💖😷\nLocation: 689 Maryland Street next to the community fridge.",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@masks4wpg",
+        "url": "https://x.com/masks4wpg"
+      }
+    ]
+  },
+  "popnewbrunswick": {
+    "name": "Protect Our Province New Brunswick",
+    "subdivisions": ["NB"],
+    "tags": [
+      "advocacy-group"
+    ],
+    "keywords": [
+      "nb",
+      "new",
+      "brunswick",
+      "protect",
+      "province"
+    ],
+    "description": "📍 Protect our Province New Brunswick\n🧪 Research based information about Covid-19 and airborne diseases\n🔍 Citizen science initiative",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@nb_covid_info",
+        "url": "https://linktr.ee/nb_covid_info"
+      },
+      {
+        "type": "instagram",
+        "username": "@popnewbrunswick",
+        "url": "https://www.instagram.com/popnewbrunswick/"
+      },
+      {
+        "type": "web",
+        "name": "protectnb.ca",
+        "url": "https://protectnb.ca/"
+      }
+    ]
+  },
+  "maskbloc.hfx": {
+    "name": "Mask Bloc Kjipuktuk/Halifax",
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "ns",
+      "nova",
+      "scotia",
+      "halifax",
+      "kjipuktuk"
+    ],
+    "subdivisions": ["NS"],
+    "description": "Mutual aid group for pandemic action and sick solidarity! Now distributing masks and other resources in Kjipuktuk ❤️‍🔥😷😷😷❤️‍🔥",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc.hfx",
+        "url": "https://www.instagram.com/maskbloc.hfx/"
+      },
+      {
+        "type": "linktree",
+        "username": "maskblochfx",
+        "url": "https://linktr.ee/maskblochfx"
+      }
+    ]
+  },
+  "maskblocott": {
+    "name": "Mask Bloc Ottawa",
+    "subdivisions": ["ON"],
+    "keywords": [
+      "on",
+      "ontario",
+      "ottawa"
+    ],
+    "description": "Local disabled queers distributing high quality masks and covid rapid tests in so-called Ottawa.\n🇵🇸 Free Palestine 🇵🇸",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocott",
+        "url": "https://www.instagram.com/maskblocott/"
+      }
+    ]
+  },
+  "clean.air.ottawa": {
+    "name": "Clean Air Ottawa",
+    "subdivisions": ["ON"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "on",
+      "ontario",
+      "ottawa"
+    ],
+    "description": "We connect artists and organizers to tools and resources to create covid safer events. Community led, always free.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@clean.air.ottawa",
+        "url": "https://www.instagram.com/clean.air.ottawa/"
+      }
+    ]
+  },
+  "maskbloctoronto": {
+    "name": "Mask Bloc Toronto",
+    "subdivisions": ["ON"],
+    "keywords": [
+      "on",
+      "ontario",
+      "toronto",
+      "tkaronto"
+    ],
+    "description": "Outreach, mask distribution, information and community care in Toronto/Tkaronto, Ontario.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloctoronto",
+        "url": "https://www.instagram.com/maskbloctoronto/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloctoronto",
+        "url": "https://www.linktr.ee/maskbloctoronto"
+      }
+    ]
+  },
+  "maskbloc905": {
+    "name": "Mask Bloc 905",
+    "subdivisions": ["ON"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "on",
+      "ontario",
+      "hamilton",
+      "onon:takon"
+    ],
+    "description": "🖤 disabled tranarchist led mask distro in Onón:takon #hamont\n💐 mutual aid & education to connect & unite antifascist resistance\n#WeKeepUsSafe",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc905",
+        "url": "https://www.instagram.com/maskbloc905/"
+      }
+    ]
+  },
+  "covidsafeniagara": {
+    "name": "COVID Safe Niagara",
+    "subdivisions": ["ON"],
+    "keywords": [
+      "on",
+      "ontario",
+      "niagara"
+    ],
+    "description": "Wearing a mask is community care.\nAn affiliate of @radical_carecollective\nNeed a mask? Message us on Instagram, or check out our Linktree ⤵️",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafeniagara",
+        "url": "https://www.instagram.com/covidsafeniagara/"
+      },
+      {
+        "type": "linktree",
+        "username": "@covidsafeniagara",
+        "url": "https://www.linktr.ee/covidsafeniagara"
+      }
+    ]
+  },
+  "radical_carecollective": {
+    "name": "Radical Care Collective",
+    "subdivisions": ["ON"],
+    "tags": [
+      "care-collective"
+    ],
+    "keywords": [
+      "on",
+      "ontario",
+      "niagara",
+      "radical",
+      "care",
+      "collective",
+      "st.",
+      "st",
+      "catharines"
+    ],
+    "description": "We are a Niagara based disability justice collective.\nMutual aid, community building, education.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@radical_carecollective",
+        "url": "https://www.instagram.com/radical_carecollective/"
+      },
+      {
+        "type": "linktree",
+        "username": "@radicalcarecollective",
+        "url": "https://www.linktr.ee/radicalcarecollective"
+      }
+    ]
+  },
+  "maskblocwr": {
+    "name": "Mask Bloc Waterloo",
+    "subdivisions": ["ON"],
+    "keywords": [
+      "on",
+      "ontario",
+      "waterloo",
+      "kitchener",
+      "cambridge"
+    ],
+    "description": "Masking information and organizing in Waterloo region, Ontario.",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@maskblocwr",
+        "url": "https://linktr.ee/maskblocwr"
+      },
+      {
+        "type": "instagram",
+        "username": "@maskblocwr",
+        "url": "https://www.instagram.com/maskblocwr/"
+      }
+    ]
+  },
+  "covid_action_now": {
+    "name": "Covid Action Now!",
+    "subdivisions": ["QC"],
+    "keywords": [
+      "qc",
+      "quebec",
+      "Tiohtià:ke",
+      "montreal"
+    ],
+    "description": "We are a Tiohtià:ke / Montreal based mutual aid collective offering free masks, rapid tests, and information related to COVID. We believe that the “new normal” should be about community care and creating a world where everyone is free.\nOn est un collectif d'aide mutuelle basé à Tiohtià:ke / Montréal qui offre des masques et des tests rapides gratuits, ainsi que de l'information sur la COVID. Nous pensons que le “nouveau normal” devrait être à propos de la solidarité et de la communauté, pour créer un monde où toutes sont libres.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covid_action_now",
+        "url": "https://www.instagram.com/covid_action_now/"
+      },
+      {
+        "type": "facebook",
+        "name": "Covid Action Now Montréal",
+        "url": "https://www.facebook.com/profile.php?id=61556676784144"
+      },
+      {
+        "type": "email",
+        "email": "covidactionnow@proton.me"
+      }
+    ]
+  },
+  "covidsafemcgill": {
+    "name": "Covid Safe McGill",
+    "subdivisions": ["QC"],
+    "tags": [
+      "covid-safe-campus"
+    ],
+    "keywords": [
+      "qc",
+      "quebec",
+      "Tiohtià:ke",
+      "montreal",
+      "mcgill"
+    ],
+    "description": "Community care is disability justice.\nCOVID resources, community, and advocacy.\nAmbassador @covidsafecampus (views own).\n📍Tiohtià:ke",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafemcgill",
+        "url": "https://www.instagram.com/covidsafemcgill/"
+      }
+    ]
+  },
+  "sask.mask.bloc": {
+    "name": "Mask Bloc Sask",
+    "subdivisions": ["SK"],
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "sk",
+      "saskatchewan",
+      "regina",
+      "saskatoon"
+    ],
+    "description": "Mask Bloc Sask is a small volunteer run group committed to providing access to free high quality masks.\nCurrently working on serving Regina & Saskatoon located on Treaty 4 & 6 Territory.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@sask.mask.bloc",
+        "url": "https://www.instagram.com/sask.mask.bloc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskblocsask",
+        "url": "https://linktr.ee/maskblocsask"
+      }
+    ]
+  },
+  "donatemask.ca": {
+    "name": "Donate A Mask",
+    "description": "Request free N95-equivalent masks & RATs\nBuy from our charity store (100% proceeds for charity)\nDonate!",
+    "tags": [
+      "charity"
+    ],
+    "keywords": [
+      "donate"
+    ],
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@DonateAMask",
+        "url": "https://linktr.ee/DonateAMask"
+      },
+      {
+        "type": "web",
+        "name": "donatemask.ca",
+        "url": "https://donatemask.ca/"
+      }
+    ]
+  },
+
+  // ======= United Kingdom ================================================= //
+  "masksforlondon": {
+    "name": "Masks for London",
+    "description": "😷 London-based community group distributing masks & respirators within the city.",
+    "keywords": [
+      "london",
+      "england"
+    ],
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@masksforlondon",
+        "url": "https://www.instagram.com/masksforlondon/"
+      },
+      {
+        "type": "gofundme",
+        "name": "Let's Get Masks For London",
+        "url": "https://www.gofundme.com/f/lets-get-masks-for-london"
+      }
+    ]
+  },
+  "maskblocmanchester": {
+    "name": "Mask Bloc Manchester",
+    "description": "Email us below for free masks, tests and air purifier loans in Manchester, England.\n😷 We keep each other safe.",
+    "keywords": [
+      "manchester",
+      "england"
+    ],
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocmanchester",
+        "url": "https://www.instagram.com/maskblocmanchester/"
+      },
+      {
+        "type": "email",
+        "email": "maskblocmanchester@gmail.com"
+      }
+    ]
+  },
+  "sheffieldmaskbloc": {
+    "name": "Sheffield Mask Bloc",
+    "description": "Intersectional, anti-authoritarian collective advocating for clean air while distributing free high-quality, high-filtration masks, and related resources, to people in Sheffield, United Kingdom - no questions asked.",
+    "tags": [
+      "upcoming"
+    ],
+    "keywords": [
+      "sheffield",
+      "england"
+    ],
+    "socials": [
+      {
+        "type": "mastodon",
+        "username": "@sheffieldmaskbloc@todon.eu",
+        "url": "https://todon.eu/@sheffieldmaskbloc"
+      },
+      {
+        "type": "linkstack",
+        "username": "@sheffieldmaskbloc",
+        "url": "https://linksta.cc/@sheffieldmaskbloc"
+      }
+    ]
+  },
+  "maskbloclincoln": {
+    "name": "Mask Bloc Lincoln",
+    "description": "A mask bloc in Lincoln, Lincolnshire distributing free high quality masks!! <33 (as in FFP2 grade or higher)\n\n↓ Request free masks below!! ↓",
+    "keywords": [
+      "lincoln",
+      "lincolnshire",
+      "england"
+    ],
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloclincoln",
+        "url": "https://www.instagram.com/maskbloclincoln/"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/VdZ8zsaEhgQX+rXIXkZ5aysQYKnhFEqp59DJKwqx190/embed/"
+      }
+    ]
+  },
+  "norwichmaskbloc": {
+    "name": "Norwich Mask Bloc",
+    "keywords": [
+      "norwich",
+      "england"
+    ],
+    "description": "Email for free masks or co-organizing.\nDonate on JustGiving to help buy masks.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@norwichmaskbloc",
+        "url": "https://www.instagram.com/norwichmaskbloc/"
+      },
+      {
+        "type": "email",
+        "email": "NorwichMaskBloc@protonmail.com"
+      },
+      {
+        "type": "web",
+        "name": "JustGiving - Norwich Mask Bloc",
+        "url": "https://www.justgiving.com/crowdfunding/norwichmaskbloc"
+      }
+    ]
+  },
+  "edinmaskbloc": {
+    "name": "Edinburgh Mask Bloc",
+    "description": "High filtration mask distribution in Edinburgh\nMessage us on Instagram or send us an email for details and requests!",
+    "keywords": [
+      "edinburgh",
+      "scotland"
+    ],
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@edinmaskbloc",
+        "url": "https://www.instagram.com/edinmaskbloc/"
+      },
+      {
+        "type": "linktree",
+        "username": "@edinmaskbloc",
+        "url": "https://www.linktr.ee/edinmaskbloc"
+      },
+      {
+        "type": "email",
+        "email": "edinmaskbloc@proton.me"
+      }
+    ]
+  },
+  "glasgowmaskbloc": {
+    "name": "Glasgow Mask Bloc",
+    "description": "Queer, trans disabled-run mask distribution group in Glasgow, Scotland.",
+    "keywords": [
+      "glasgow",
+      "scotland"
+    ],
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@glasgowmaskbloc",
+        "url": "https://www.linktr.ee/glasgowmaskbloc"
+      }
+    ]
+  },
+  "mutualaidinverness": {
+    "name": "Highland Mask Bloc",
+    "description": "Pushing for better community and service access for under-represented and marginalised communities.\n#MaskBloc for Scottish Highlands/Inverness",
+    "keywords": [
+      "highlands",
+      "scotland",
+      "inverness"
+    ],
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@mutualaidinverness",
+        "url": "https://www.instagram.com/mutualaidinverness/"
+      },
+      {
+        "type": "web",
+        "name": "Mutual Aid Inverness",
+        "url": "https://mutualaidinverness.scot/#mask-bloc"
+      },
+      {
+        "type": "email",
+        "email": "masks@mutualaidinverness.scot"
+      }
+    ]
+  },
+
+  // ======= Ireland ======================================================== //
+  "maskbloceire": {
+    "name": "Mask Bloc Éire",
+    "keywords": [
+      "eire",
+      "éire",
+      "ireland"
+    ],
+    "description": "Mask bloc based in Ireland rooted in disability justice. We aim to make personal protection equipment more accessible for all. We keep each other safe.",
+    "socials": [
+      {
+        "type": "linktree",
+        "username": "@maskbloceire",
+        "url": "https://www.linktr.ee/maskbloceire"
+      }
+    ]
+  },
+
+  // ======= France ========================================================= //
+  "maskblocparis": {
+    "name": "Mask Bloc Paris",
+    "keywords": [
+      "paris"
+    ],
+    "lang": "fr",
+    "description": "Collectif dédié à la distribution de masques respiratoires gratuits dans Paris et petite couronne. MP sur X/Mastodon si besoin de masques.",
+    "socials": [
+      {
+        "type": "mastodon",
+        "username": "@MaskBlocParis@kolektiva.social",
+        "url": "https://kolektiva.social/@maskblocparis"
+      },
+      {
+        "type": "x",
+        "username": "@MaskBlocParis",
+        "url": "https://x.com/MaskBlocParis"
+      }
+    ]
+  },
+  "maskblocbordeaux": {
+    "name": "Mask Bloc Bordeaux",
+    "keywords": [
+      "bordeaux",
+      "bdx"
+    ],
+    "lang": "fr",
+    "description": "Distribution de masques gratuits sur Bordeaux et sa métropole.",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@MaskBlocBdx",
+        "url": "https://x.com/MaskBlocBdx"
+      },
+      {
+        "type": "linktree",
+        "username": "@MaskBlocBdx",
+        "url": "https://linktr.ee/MaskBlocBdx"
+      }
+    ]
+  },
+  "maskblocnantes": {
+    "name": "Mask Bloc Nantes",
+    "keywords": [
+      "nantes"
+    ],
+    "lang": "fr",
+    "description": "#AutodéfenseSanitaire\n#SantéCommunautaire",
+    "socials": [
+      {
+        "type": "x",
+        "username": "@MaskBlocNantes",
+        "url": "https://x.com/MaskBlocNantes"
+      }
+    ]
+  },
+  "maskbloclyon": {
+    "name": "Mask Bloc Lyon",
+    "keywords": [
+      "lyon"
+    ],
+    "lang": "fr",
+    "description": "Distribution gratuite de masques à Lyon. #AutodéfenseSanitaire\nContact par messages privés sur Instagram ou mail ci-dessous.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloclyon",
+        "url": "https://www.instagram.com/maskbloclyon/"
+      },
+      {
+        "type": "linktree",
+        "username": "@maskbloclyon",
+        "url": "https://www.linktr.ee/maskbloclyon"
+      }
+    ]
+  },
+
+  // ======= Australia ====================================================== //
+  "maskblocwest": {
+    "name": "Mask Bloc West",
+    "subdivisions": ["VIC"],
+    "keywords": [
+      "wurundjeri",
+      "boonwurrung",
+      "boon",
+      "wurrung",
+      "jeri",
+      "vic",
+      "victoria",
+      "melbourne"
+    ],
+    "description": "Anarchist antifascist mutual aid.\nWe redistribute free masks from stolen Wurundjeri + Boonwurrung country.\nMask request form below or DM us on Instagram.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskblocwest",
+        "url": "https://www.instagram.com/maskblocwest/"
+      },
+      {
+        "type": "gofundme",
+        "name": "Distribution Fund",
+        "url": "https://www.gofundme.com/f/mask-bloc-west-mask-distribution-fund"
+      },
+      {
+        "type": "form",
+        "url": "https://cryptpad.fr/form/#/2/form/view/jcTgQid0cYqciaqx+Z8p1RKs9Bpg3212JO7cdrbG--k/"
+      }
+    ]
+  },
+  "covidsafetyblocnorth": {
+    "name": "COVID Safety Bloc North",
+    "subdivisions": ["VIC"],
+    "keywords": [
+      "woiwurrung",
+      "boonwurrung",
+      "woi",
+      "boon",
+      "wurrung",
+      "vic",
+      "victoria",
+      "melbourne"
+    ],
+    "description": "Free or sliding scale infectious illness prevention items and info in the north of so-called Melbourne. On stolen Boon Wurrung and Woi Wurrung lands.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covidsafetyblocnorth",
+        "url": "https://www.instagram.com/covidsafetyblocnorth/"
+      },
+      {
+        "type": "form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSewR60toZZmjC2WK6f6mS9VZ--ddLJ8tfE9tfS1U5c3wr2GHA/viewform"
+      }
+    ]
+  },
+  "maskbloc.melb.se": {
+    "name": "Mask Bloc Naarm SE",
+    "subdivisions": ["VIC"],
+    "keywords": [
+      "wurundjeri",
+      "boonwurrung",
+      "boon",
+      "wurrung",
+      "jeri",
+      "vic",
+      "victoria",
+      "melbourne",
+      "naarm"
+    ],
+    "description": "On stolen Wurundjeri and Boonwurrung land. Providing/redistributing masks and other covid prevention/care items, DM on Instagram or use the Google form to request.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskbloc.melb.se",
+        "url": "https://www.instagram.com/maskbloc.melb.se/"
+      },
+      {
+        "type": "gofundme",
+        "name": "Distribution Fund",
+        "url": "https://www.gofundme.com/f/mask-bloc-west-mask-distribution-fund"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/1HCLw9QpEGMpbzEy5"
+      }
+    ]
+  },
+  "cleanairnaarm": {
+    "name": "Clean Air Naarm (CAN)",
+    "subdivisions": ["VIC"],
+    "tags": [
+      "clean-air-club"
+    ],
+    "keywords": [
+      "wurundjeri",
+      "boonwurrung",
+      "boon",
+      "wurrung",
+      "jeri",
+      "vic",
+      "victoria",
+      "melbourne",
+      "naarm"
+    ],
+    "description": "Preserving the arts by providing access to cleaner air supplies for artists ☁️\nBooking link coming soon. All Qs via email pls",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanairnaarm",
+        "url": "https://www.instagram.com/cleanairnaarm/"
+      },
+      {
+        "type": "email",
+        "email": "cleanairnaarm@gmail.com"
+      }
+    ]
+  },
+  "masksforadelaide": {
+    "name": "Mask Bloc West",
+    "subdivisions": ["SA"],
+    "keywords": [
+      "kaurna",
+      "sa",
+      "south",
+      "australia",
+      "adelaide"
+    ],
+    "description": "Community and organising group for leftists advocating masks and clean air.\nBased in South Australia/Kaurna Land",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@masksforadelaide",
+        "url": "https://www.instagram.com/masksforadelaide/"
+      },
+      {
+        "type": "linktree",
+        "username": "@masksforadelaide",
+        "url": "https://linktr.ee/masksforadelaide"
+      }
+    ]
+  },
+  "covid_action_network_lutruwita": {
+    "name": "Covid Action Network lutruwita",
+    "subdivisions": ["TAS"],
+    "keywords": [
+      "tasmania",
+      "tas",
+      "lutruwita",
+      "covid",
+      "action",
+      "network"
+    ],
+    "description": "We are a grassroots mask bloc striving to make community spaces safer for all people by distributing COVID safety resources and relevant information!",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@covid_action_network_lutruwita",
+        "url": "https://www.instagram.com/covid_action_network_lutruwita/"
+      }
+    ]
+  },
+  "maskupnipaluna": {
+    "name": "Mask Up nipaluna ! 😷",
+    "subdivisions": ["TAS"],
+    "keywords": [
+      "tasmania",
+      "tas",
+      "hobart",
+      "lutruwita",
+      "nipaluna"
+    ],
+    "description": "🦠COVID direct action group in nipaluna (Hobart)\n😷Resisting eugenics ♿️🖤💛❤️🏳️‍⚧️🏳️‍🌈🇵🇸\n📧Email or DM us to join or ask questions!\n⬇️Mask request form below⬇️",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskupnipaluna",
+        "url": "https://www.instagram.com/maskupnipaluna/"
+      },
+      {
+        "type": "form",
+        "url": "https://forms.gle/nyfexxNkaNhUAsHp6"
+      }
+    ]
+  },
+  "cleanairboorloo": {
+    "name": "Clean Air Boorloo",
+    "subdivisions": ["WA"],
+    "keywords": [
+      "western",
+      "australia",
+      "wa",
+      "perth"
+    ],
+    "description": "Covid conscious. 🦠😷🌬️\nDedicated to community care & spreading knowledge and resources in “Perth”, Australia.\n🇦🇺",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@cleanairboorloo",
+        "url": "https://www.instagram.com/cleanairboorloo/"
+      }
+    ]
+  },
+
+  // ======= New Zealand ==================================================== //
+  "maskupwgtn": {
+    "name": "Mask Up WGTN",
+    "keywords": [
+      "wellington",
+      "wgtn"
+    ],
+    "tags": [
+      "upcoming"
+    ],
+    "description": "Mask Bloc in Wellington, Aotearoa.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@maskupWGTN",
+        "url": "https://www.instagram.com/maskupWGTN/"
+      },
+      {
+        "type": "email",
+        "aria": "Mask Up W G T N @ Proton Dot Me",
+        "name": "maskupwgtn@proton.me",
+        "email": "maskupwgtn@proton.me"
+      }
+    ]
+  },
+
+  // ======= Chile ========================================================== //
+  "apoyoencrisis": {
+    "name": "Apoyo en crisis",
+    "keywords": [
+      "apoyo",
+      "crisis"
+    ],
+    "description": "Colectivo de ayuda mutua dedicado a compartir y distribuir EEPs, insumos médicos, equipos de monitoreo y recursos sobre cuidados comunitarios.",
+    "socials": [
+      {
+        "type": "instagram",
+        "username": "@apoyoencrisis",
+        "url": "https://www.instagram.com/apoyoencrisis/"
+      },
+      {
+        "type": "nombre",
+        "username": "@apoyoencrisis",
+        "url": "http://no.mbre.es/@apoyoencrisis"
+      }
+    ]
+  }
+}

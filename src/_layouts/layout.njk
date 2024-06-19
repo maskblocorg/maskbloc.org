@@ -1,0 +1,98 @@
+{# Copyright © 2024 MaskBloc.org <contact@maskbloc.org> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+<!DOCTYPE html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="index, nofollow">
+
+    <!-- OpenGraph/Meta/Facebook -->
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://maskbloc.org/assets/images/mb/meta-og.png">
+    <meta property="og:url" content="https://maskbloc.org{{ page.url }}">
+    <meta property="og:site_name" content="MaskBloc.org">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@maskblocorg">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://maskbloc.org/assets/images/mb/meta-x.png">
+
+    <!-- Title -->
+    <title>{{ title }}</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ site.baseUrl}}{{page.url}}" />
+
+    <!-- Assets -->
+    <link rel="icon" href="/assets/images/mb/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/assets/images/mb/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/images/mb/apple-touch-icon.png">
+    <link rel="mask-icon" href="/assets/images/mb/mask-icon.svg" color="#000000">
+    <link rel="manifest" href="/assets/manifest.webmanifest">
+
+    <link rel="preload" as="image" href="/assets/images/mb/xmark.svg">
+    <link rel="preload" as="image" href="/assets/images/mb/hamburger.svg">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+
+    <script>
+      // Prevents the background from flashing if it doesn't match the
+      // color of the current theme.
+      //
+      // TODO: Inline this script from a seperate file during the build step.
+      let theme = localStorage.getItem('theme')
+      if (theme && theme !== '') {
+        switch(theme) {
+        case 'theme-auto':
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.add('light');
+          }
+          break;
+        case 'theme-dark':
+          document.documentElement.classList.add('dark');
+          break;
+        case 'theme-light':
+          document.documentElement.classList.add('light');
+          break;
+        default: break;
+        }
+      } else {
+        // Default is dark.
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+
+    {% if page.url == "/" %}
+      <script>
+        var MaskBloc = {
+          "keywords": {{ keywords() | safe }}
+        }
+      </script>
+    {% endif %}
+
+    <script defer src="/assets/scripts/index.js"></script>
+  </head>
+  <body>
+    <header class="navigation">
+      {% include "../_partials/navigation.njk" %}
+    </header>
+    {{ content | safe }}
+    <footer>
+      {% include "../_partials/footer.njk" %}
+    </footer>
+  </body>
+</html>

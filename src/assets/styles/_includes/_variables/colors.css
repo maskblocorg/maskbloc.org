@@ -1,0 +1,44 @@
+/*
+ * Copyright © 2024 MaskBloc.org <contact@maskbloc.org>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * A list of colors.
+ */
+
+:root {
+  --default-background-color: hsl(0, 0%, 50%);
+}
+
+.dark {
+  --background-color: black;
+  --menu-background-color: var(--background-color);
+  --text-color: white;
+
+  --border-color: white;
+  --divider-color: hsl(0, 0%, 40%);
+
+  --anchor-hover-color: hsl(0, 92%, 69%);
+
+  --tag-color: hsl(0, 0%, 15%);
+  --placeholder-color: hsl(0, 0%, 77%);
+}
+
+.light {
+  --background-color: #f2ece4;
+  --menu-background-color: var(--background-color);
+  --text-color: black;
+
+  --border-color: black;
+  --divider-color: hsl(0, 0%, 60%);
+
+  --anchor-hover-color: #A00000;
+
+  --tag-color: hsl(34.5, 34%, 83%);
+  --placeholder-color: #4E4E4E;
+}
+
+.light img {
+  filter: invert(100%);
+}

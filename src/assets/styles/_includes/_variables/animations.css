@@ -1,0 +1,26 @@
+/*
+ * Copyright © 2024 MaskBloc.org <contact@maskbloc.org>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * CSS Animations.
+ */
+
+@keyframes landing-arrow-down {
+  0% {
+    translate: 0;
+  }
+  50% {
+    translate: 0 0.5em;
+  }
+  100% {
+    transform: 0;
+  }
+}
+
+.no-transitions *,
+.no-transitions *::after,
+.no-transitions *::before {
+  transition: none !important;
+}

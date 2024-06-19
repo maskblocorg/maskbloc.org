@@ -1,0 +1,401 @@
+{
+  "regions": {
+    "usa-west": {
+      "country": "usa",
+      "name": "USA – West",
+      "keywords": [
+        "us",
+        "usa",
+        "united",
+        "states",
+        "america",
+        "west",
+        "turtle"
+      ],
+      "blocs": [
+        // ======= AK - Alaska ============================================== //
+        "alaskamaskbloc",
+
+        // ======= AZ - Arizona ============================================= //
+        "freemasks4phx",
+        "flagstaffmaskbloc",
+
+        // ======= CA - California ========================================== //
+        "cx4_la",
+        "maskblocla",
+        "cleanairlosangeles",
+        "maskbloclongbeach",
+        "ocmaskbloc",
+        "maskbloc916",
+        "maskblocucdavis",
+        "chumanityc",
+        "masksonoma",
+        "maskbloceastbay",
+        "maskblocsunsetsf",
+        "maskblocsanjose",
+        "covidsafesocal",
+        "breathefreeie",
+        "maskbloc559",
+        "fanfavorite.sd",
+
+        // ======= CO - Colorado ============================================ //
+        "covidsafecolorado",
+
+        // ======= NV - Nevada ============================================== //
+        "maskblocnevada",
+
+        // ======= NM - New Mexico ========================================== //
+        "maskblocabq",
+        "maskbloc_delnorte",
+        "lcmaskbloc",
+        "tucsonmaskbloc",
+
+        // ======= OR - Oregon ============================================== //
+        "maskblocpdx",
+        "maskbloceug",
+        "portlandcleanaircommittee",
+        "maskblocorcoast",
+
+        // ======= WA - Washington ========================================== //
+        "maskblocseattle",
+        "covid.tests.seattle",
+        "maskblocolympia",
+        "maskbloc253",
+        "cleanairoly"
+      ]
+    },
+    "usa-northeast": {
+      "country": "usa",
+      "name": "USA – Northeast",
+      "keywords": [
+        "us",
+        "usa",
+        "united",
+        "states",
+        "america",
+        "north",
+        "east",
+        "northeast",
+        "turtle"
+      ],
+      "blocs": [
+        // ======= CT - Connecticut ========================================= //
+        "cranemaskbloc",
+        "freemaskct",
+        "peoplesppe",
+
+        // ======= DE - Delaware ============================================ //
+        "maskblocde",
+
+        // ======= MA - Massachusetts ======================================= //
+        "neucovidresponse",
+        "boscovidaction",
+        "maskbloc_berkshires",
+        "westernmassmaskbloc",
+
+        // ======= NJ - New Jersey ========================================== //
+        "maskblocnj",
+        "covidsaferutgers",
+        "maskblocjc",
+        "maskbloccnj",
+
+        // ======= NY - New York ============================================ //
+        "covidsolidaritynyc",
+        "maskuprochester",
+        "maskbloc631",
+        "maskbloc516",
+        "mask.together.capital.region",
+        "createnewdynamics845",
+
+        // ======= MD - Maryland ============================================ //
+        "maskbloc301",
+
+        // ======= PA - Pennsylvania ======================================== //
+        "phillymaskbloc",
+        "maskuppitt",
+        "centralpamaskbloc",
+        "bicocovidco",
+        "cat.pgh",
+        "clean.air.reading",
+
+        // ======= RI - Rhode Island ======================================== //
+        "rimaskbloc",
+
+        // ======= VT - Vermont ============================================= //
+        "vermont.mask.collective"
+      ]
+    },
+    "usa-midwest": {
+      "country": "usa",
+      "name": "USA – Midwest",
+      "keywords": [
+        "us",
+        "usa",
+        "united",
+        "states",
+        "america",
+        "midwest",
+        "turtle"
+      ],
+      "blocs": [
+        // ======= IL - Illinois ============================================ //
+        "maskdistrogrinnell",
+        "chi-mask",
+        "clean.air.club",
+        "collectiveair_",
+
+        // ======= IN - Indiana ============================================= //
+        "maskblocfortwayne",
+        "maskblocindy",
+
+        // ======= KS - Kansas ============================================== //
+        "816covidcrew",
+        "covid.safe.ict",
+
+        // ======= MI - Michigan ============================================ //
+        "covidsafemsu",
+        "maskbloc616",
+        "maskbloc_mi_metro_detroit_area",
+        "covid.outreach.washtenaw",
+
+        // ======= MN - Minnesota =========================================== //
+        "covidawaretc",
+        "maskbloc507",
+        "maskbloc_msp",
+        "share.clean.air.msp",
+
+        // ======= MO - Missouri ============================================ //
+        "maskblocstl",
+
+        // ======= NE - Nebraska ============================================ //
+        "call_cleanairlibrarylincoln",
+
+        // ======= OH - Ohio ================================================ //
+        "maskbloc614",
+        "covidsafeoberlin",
+        "cprcle",
+        "maskblocneo",
+        "cripfutures513",
+
+        // ======= WI - Wisconsin =========================================== //
+        "maskbloc608",
+        "maskblocmke"
+      ]
+    },
+    "usa-south": {
+      "country": "usa",
+      "name": "USA – South",
+      "keywords": [
+        "us",
+        "usa",
+        "united",
+        "states",
+        "america",
+        "south",
+        "turtle"
+      ],
+      "blocs": [
+        // ======= AR - Arkansas ============================================ //
+        "maskblocar",
+        "ozarkscovaction",
+
+        // ======= DC - Washington D.C. ===================================== //
+        "maskblocdc",
+        "cleanairsolidarity",
+
+        // ======= FL - Florida ============================================= //
+        "swampcentralfl",
+        "heartlandmaskbloc",
+        "maskblocmiami",
+        "breathing_room_miami",
+        "maskblocpalmbch",
+
+        // ======= GA - Georgia ============================================= //
+        "maskbloc229",
+        "maskblocatl",
+
+        // ======= KY - Kentucky ============================================ //
+        "maskbloclex",
+        "maskbloclou",
+
+        // ======= LA - Louisiana =========================================== //
+        "fightcovidnola",
+
+        // ======= NC - North Carolina ====================================== //
+        "trianglemaskbloc",
+        "cltmaskbloc",
+        "covidsafewnc",
+
+        // ======= OK - Oklahoma ============================================ //
+        "maskblocokc",
+        "maskbloctulsa",
+
+        // ======= SC - South Carolina ====================================== //
+        "sodacitymaskbloc",
+
+        // ======= TN - Tennessee =========================================== //
+        "themidsouthscdc",
+        "nashmask4mask",
+        "CleanAirKnoxTN",
+
+        // ======= TX - Texas =============================================== //
+        "maskblocdfw",
+        "maskblocatx",
+        "maskbloc.htx",
+        "ccb.sa",
+        "maskblocelpaso",
+
+        // ======= VA - Virginia ============================================ //
+        "maskbloccville",
+        "ccb.rva",
+        "maskblocnova",
+        "757masks",
+        "cleanaircville",
+        "breatheeasyrva"
+      ]
+    },
+    "can": {
+      "country": "can",
+      "name": "Canada",
+      "keywords": [
+        "canada",
+        "turtle"
+      ],
+      "blocs": [
+        "t7maskbloc",
+        "maskblocedmonton",
+        "masks4eastvan",
+        "maskblocbc",
+        "masks4victoria",
+        "maskblocfortnelson",
+        "masks4wpg",
+        "popnewbrunswick",
+        "maskbloc.hfx",
+        "maskblocott",
+        "clean.air.ottawa",
+        "maskbloctoronto",
+        "maskbloc905",
+        "covidsafeniagara",
+        "radical_carecollective",
+        "maskblocwr",
+        "covid_action_now",
+        "covidsafemcgill",
+        "sask.mask.bloc",
+        "donatemask.ca"
+      ]
+    },
+    "gbr": {
+      "country": "gbr",
+      "name": "United Kingdom",
+      "keywords": [
+        "uk",
+        "gbr",
+        "united",
+        "kingdom"
+      ],
+      "blocs": [
+        "masksforlondon",
+        "maskblocmanchester",
+        "sheffieldmaskbloc",
+        "maskbloclincoln",
+        "norwichmaskbloc",
+        "glasgowmaskbloc",
+        "mutualaidinverness",
+        "edinmaskbloc"
+      ]
+    },
+    "fra": {
+      "country": "fra",
+      "name": "France",
+      "keywords": [
+        "fr",
+        "fra",
+        "france"
+      ],
+      "blocs": [
+        "maskblocparis",
+        "maskblocbordeaux",
+        "maskblocnantes",
+        "maskbloclyon"
+      ]
+    },
+    "irl": {
+      "country": "irl",
+      "name": "Ireland",
+      "keywords": [
+        "ie",
+        "irl",
+        "ireland",
+        "eire",
+        "éire"
+      ],
+      "blocs": [
+        "maskbloceire"
+      ]
+    },
+    "aus": {
+      "country": "aus",
+      "name": "Australia",
+      "keywords": [
+        "au",
+        "aus",
+        "australia"
+      ],
+      "blocs": [
+        "maskblocwest",
+        "covidsafetyblocnorth",
+        "maskbloc.melb.se",
+        "cleanairnaarm",
+        "masksforadelaide",
+        "covid_action_network_lutruwita",
+        "maskupnipaluna",
+        "cleanairboorloo"
+      ]
+    },
+    "nzl": {
+      "country": "nzl",
+      "name": "New Zealand",
+      "keywords": [
+        "nz",
+        "nz",
+        "new",
+        "zealand",
+        "aotearoa"
+      ],
+      "blocs": [
+        "maskupwgtn"
+      ]
+    },
+    "chl": {
+      "country": "chl",
+      "name": "Chile",
+      "keywords": [
+        "cl",
+        "chl",
+        "chile"
+      ],
+      "blocs": [
+        "apoyoencrisis"
+      ]
+    }
+  },
+  "layout": [
+    [
+      "usa-west",
+      "usa-northeast"
+    ],
+    [
+      "usa-south",
+      "usa-midwest"
+    ],
+    [
+      "can",
+      "gbr",
+      "fra",
+      "irl",
+      "aus",
+      "nzl",
+      "chl"
+    ]
+  ]
+}
