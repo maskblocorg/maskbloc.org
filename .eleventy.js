@@ -28,6 +28,7 @@ module.exports = (config) => {
   config.addFilter("tag_icon", filters.getTagIcon);
   config.addFilter("tag_label", filters.getTagLabel);
   config.addFilter("inspect", filters.inspect);
+  config.addFilter("log", filters.log);
 
   // === Templates =============================================================
   config.addTemplateFormats('css');
