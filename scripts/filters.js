@@ -105,5 +105,9 @@ module.exports = {
 
   inspect: function (content) {
     return inspect(content);
+  },
+
+  log: function (content) {
+    return console.log(content);
   }
 };
