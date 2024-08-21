@@ -21,6 +21,14 @@
               {{social.username}}
             </a>
           </li>
+        {% elif social.type == "bluesky" %}
+          <li class="social-link bluesky">
+            <a href="{{social.url}}"
+              tabindex="0"
+              aria-label="Bluesky: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
         {% elif social.type == "mastodon" %}
           <li class="social-link mastodon">
             <a href="{{social.url}}"
@@ -85,6 +93,14 @@
               {{social.username}}
             </a>
           </li>
+        {% elif social.type == "instabio" %}
+          <li class="social-link instabio">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Instabio/Linkbio: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
         {% elif social.type == "allmylinks" %}
           <li class="social-link allmylinks">
             <a href="{{social.url}}"
@@ -98,6 +114,22 @@
             <a href="{{social.url}}"
                tabindex="0"
                aria-label="GoFundMe: {{social.aria if social.aria else social.name}}.">
+              {{social.name}}
+            </a>
+          </li>
+        {% elif social.type == "tiktok" %}
+          <li class="social-link tiktok">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="TikTok: {{social.aria if social.aria else social.username}}.">
+              {{social.username}}
+            </a>
+          </li>
+        {% elif social.type == "kofi" %}
+          <li class="social-link kofi">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Kofi: {{social.aria if social.aria else social.name}}.">
               {{social.name}}
             </a>
           </li>

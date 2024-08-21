@@ -248,6 +248,10 @@ li.x::before {
   background-image: url(/assets/images/vendor/x.svg);
 }
 
+li.bluesky::before {
+  background-image: url(/assets/images/vendor/bluesky.svg);
+}
+
 li.linktree::before {
   background-image: url(/assets/images/vendor/linktree.svg);
 }
@@ -276,6 +280,10 @@ li.linkinbio::before {
   background-image: url(/assets/images/vendor/linkinbio.svg);
 }
 
+li.instabio::before {
+  background-image: url(/assets/images/vendor/instabio.svg);
+}
+
 li.facebook::before {
   background-image: url(/assets/images/vendor/facebook.svg);
 }
@@ -298,6 +306,14 @@ li.mastodon::before {
 
 li.gofundme::before {
   background-image: url(/assets/images/vendor/gofundme.svg);
+}
+
+li.tiktok::before {
+  background-image: url(/assets/images/vendor/tiktok.svg);
+}
+
+li.kofi::before {
+  background-image: url(/assets/images/vendor/kofi.svg);
 }
 
 li.cashapp::before {

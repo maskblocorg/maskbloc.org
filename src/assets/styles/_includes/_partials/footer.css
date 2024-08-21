@@ -69,6 +69,10 @@ footer li a.x::after {
   mask-image: url(/assets/images/vendor/x.svg);
 }
 
+footer li a.bluesky::after {
+  mask-image: url(/assets/images/vendor/bluesky.svg);
+}
+
 footer li a.threads::after {
   mask-image: url(/assets/images/vendor/threads.svg);
 }

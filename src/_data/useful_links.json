@@ -22,6 +22,23 @@
     ]
   },
   {
+    "id": "phan",
+    "name": "Public Health Action Network",
+    "description": "Nonprofit organization aiming to safeguard public health by improving air quality, promoting evidence-based COVID-19 prevention strategies, and empowering communities.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "Public Health Action Network",
+        "url": "https://publichealthactionnetwork.org/"
+      },
+      {
+        "type": "instagram",
+        "username": "@publichealthactionnetwork",
+        "url": "https://www.instagram.com/publichealthactionnetwork/"
+      }
+    ]
+  },
+  {
     "id": "covid-advocacy-initiative",
     "name": "Covid Advocacy Initiative",
     "description": "Advocacy group working to connect COVID advocates at the local, state, and national level and taking action to prevent COVID spread & save lives.",
@@ -42,18 +59,6 @@
         "type": "web",
         "name": "COVID Meetups",
         "url": "https://www.covidmeetups.com/"
-      }
-    ]
-  },
-  {
-    "id": "covid-wiki",
-    "name": "Covid Wiki",
-    "description": "Information about COVID-19 and advocacy groups.",
-    "socials": [
-      {
-        "type": "web",
-        "name": "Covid Wiki",
-        "url": "https://covidwiki.org/c/Covid-19"
       }
     ]
   },
@@ -102,6 +107,18 @@
         "type": "linktree",
         "username": "@pandemeet",
         "url": "https://linktr.ee/pandemeet"
+      }
+    ]
+  },
+  {
+    "id": "autodefensesanitaire",
+    "name": "Autodéfense sanitaire",
+    "description": "L’autodéfense sanitaire envisage la santé comme un bien communautaire et met en œuvre une réduction des risques fondée sur les connaissances scientifiques.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "Autodéfense sanitaire",
+        "url": "https://autodefensesanitaire.fr/"
       }
     ]
   }

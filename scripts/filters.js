@@ -44,6 +44,8 @@ module.exports = {
         return '🎓 ';
       case 'care-collective':
         return '💞 ';
+      case 'inactive':
+        return '💤 ';
       default:
         return '';
     }
@@ -67,6 +69,8 @@ module.exports = {
         return 'COVID Safe Campus';
       case 'care-collective':
         return 'Care Collective';
+      case 'inactive':
+        return 'Inactive';
       default:
         return '';
     }
@@ -105,5 +109,9 @@ module.exports = {
 
   inspect: function (content) {
     return inspect(content);
+  },
+
+  log: function (content) {
+    return console.log(content);
   }
 };
