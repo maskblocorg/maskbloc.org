@@ -19,5 +19,9 @@
     "postcss-nesting": "^12.1.5",
     "prettier": "3.2.5",
     "typescript": "^5.4.5"
+  },
+  "scripts": {
+      "serve": "npx @11ty/eleventy --serve",
+      "build": "npx @11ty/eleventy"
   }
 }

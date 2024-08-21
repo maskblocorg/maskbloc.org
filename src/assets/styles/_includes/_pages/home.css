@@ -300,6 +300,10 @@ li.gofundme::before {
   background-image: url(/assets/images/vendor/gofundme.svg);
 }
 
+li.kofi::before {
+  background-image: url(/assets/images/vendor/kofi.svg);
+}
+
 li.cashapp::before {
   background-image: url(/assets/images/vendor/cashapp.svg);
 }
