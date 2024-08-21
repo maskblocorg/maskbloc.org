@@ -104,6 +104,18 @@
         "url": "https://linktr.ee/pandemeet"
       }
     ]
-  }
+  },
+  {
+    "id": "autodefensesanitaire",
+    "name": "Autodéfense sanitaire",
+    "description": "L’autodéfense sanitaire envisage la santé comme un bien communautaire et met en œuvre une réduction des risques fondée sur les connaissances scientifiques.",
+    "socials": [
+      {
+        "type": "web",
+        "name": "Autodéfense sanitaire",
+        "url": "https://autodefensesanitaire.fr/"
+      }
+    ]
+  },
 ]
 

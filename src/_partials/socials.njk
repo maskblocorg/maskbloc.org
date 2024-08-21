@@ -101,6 +101,14 @@
               {{social.name}}
             </a>
           </li>
+        {% elif social.type == "kofi" %}
+          <li class="social-link kofi">
+            <a href="{{social.url}}"
+               tabindex="0"
+               aria-label="Kofi: {{social.aria if social.aria else social.name}}.">
+              {{social.name}}
+            </a>
+          </li>
         {% elif social.type == "cashapp" %}
           <li class="social-link cashapp">
             <a href="{{social.url}}"
