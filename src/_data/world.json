@@ -19,6 +19,7 @@
         // ======= AZ - Arizona ============================================= //
         "freemasks4phx",
         "flagstaffmaskbloc",
+        "tucsonmaskbloc",
 
         // ======= CA - California ========================================== //
         "cx4_la",
@@ -33,13 +34,19 @@
         "maskbloceastbay",
         "maskblocsunsetsf",
         "maskblocsanjose",
-        "covidsafesocal",
         "breathefreeie",
         "maskbloc559",
         "fanfavorite.sd",
+        "nobodyfailsatscripps",
+        "maskblocsantacruz",
+        "maskblocucb",
+        "mendocleanairclub",
 
         // ======= CO - Colorado ============================================ //
         "covidsafecolorado",
+
+        // ======= ID - Idaho =============================================== //
+        "maskblocboise",
 
         // ======= NV - Nevada ============================================== //
         "maskblocnevada",
@@ -48,13 +55,16 @@
         "maskblocabq",
         "maskbloc_delnorte",
         "lcmaskbloc",
-        "tucsonmaskbloc",
 
         // ======= OR - Oregon ============================================== //
         "maskblocpdx",
         "maskbloceug",
         "portlandcleanaircommittee",
         "maskblocorcoast",
+        "clean.air.corvallis",
+
+        // ======= UT - Utah ============================================== //
+        "slccovided",
 
         // ======= WA - Washington ========================================== //
         "maskblocseattle",
@@ -106,9 +116,15 @@
         "maskbloc516",
         "mask.together.capital.region",
         "createnewdynamics845",
+        "betterbreathingbloc",
+        "maskblocsyracuse",
 
         // ======= MD - Maryland ============================================ //
         "maskbloc301",
+
+        // ======= NH - New Hampshire ======================================= //
+        "breathe_free_or_die",
+        "maskbloc603",
 
         // ======= PA - Pennsylvania ======================================== //
         "phillymaskbloc",
@@ -117,12 +133,15 @@
         "bicocovidco",
         "cat.pgh",
         "clean.air.reading",
+        "nepamaskbloc",
+        "lvmaskbloc",
 
         // ======= RI - Rhode Island ======================================== //
         "rimaskbloc",
 
         // ======= VT - Vermont ============================================= //
-        "vermont.mask.collective"
+        "vermont.mask.collective",
+        "cleanairclubbtv"
       ]
     },
     "usa-midwest": {
@@ -150,7 +169,7 @@
 
         // ======= KS - Kansas ============================================== //
         "816covidcrew",
-        "covid.safe.ict",
+        "maskblocict",
 
         // ======= MI - Michigan ============================================ //
         "covidsafemsu",
@@ -166,6 +185,7 @@
 
         // ======= MO - Missouri ============================================ //
         "maskblocstl",
+        "maskbloc417",
 
         // ======= NE - Nebraska ============================================ //
         "call_cleanairlibrarylincoln",
@@ -232,9 +252,10 @@
 
         // ======= SC - South Carolina ====================================== //
         "sodacitymaskbloc",
+        "greenvillescmaskbloc",
 
         // ======= TN - Tennessee =========================================== //
-        "themidsouthscdc",
+        "bluffcitymaskbloc",
         "nashmask4mask",
         "CleanAirKnoxTN",
 
@@ -248,10 +269,21 @@
         // ======= VA - Virginia ============================================ //
         "maskbloccville",
         "ccb.rva",
+        "maskblocrva",
         "maskblocnova",
         "757masks",
         "cleanaircville",
         "breatheeasyrva"
+      ]
+    },
+    "001": {
+      "country": "001",
+      "name": "Transnational",
+      "keywords": [
+        "transnational"
+      ],
+      "blocs": [
+        "autodefensasanitaria"
       ]
     },
     "can": {
@@ -281,7 +313,8 @@
         "covid_action_now",
         "covidsafemcgill",
         "sask.mask.bloc",
-        "donatemask.ca"
+        "donatemask.ca",
+        "masks4pei"
       ]
     },
     "gbr": {
@@ -316,7 +349,37 @@
         "maskblocparis",
         "maskblocbordeaux",
         "maskblocnantes",
-        "maskbloclyon"
+        "maskbloclyon",
+        "maskblocalsace"
+      ]
+    },
+    "esp": {
+      "country": "esp",
+      "name": "Spain",
+      "keywords": [
+        "es",
+        "esp",
+        "spain",
+        "españa"
+      ],
+      "blocs": [
+        "adsbilbo",
+        "adsxcordoba",
+        "adsxmalaga",
+        "adsgaliza"
+      ]
+    },
+    "ita": {
+      "country": "ita",
+      "name": "Italy",
+      "keywords": [
+        "it",
+        "ita",
+        "italy",
+        "italia"
+      ],
+      "blocs": [
+        "autodifesasanitaria"
       ]
     },
     "irl": {
@@ -349,7 +412,8 @@
         "masksforadelaide",
         "covid_action_network_lutruwita",
         "maskupnipaluna",
-        "cleanairboorloo"
+        "cleanairboorloo",
+        "maskbloc.sc"
       ]
     },
     "nzl": {
@@ -375,7 +439,7 @@
         "chile"
       ],
       "blocs": [
-        "apoyoencrisis"
+        "apoyomutuoencatastrofes"
       ]
     }
   },
@@ -389,10 +453,13 @@
       "usa-midwest"
     ],
     [
+      "001",
       "can",
       "gbr",
       "fra",
       "irl",
+      "esp",
+      "ita",
       "aus",
       "nzl",
       "chl"
